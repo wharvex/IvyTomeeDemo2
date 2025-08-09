@@ -129,7 +129,7 @@
   <property name="app.version"           value="0.1-dev"/>
   <property name="build.home"            value="${basedir}/build"/>
   <property name="pre.catalina.home"     value="${basedir}/tomee"/>
-  <property name="catalina.home"         value="${pre.catalina.home}/apache-tomee-plume-8.0.6"/>
+  <property name="catalina.home"         value="${pre.catalina.home}/apache-tomee-plume-10.1.0"/>
   <property name="dist.home"             value="${basedir}/dist"/>
   <property name="docs.home"             value="${basedir}/docs"/>
   <property name="manager.url"           value="http://localhost:8080/manager/text"/>
@@ -268,6 +268,7 @@
    description="Delete old build and dist directories">
     <delete dir="${build.home}"/>
     <delete dir="${dist.home}"/>
+    <delete dir="${pre.catalina.home}"/>
   </target>
 
 
@@ -431,7 +432,7 @@
 
 -->
 
-  <target name="prepare">
+  <target name="prepare" depends="download-tomee">
 
     <!-- Create build directories as needed -->
     <mkdir  dir="${build.home}"/>
@@ -514,9 +515,9 @@
 
 -->
 
-  <target name="download-tomee">
+  <target name="download-tomee" depends="clean">
       <mkdir dir="${pre.catalina.home}"/>
-      <get src="https://archive.apache.org/dist/tomee/tomee-8.0.6/apache-tomee-8.0.6-plume.zip"
+      <get src="https://dlcdn.apache.org/tomee/tomee-10.1.0/apache-tomee-10.1.0-plume.zip"
            dest="${pre.catalina.home}/apache-tomee.zip"
            verbose="true"/>
       <unzip src="${pre.catalina.home}/apache-tomee.zip" dest="${pre.catalina.home}"/>

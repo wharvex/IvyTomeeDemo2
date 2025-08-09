@@ -13,11 +13,9 @@ CD into the repo root
 Run the following:
 
 ```
-ant download-tomee
-ant clean
 ant dist
 ant deploy-to-tomee
-cd tomee/apache-tomee-plume-8.0.6/bin
+cd tomee/apache-tomee-plume-10.1.0/bin
 ./startup.bat
 ```
 

@@ -3,4 +3,5 @@ lib/
 .idea/
 tomee/
 dist/
-docs/
+docs/*
+!docs/.gitkeep
