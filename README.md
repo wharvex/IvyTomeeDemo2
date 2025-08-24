@@ -2,9 +2,17 @@
 
 ## Quick Start
 
+### Tested On
+
 Tested on Windows 11 in Powershell.
 
+### Setup
+
 Set your `JRE_HOME` and `JAVA_HOME` and `PATH` env vars to a Java 11 installation.
+
+Install ant.
+
+### Action Steps
 
 Clone the repo
 
