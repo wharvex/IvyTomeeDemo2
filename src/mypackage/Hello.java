@@ -19,6 +19,8 @@ package mypackage;
 import java.io.IOException;
 import java.io.PrintWriter;
 
+import org.apache.commons.lang.WordUtils;
+
 import jakarta.servlet.ServletException;
 import jakarta.servlet.http.HttpServlet;
 import jakarta.servlet.http.HttpServletRequest;
@@ -54,6 +56,7 @@ public final class Hello extends HttpServlet {
 
         response.setContentType("text/html");
         response.setCharacterEncoding("UTF-8");
+        String message = WordUtils.capitalizeFully("hello");
         try (PrintWriter writer = response.getWriter()) {
 
             writer.println("<!DOCTYPE html><html>");
@@ -71,6 +74,10 @@ public final class Hello extends HttpServlet {
             writer.println("<p>");
             writer.println("This is the output of a servlet that is part of");
             writer.println("the Hello, World application.");
+            writer.println("</p>");
+
+            writer.println("<p>");
+            writer.println(message);
             writer.println("</p>");
 
             writer.println("</body>");

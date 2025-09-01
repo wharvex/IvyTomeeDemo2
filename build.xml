@@ -45,7 +45,7 @@
     set to the current working directory.
 -->
 
-<project name="My Project" default="dist" basedir=".">
+<project name="My Project" default="dist" basedir="." xmlns:ivy="antlib:org.apache.ivy.ant">
 
 
 <!-- ===================== Property Definitions =========================== -->
@@ -122,8 +122,9 @@
     <property name="app.path"              value="/${app.name}"/>
     <property name="app.version"           value="0.1-dev"/>
     <property name="build.home"            value="${basedir}/build"/>
+    <property name="lib.home"              value="${basedir}/lib"/>
     <property name="pre.catalina.home"     value="${basedir}/tomee"/>
-    <property name="catalina.home"         value="${pre.catalina.home}/apache-tomee-plume-10.1.0"/>
+    <property name="catalina.home"         value="${pre.catalina.home}/apache-tomee-plume-10.1.1"/>
     <property name="dist.home"             value="${basedir}/dist"/>
     <property name="docs.home"             value="${basedir}/docs"/>
     <property name="manager.url"           value="http://localhost:8080/manager/text"/>
@@ -176,8 +177,16 @@
         <fileset dir="${catalina.home}/bin">
             <include name="*.jar"/>
         </fileset>
+
         <pathelement location="${catalina.home}/lib"/>
+
         <fileset dir="${catalina.home}/lib">
+            <include name="*.jar"/>
+        </fileset>
+
+        <pathelement location="${lib.home}"/>
+
+        <fileset dir="${lib.home}">
             <include name="*.jar"/>
         </fileset>
 
@@ -234,6 +243,7 @@
 
     <target name="clean" description="Delete old build and dist directories">
         <delete dir="${build.home}"/>
+        <delete dir="${lib.home}"/>
         <delete dir="${dist.home}"/>
         <delete dir="${pre.catalina.home}"/>
     </target>
@@ -249,7 +259,7 @@
 -->
 
     <target name="compile"
-            depends="prepare"
+            depends="prepare,resolve"
             description="Compile Java sources">
 
         <mkdir dir="${build.home}/WEB-INF/classes"/>
@@ -355,7 +365,7 @@
 
     <target name="download-tomee" depends="clean">
         <mkdir dir="${pre.catalina.home}"/>
-        <get src="https://dlcdn.apache.org/tomee/tomee-10.1.0/apache-tomee-10.1.0-plume.zip"
+        <get src="https://dlcdn.apache.org/tomee/tomee-10.1.1/apache-tomee-10.1.1-plume.zip"
              dest="${pre.catalina.home}/apache-tomee.zip"
              verbose="true"/>
         <unzip src="${pre.catalina.home}/apache-tomee.zip"
@@ -366,15 +376,28 @@
 <!-- ==================== Deploy To Tomee Target ========================== -->
 
 <!--
-    The "deploy to tomee" target copies the war file and pastes it into the
-    Tomee webapps folder.
+    The "deploy to tomee" target copies the necessary files to the TomEE area.
 -->
 
     <target name="deploy-to-tomee"
-            description="Copy WAR files to TomEE webapps folder">
+            description="Copy necessary files to TomEE area">
         <copy todir="${catalina.home}/webapps" overwrite="true">
             <fileset dir="${dist.home}" includes="*.war"/>
         </copy>
+        <copy todir="${catalina.home}/lib" overwrite="true">
+            <fileset dir="${lib.home}" includes="*.jar"/>
+        </copy>
+    </target>
+
+
+<!-- ==================== Resolve Target ========================== -->
+
+<!--
+    The "resolve" target downloads the Ivy dependencies into lib.home.
+-->
+
+    <target name="resolve" description="Retreive dependencies with ivy">
+        <ivy:retrieve/>
     </target>
 
 

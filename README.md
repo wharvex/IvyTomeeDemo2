@@ -23,8 +23,12 @@ Run the following:
 ```
 ant dist
 ant deploy-to-tomee
-cd tomee/apache-tomee-plume-10.1.0/bin
+cd tomee/apache-tomee-plume-10.1.1/bin
 ./startup.bat
 ```
 
 Then visit http://localhost:8080/myapp-0.1-dev/hello in your browser.
+
+### Troubleshooting
+
+If you get an `Error opening connection java.io.FileNotFoundException` error when running `ant dist` it probably means there is a new version of Tomee Plume out but I haven't updated the repo yet. You will need to visit https://tomee.apache.org/download.html and make a note of the latest version number and update all occurrences of the old number in the `build.xml` with the new number (e.g. replace occurrences of `10.1.1` with `10.1.2` or something like that).
