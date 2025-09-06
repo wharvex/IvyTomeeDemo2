@@ -5,3 +5,4 @@ tomee/
 dist/
 docs/*
 !docs/.gitkeep
+*.iml

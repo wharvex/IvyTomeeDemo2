@@ -21,5 +21,6 @@
     <dependencies>
         <dependency org="commons-lang" name="commons-lang" rev="2.6"/>
         <dependency org="commons-cli" name="commons-cli" rev="1.4"/>
+        <dependency org="org.freemarker" name="freemarker" rev="2.3.34"/>
     </dependencies>
 </ivy-module>
