@@ -18,7 +18,12 @@ package mypackage;
 
 import java.io.IOException;
 import java.io.PrintWriter;
+import java.util.HashMap;
+import java.util.Map;
 
+import freemarker.template.Configuration;
+import freemarker.template.Template;
+import freemarker.template.TemplateException;
 import org.apache.commons.lang.WordUtils;
 
 import jakarta.servlet.ServletException;
@@ -57,35 +62,14 @@ public final class Hello extends HttpServlet {
     response.setCharacterEncoding("UTF-8");
     String message = WordUtils.capitalizeFully("hello");
     String message2 = System.getProperty("user.dir");
+    Configuration cfg = ConfigHelper.getInstance().getCfg();
+    Template temp = cfg.getTemplate("home.ftlh");
+    Map<String, Object> root = new HashMap<>();
+    root.put("user", new User("John Doe", "blah@gmail.com"));
     try (PrintWriter writer = response.getWriter()) {
-
-      writer.println("<!DOCTYPE html><html>");
-      writer.println("<head>");
-      writer.println("<meta charset=\"UTF-8\" />");
-      writer.println("<title>Sample Application Servlet Page</title>");
-      writer.println("</head>");
-      writer.println("<body>");
-
-
-      writer.println("<div style=\"float: left; padding: 10px;\">");
-      writer.println("<img src=\"images/tomcat.gif\" alt=\"\" />");
-      writer.println("</div>");
-      writer.println("<h1>Sample Application Servlet</h1>");
-      writer.println("<p>");
-      writer.println("This is the output of a servlet that is part of");
-      writer.println("the Hello, World application.");
-      writer.println("</p>");
-
-      writer.println("<p>");
-      writer.println(message);
-      writer.println("</p>");
-
-      writer.println("<p>");
-      writer.println("CWD of JVM: " + message2);
-      writer.println("</p>");
-
-      writer.println("</body>");
-      writer.println("</html>");
+      temp.process(root, writer);
+    } catch (TemplateException e) {
+      throw new RuntimeException(e);
     }
   }
 

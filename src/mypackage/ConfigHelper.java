@@ -49,7 +49,7 @@ public class ConfigHelper {
     // plain directory for it, but non-file-system sources are possible too:
     try {
       cfg.setDirectoryForTemplateLoading(
-          new File("C:\\Development\\Projects\\IvyTomeeDemo2\\web\\WEB-INF\\templates"));
+          new File("../../../web/WEB-INF/templates"));
     } catch (IOException e) {
       throw new RuntimeException(e);
     }
