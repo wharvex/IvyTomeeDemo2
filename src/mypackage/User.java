@@ -1,19 +1,27 @@
 package mypackage;
 
+import jakarta.persistence.*;
+
+@Entity
+@Table(name = "SITE_USER")
 public class User {
-  private String name;
-  private String email;
+  @Id
+  @GeneratedValue(strategy = GenerationType.IDENTITY)
+  @Column(name = "USER_ID")
+  private int id;
 
-  public User(String name, String email) {
-    this.name = name;
-    this.email = email;
+  @Column(name = "USER_HANDLE")
+  private String username;
+
+  public User() {
   }
 
-  public String getName() {
-    return name;
+  public String getUsername() {
+    return username;
   }
 
-  public String getEmail() {
-    return email;
+  public void setUsername(String username) {
+    this.username = username;
   }
+
 }

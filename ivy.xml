@@ -22,5 +22,9 @@
         <dependency org="commons-lang" name="commons-lang" rev="2.6"/>
         <dependency org="commons-cli" name="commons-cli" rev="1.4"/>
         <dependency org="org.freemarker" name="freemarker" rev="2.3.34"/>
+        <!-- https://mvnrepository.com/artifact/jakarta.persistence/jakarta.persistence-api -->
+        <dependency org="jakarta.persistence" name="jakarta.persistence-api" rev="3.2.0"/>
+        <!-- https://mvnrepository.com/artifact/com.oracle.database.jdbc/ojdbc11 -->
+        <dependency org="com.oracle.database.jdbc" name="ojdbc11" rev="23.9.0.25.07"/>
     </dependencies>
 </ivy-module>

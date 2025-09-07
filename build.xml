@@ -130,6 +130,8 @@
     <property name="manager.url"           value="http://localhost:8080/manager/text"/>
     <property name="src.home"              value="${basedir}/src"/>
     <property name="web.home"              value="${basedir}/web"/>
+    <property name="meta.home"             value="${basedir}/META-INF"/>
+    <property name="conf.home"             value="${basedir}/conf"/>
 
 
 <!-- ==================== External Dependencies =========================== -->
@@ -274,6 +276,12 @@
             <fileset dir="${src.home}" excludes="**/*.java"/>
         </copy>
 
+        <mkdir dir="${build.home}/WEB-INF/classes/META-INF"/>
+
+        <copy todir="${build.home}/WEB-INF/classes/META-INF">
+            <fileset dir="${meta.home}"/>
+        </copy>
+
     </target>
 
 
@@ -386,6 +394,10 @@
         </copy>
         <copy todir="${catalina.home}/lib" overwrite="true">
             <fileset dir="${lib.home}" includes="*.jar"/>
+        </copy>
+
+        <copy todir="${catalina.home}/conf" overwrite="true">
+            <fileset dir="${conf.home}"/>
         </copy>
     </target>
 
