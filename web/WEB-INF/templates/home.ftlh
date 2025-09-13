@@ -1,4 +1,5 @@
-<html>
+<#-- @ftlvariable name="user" type="mypackage.User" -->
+<html lang="en">
 <head>
     <title>Welcome!</title>
 </head>
