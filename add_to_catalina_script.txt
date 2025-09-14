@@ -1,0 +1,4 @@
+add these lines right after line 233 of catalina.bat
+
+rem Configure TomEE for remote debugging
+set "JAVA_OPTS=%JAVA_OPTS% -agentlib:jdwp=transport=dt_socket,server=y,suspend=n,address=*:5005"
