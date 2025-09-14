@@ -8,7 +8,7 @@
     <h1>Welcome ${user.getUsername()}!</h1>
 <#else>
     <h1>Welcome, Guest!</h1>
-    <p><a href="/login">Login</a> or <a href="/register">Register</a></p>
+    <p><a href="/myapp-0.1-dev/login">Login</a> or <a href="/myapp-0.1-dev/register">Register</a></p>
 </#if>
 </body>
 </html>
