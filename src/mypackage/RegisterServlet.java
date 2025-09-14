@@ -27,8 +27,7 @@ public final class RegisterServlet extends HttpServlet {
   public void doPost(HttpServletRequest req, HttpServletResponse resp) throws IOException, ServletException {
     String username = req.getParameter("username");
     String password = req.getParameter("password");
-    // Hash password (e.g., BCrypt)
-    String hash = "";
+    String hash = PasswordHelper.hashPassword(password);
 
     User user = new User();
     user.setUsername(username);
