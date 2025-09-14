@@ -4,7 +4,7 @@
 </head>
 <body>
 <h1>Login</h1>
-<form action="/login" method="post">
+<form method="post">
     <label for="username">Username:</label>
     <input type="text" id="username" name="username" required>
     <br>
@@ -13,6 +13,6 @@
     <br>
     <button type="submit">Login</button>
 </form>
-<p>Don't have an account? <a href="/register">Register here</a></p>
+<p>Don't have an account? <a href="/myapp-0.1-dev/register">Register here</a></p>
 </body>
 </html>
