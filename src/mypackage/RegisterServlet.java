@@ -2,6 +2,7 @@ package mypackage;
 
 import jakarta.ejb.EJB;
 import jakarta.servlet.ServletException;
+import jakarta.servlet.annotation.WebServlet;
 import jakarta.servlet.http.HttpServlet;
 import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;
@@ -9,6 +10,7 @@ import jakarta.servlet.http.HttpServletResponse;
 import java.io.IOException;
 import java.util.HashMap;
 
+@WebServlet(name = "RegisterServlet", urlPatterns = {"/register"})
 public final class RegisterServlet extends HttpServlet {
 
   private static final long serialVersionUID = 1L;
@@ -16,21 +18,24 @@ public final class RegisterServlet extends HttpServlet {
   @EJB
   private UserService userService;
 
-  /**
-   * Respond to a GET request for the content produced by
-   * this servlet.
-   *
-   * @param request  The servlet request we are processing
-   * @param response The servlet response we are producing
-   * @throws IOException      if an input/output error occurs
-   * @throws ServletException if a servlet error occurs
-   */
   @Override
-  public void doGet(HttpServletRequest request,
-                    HttpServletResponse response)
-      throws IOException, ServletException {
+  public void doGet(HttpServletRequest request, HttpServletResponse response) throws IOException, ServletException {
     ServletHelper.putPage(response, new HashMap<>(), "login.ftlh");
   }
 
+  @Override
+  public void doPost(HttpServletRequest req, HttpServletResponse resp) throws IOException, ServletException {
+    String username = req.getParameter("username");
+    String password = req.getParameter("password");
+    // Hash password (e.g., BCrypt)
+    String hash = "";
+
+    User user = new User();
+    user.setUsername(username);
+    user.setPasswordHash(hash);
+
+    userService.save(user);
+    resp.sendRedirect("login.jsp");
+  }
 
 }

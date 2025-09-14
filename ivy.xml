@@ -26,5 +26,7 @@
         <dependency org="jakarta.persistence" name="jakarta.persistence-api" rev="3.2.0"/>
         <!-- https://mvnrepository.com/artifact/com.oracle.database.jdbc/ojdbc11 -->
         <dependency org="com.oracle.database.jdbc" name="ojdbc11" rev="23.9.0.25.07"/>
+        <!-- https://mvnrepository.com/artifact/org.lz4/lz4-java -->
+        <dependency org="org.lz4" name="lz4-java" rev="1.8.0"/>
     </dependencies>
 </ivy-module>

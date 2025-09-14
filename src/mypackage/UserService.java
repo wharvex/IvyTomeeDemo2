@@ -13,6 +13,14 @@ public class UserService {
     return em.find(User.class, id);
   }
 
+  public User findByUsername(String username) {
+    return em.createQuery("SELECT u FROM User u WHERE u.username = :username", User.class)
+             .setParameter("username", username)
+             .getResultStream()
+             .findFirst()
+             .orElse(null);
+  }
+
   public void save(User user) {
     em.persist(user);
   }

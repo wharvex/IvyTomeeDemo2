@@ -4,6 +4,11 @@
     <title>Welcome!</title>
 </head>
 <body>
-<h1>Welcome ${user.getUsername()}!</h1>
+<#if (user.getUsername())??>
+    <h1>Welcome, Guest!</h1>
+    <p><a href="/login">Login</a> or <a href="/register">Register</a></p>
+<#else>
+    <h1>Welcome ${user.getUsername()}!</h1>
+</#if>
 </body>
 </html>

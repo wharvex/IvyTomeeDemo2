@@ -16,24 +16,22 @@ public class ConfigHelper {
     cfg = new Configuration(Configuration.VERSION_2_3_31);
     setDirectoryForTemplateLoading(cfg);
 
-    // Set the preferred charset template files are stored in. UTF-8 is
-    // a good choice in most applications:
+    // Set the preferred charset template files are stored in. UTF-8 is a good choice in most applications.
     cfg.setDefaultEncoding("UTF-8");
 
-    // Sets how errors will appear.
-    // During web page *development* TemplateExceptionHandler.HTML_DEBUG_HANDLER is better.
+    // Sets how errors will appear. During web page *development* TemplateExceptionHandler.HTML_DEBUG_HANDLER is better.
     cfg.setTemplateExceptionHandler(TemplateExceptionHandler.HTML_DEBUG_HANDLER);
 
-    // Don't log exceptions inside FreeMarker that it will throw at you anyway:
+    // Don't log exceptions inside FreeMarker that it will throw at you anyway.
     cfg.setLogTemplateExceptions(false);
 
-    // Wrap unchecked exceptions thrown during template processing into TemplateException-s:
+    // Wrap unchecked exceptions thrown during template processing into TemplateException-s.
     cfg.setWrapUncheckedExceptions(true);
 
-    // Do not fall back to higher scopes when reading a null loop variable:
+    // Do not fall back to higher scopes when reading a null loop variable.
     cfg.setFallbackOnNullLoopVariable(false);
 
-    // To accommodate to how JDBC returns values. See Javadoc!
+    // To accommodate to how JDBC returns values.
     cfg.setSQLDateAndTimeTimeZone(TimeZone.getDefault());
   }
 
@@ -45,11 +43,8 @@ public class ConfigHelper {
   }
 
   private void setDirectoryForTemplateLoading(Configuration cfg) {
-    // Specify the source where the template files come from. Here I set a
-    // plain directory for it, but non-file-system sources are possible too:
     try {
-      cfg.setDirectoryForTemplateLoading(
-          new File("../../../web/WEB-INF/templates"));
+      cfg.setDirectoryForTemplateLoading(new File("../../../web/WEB-INF/templates"));
     } catch (IOException e) {
       throw new RuntimeException(e);
     }
