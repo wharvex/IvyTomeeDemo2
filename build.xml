@@ -132,6 +132,7 @@
     <property name="web.home"              value="${basedir}/web"/>
     <property name="meta.home"             value="${basedir}/META-INF"/>
     <property name="conf.home"             value="${basedir}/conf"/>
+    <property name="catalina.bin.home"     value="${catalina.home}/bin"/>
 
 
 <!-- ==================== External Dependencies =========================== -->
@@ -350,7 +351,7 @@
     Normally, this task is executed indirectly when needed.
 -->
 
-    <target name="prepare" depends="download-tomee">
+    <target name="prepare" depends="allow-remote-debugging">
 
         <mkdir dir="${build.home}"/>
         <mkdir dir="${build.home}/WEB-INF"/>
@@ -378,6 +379,27 @@
              verbose="true"/>
         <unzip src="${pre.catalina.home}/apache-tomee.zip"
                dest="${pre.catalina.home}"/>
+    </target>
+
+
+<!-- =================== Allow Remote Debugging Target ==================== -->
+
+<!--
+    The "allow remote debugging" target inserts a line in the catalina.bat
+    script to allow remote debugging.
+-->
+
+    <target name="allow-remote-debugging" depends="download-tomee">
+        <script language="groovy">
+        def file = new File('${catalina.bin.home}/catalina.bat')
+        def lines = file.readLines()
+        def pattern = ~/set "JAVA_OPTS=%JAVA_OPTS% --add-opens=java\.[^"]*"/
+        def idx = lines.findLastIndexOf { it =~ pattern }
+        if (idx >= 0) {
+            lines.add(idx + 1, 'set "JAVA_OPTS=%JAVA_OPTS% -agentlib:jdwp=transport=dt_socket,server=y,suspend=n,address=*:5005"')
+            file.text = lines.join(System.lineSeparator())
+        }
+        </script>
     </target>
 
 
