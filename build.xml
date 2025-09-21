@@ -133,6 +133,8 @@
     <property name="meta.home"             value="${basedir}/META-INF"/>
     <property name="conf.home"             value="${basedir}/conf"/>
     <property name="catalina.bin.home"     value="${catalina.home}/bin"/>
+    <property name="ant.home"              value="C:/ant/apache-ant-1.10.15"/>
+    <property name="ant.lib.home"          value="${ant.home}/lib"/>
 
 
 <!-- ==================== External Dependencies =========================== -->
@@ -173,10 +175,6 @@
 
     <path id="compile.classpath">
 
-<!--
-    <pathelement location="${foo.jar}"/>
--->
-
         <fileset dir="${catalina.home}/bin">
             <include name="*.jar"/>
         </fileset>
@@ -190,6 +188,21 @@
         <pathelement location="${lib.home}"/>
 
         <fileset dir="${lib.home}">
+            <include name="*.jar"/>
+        </fileset>
+
+    </path>
+
+
+<!-- ========================= Ant Classpath ============================== -->
+
+<!--
+    Use this for taskdef-s.
+-->
+
+    <path id="ant.classpath">
+
+        <fileset dir="${ant.lib.home}">
             <include name="*.jar"/>
         </fileset>
 
@@ -220,6 +233,10 @@
     <taskdef resource="org/apache/catalina/ant/catalina.tasks"
              classpathref="compile.classpath"/>
 -->
+
+    <taskdef name="groovy"
+             classname="org.codehaus.groovy.ant.Groovy"
+             classpathref="ant.classpath"/>
 
 
 <!--  ==================== Compilation Control Options ==================== -->
@@ -390,7 +407,7 @@
 -->
 
     <target name="allow-remote-debugging" depends="download-tomee">
-        <script language="groovy">
+        <groovy>
         def file = new File('${catalina.bin.home}/catalina.bat')
         def lines = file.readLines()
         def pattern = ~/set "JAVA_OPTS=%JAVA_OPTS% --add-opens=java\.[^"]*"/
@@ -399,7 +416,7 @@
             lines.add(idx + 1, 'set "JAVA_OPTS=%JAVA_OPTS% -agentlib:jdwp=transport=dt_socket,server=y,suspend=n,address=*:5005"')
             file.text = lines.join(System.lineSeparator())
         }
-        </script>
+        </groovy>
     </target>
 
 
