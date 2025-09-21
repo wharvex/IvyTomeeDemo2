@@ -20,7 +20,7 @@ public final class RegisterServlet extends HttpServlet {
 
   @Override
   public void doGet(HttpServletRequest request, HttpServletResponse response) throws IOException, ServletException {
-    ServletHelper.putPage(response, new HashMap<>(), "login.ftlh");
+    ServletHelper.putPage(response, new HashMap<>(), "register.ftlh");
   }
 
   @Override
