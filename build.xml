@@ -408,7 +408,7 @@
 
     <target name="allow-remote-debugging" depends="download-tomee">
         <groovy>
-            def file = new File("${catalina.bin.home}/catalina.bat")
+            def file = new File("${properties['catalina.bin.home']}/catalina.bat")
             def lines = file.readLines()
             def pattern = ~/set "JAVA_OPTS=%JAVA_OPTS% --add-opens=java\.[^"]*"/
             def idx = lines.findLastIndexOf { it =~ pattern }
