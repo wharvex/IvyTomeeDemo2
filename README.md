@@ -12,6 +12,14 @@ Set your `JRE_HOME` and `JAVA_HOME` and `PATH` env vars to a Java 11 installatio
 
 Install ant.
 
+Install Oracle DB 23ai.
+
+Set login credentials and create tables according to what this app requires.
+
+Put the required ivy and groovy jars in your `$ANT_HOME/lib` directory.
+
+Change the `ant.home` property in the build.xml file to point to your local `$ANT_HOME` directory.
+
 ### Action Steps
 
 Clone the repo

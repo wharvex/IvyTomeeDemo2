@@ -413,7 +413,9 @@
             def pattern = ~/set "JAVA_OPTS=%JAVA_OPTS% --add-opens=java\.[^"]*"/
             def idx = lines.findLastIndexOf { it =~ pattern }
             if (idx >= 0) {
-                lines.add(idx + 1, 'set "JAVA_OPTS=%JAVA_OPTS% -agentlib:jdwp=transport=dt_socket,server=y,suspend=n,address=*:5005"')
+                lines.add(idx + 1, '')
+                lines.add(idx + 2, 'rem Configure TomEE for remote debugging')
+                lines.add(idx + 3, 'set "JAVA_OPTS=%JAVA_OPTS% -agentlib:jdwp=transport=dt_socket,server=y,suspend=n,address=*:5005"')
                 file.text = lines.join(System.lineSeparator())
             }
         </groovy>
