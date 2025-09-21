@@ -408,14 +408,14 @@
 
     <target name="allow-remote-debugging" depends="download-tomee">
         <groovy>
-        def file = new File('${catalina.bin.home}/catalina.bat')
-        def lines = file.readLines()
-        def pattern = ~/set "JAVA_OPTS=%JAVA_OPTS% --add-opens=java\.[^"]*"/
-        def idx = lines.findLastIndexOf { it =~ pattern }
-        if (idx >= 0) {
-            lines.add(idx + 1, 'set "JAVA_OPTS=%JAVA_OPTS% -agentlib:jdwp=transport=dt_socket,server=y,suspend=n,address=*:5005"')
-            file.text = lines.join(System.lineSeparator())
-        }
+            def file = new File("${catalina.bin.home}/catalina.bat")
+            def lines = file.readLines()
+            def pattern = ~/set "JAVA_OPTS=%JAVA_OPTS% --add-opens=java\.[^"]*"/
+            def idx = lines.findLastIndexOf { it =~ pattern }
+            if (idx >= 0) {
+                lines.add(idx + 1, 'set "JAVA_OPTS=%JAVA_OPTS% -agentlib:jdwp=transport=dt_socket,server=y,suspend=n,address=*:5005"')
+                file.text = lines.join(System.lineSeparator())
+            }
         </groovy>
     </target>
 
