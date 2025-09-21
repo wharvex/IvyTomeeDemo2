@@ -34,7 +34,7 @@ public final class RegisterServlet extends HttpServlet {
     user.setPasswordHash(hash);
 
     userService.save(user);
-    resp.sendRedirect("login.jsp");
+    resp.sendRedirect("login");
   }
 
 }
