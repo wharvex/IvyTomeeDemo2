@@ -6,8 +6,12 @@ import jakarta.persistence.*;
 @Table(name = "SITE_USER")
 public class User {
   @Id
-  @GeneratedValue(strategy = GenerationType.SEQUENCE, generator = "SITE_USER_SEQ")
-  @SequenceGenerator(name = "SITE_USER_SEQ", sequenceName = "SITE_USER_SEQ", allocationSize = 100)
+  @GeneratedValue(strategy = GenerationType.SEQUENCE, generator = "site_user_seq_gen")
+  @SequenceGenerator(
+      name = "site_user_seq_gen",        // name used in @GeneratedValue
+      sequenceName = "site_user_seq",    // name of the DB sequence (case-insensitive in Oracle)
+      allocationSize = 1                 // increment size, should match the sequence
+  )
   @Column(name = "USER_ID")
   private Integer id;
 
