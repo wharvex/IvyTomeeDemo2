@@ -10,7 +10,7 @@ public class User {
   @SequenceGenerator(
       name = "site_user_seq_gen",        // name used in @GeneratedValue
       sequenceName = "site_user_seq",    // name of the DB sequence (case-insensitive in Oracle)
-      allocationSize = 1                 // increment size, should match the sequence
+      allocationSize = 1                 // should match the sequence increment size
   )
   @Column(name = "USER_ID")
   private Integer id;
