@@ -1,4 +1,4 @@
-package mypackage;
+package mypackage.servlet;
 
 import jakarta.ejb.EJB;
 import jakarta.servlet.ServletException;
@@ -6,6 +6,7 @@ import jakarta.servlet.annotation.WebServlet;
 import jakarta.servlet.http.HttpServlet;
 import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;
+import mypackage.helper.UserService;
 
 import java.io.IOException;
 

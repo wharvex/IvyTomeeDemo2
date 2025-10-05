@@ -1,4 +1,4 @@
-package mypackage;
+package mypackage.servlet;
 
 import java.io.IOException;
 import java.util.HashMap;
@@ -11,6 +11,8 @@ import jakarta.servlet.annotation.WebServlet;
 import jakarta.servlet.http.HttpServlet;
 import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;
+import mypackage.helper.ServletHelper;
+import mypackage.helper.UserService;
 
 @WebServlet(name = "HelloServlet", urlPatterns = {"/hello"})
 public final class HelloServlet extends HttpServlet {

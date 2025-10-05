@@ -1,4 +1,4 @@
-package mypackage;
+package mypackage.model.db;
 
 import jakarta.persistence.*;
 

@@ -29,7 +29,7 @@
 
     <servlet>
         <servlet-name>HelloServlet</servlet-name>
-        <servlet-class>mypackage.HelloServlet</servlet-class>
+        <servlet-class>mypackage.servlet.HelloServlet</servlet-class>
     </servlet>
 
     <servlet-mapping>

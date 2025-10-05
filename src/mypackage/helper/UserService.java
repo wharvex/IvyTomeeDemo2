@@ -1,8 +1,9 @@
-package mypackage;
+package mypackage.helper;
 
 import jakarta.ejb.Stateless;
 import jakarta.persistence.EntityManager;
 import jakarta.persistence.PersistenceContext;
+import mypackage.model.db.User;
 
 @Stateless
 public class UserService {

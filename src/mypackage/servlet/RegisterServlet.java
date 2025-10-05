@@ -1,4 +1,4 @@
-package mypackage;
+package mypackage.servlet;
 
 import jakarta.ejb.EJB;
 import jakarta.servlet.ServletException;
@@ -6,6 +6,10 @@ import jakarta.servlet.annotation.WebServlet;
 import jakarta.servlet.http.HttpServlet;
 import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;
+import mypackage.helper.PasswordHelper;
+import mypackage.helper.ServletHelper;
+import mypackage.helper.UserService;
+import mypackage.model.db.User;
 
 import java.io.IOException;
 import java.util.HashMap;

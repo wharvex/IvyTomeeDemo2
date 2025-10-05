@@ -1,4 +1,4 @@
-package mypackage;
+package mypackage.helper;
 
 import org.bouncycastle.crypto.generators.SCrypt;
 

@@ -1,4 +1,4 @@
-package mypackage;
+package mypackage.helper;
 
 import freemarker.template.Configuration;
 import freemarker.template.TemplateExceptionHandler;

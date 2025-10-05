@@ -1,4 +1,4 @@
-<#-- @ftlvariable name="user" type="mypackage.User" -->
+<#-- @ftlvariable name="user" type="mypackage.model.db.User" -->
 <html lang="en">
 <head>
     <title>Welcome!</title>
