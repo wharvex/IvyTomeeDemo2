@@ -124,7 +124,7 @@
     <property name="build.home"            value="${basedir}/build"/>
     <property name="lib.home"              value="${basedir}/lib"/>
     <property name="pre.catalina.home"     value="${basedir}/tomee"/>
-    <property name="catalina.home"         value="${pre.catalina.home}/apache-tomee-plume-10.1.1"/>
+    <property name="catalina.home"         value="${pre.catalina.home}/apache-tomee-plume-10.1.3"/>
     <property name="dist.home"             value="${basedir}/dist"/>
     <property name="docs.home"             value="${basedir}/docs"/>
     <property name="manager.url"           value="http://localhost:8080/manager/text"/>
@@ -391,7 +391,7 @@
 
     <target name="download-tomee" depends="clean">
         <mkdir dir="${pre.catalina.home}"/>
-        <get src="https://dlcdn.apache.org/tomee/tomee-10.1.1/apache-tomee-10.1.1-plume.zip"
+        <get src="https://dlcdn.apache.org/tomee/tomee-10.1.3/apache-tomee-10.1.3-plume.zip"
              dest="${pre.catalina.home}/apache-tomee.zip"
              verbose="true"/>
         <unzip src="${pre.catalina.home}/apache-tomee.zip"
