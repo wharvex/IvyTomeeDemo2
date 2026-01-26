@@ -9,4 +9,5 @@ When writing Java methods/classes:
 - Avoid using the "this" keyword unless absolutely necessary.
 
 When writing "ftlh" files:
-- Using "?html" (legacy escaping) is not allowed. It will break the page.
+- Using `?html` after a method call is not allowed. It will break the page. Use `!""` instead, replacing `""` with the appropriate default value for that method's return type.
+  - For example, if "myMethod" returns a String, use `${myMethod()!""}` instead of `${myMethod()?html}`.

@@ -1,0 +1,12 @@
+Run in terminal:
+
+sqlplus demo@localhost:1521/FREEPDB1
+
+Enter password when prompted.
+
+Then at sqlplus prompt:
+
+column user_handle format a25
+set linesize 120
+set wrap off
+select * from site_user;
