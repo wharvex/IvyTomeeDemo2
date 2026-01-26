@@ -14,10 +14,16 @@ public class PMHello {
   private User m_usrUser;
 
   /**
+   * Member request context path.
+   */
+  private String m_strRequestContextPath;
+
+  /**
    * Default constructor initializing defaults.
    */
   public PMHello() {
     this.m_usrUser = null;
+    this.m_strRequestContextPath = null;
   }
 
   /**
@@ -27,6 +33,7 @@ public class PMHello {
    */
   public PMHello(User p_usrUser) {
     this.m_usrUser = p_usrUser;
+    this.m_strRequestContextPath = null;
   }
 
   /**
@@ -47,10 +54,29 @@ public class PMHello {
     this.m_usrUser = p_usrUser;
   }
 
+  /**
+   * Returns the request context path associated with this page model.
+   *
+   * @return the request context path as a String, or null if none set
+   */
+  public String getRequestContextPath() {
+    return this.m_strRequestContextPath;
+  }
+
+  /**
+   * Sets the request context path for this page model.
+   *
+   * @param p_strRequestContextPath the request context path to set
+   */
+  public void setRequestContextPath(String p_strRequestContextPath) {
+    this.m_strRequestContextPath = p_strRequestContextPath;
+  }
+
   @Override
   public String toString() {
     return "PMHello{" +
         "user=" + m_usrUser +
+        ", requestContextPath=" + m_strRequestContextPath +
         '}';
   }
 
@@ -59,11 +85,12 @@ public class PMHello {
     if (this == o) return true;
     if (o == null || getClass() != o.getClass()) return false;
     PMHello pmHello = (PMHello) o;
-    return Objects.equals(m_usrUser, pmHello.m_usrUser);
+    return Objects.equals(m_usrUser, pmHello.m_usrUser) &&
+        Objects.equals(m_strRequestContextPath, pmHello.m_strRequestContextPath);
   }
 
   @Override
   public int hashCode() {
-    return Objects.hash(m_usrUser);
+    return Objects.hash(m_usrUser, m_strRequestContextPath);
   }
 }

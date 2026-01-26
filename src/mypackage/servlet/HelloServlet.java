@@ -39,6 +39,7 @@ public final class HelloServlet extends HttpServlet {
     User loggedInUser = userService.findByUsername(strLoggedInUserName);
     PMHello pmHello = new PMHello();
     pmHello.setUser(loggedInUser);
+    pmHello.setRequestContextPath(p_request.getContextPath());
     rootMap.put("pmHello", pmHello);
 
     ServletHelper.putPage(p_response, rootMap, "hello.ftlh");
