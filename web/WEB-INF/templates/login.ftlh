@@ -5,12 +5,12 @@
 <body>
 <h1>Login</h1>
 <form method="post">
-    <label for="username">Username:</label>
+    <span>Username:</span><br/>
     <input type="text" id="username" name="username" required>
-    <br>
+    <br/>
     <label for="password">Password:</label>
     <input type="password" id="password" name="password" required>
-    <br>
+    <br/>
     <button type="submit">Login</button>
 </form>
 <p>Don't have an account? <a href="/myapp-0.1-dev/register">Register here</a></p>

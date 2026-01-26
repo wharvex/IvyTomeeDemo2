@@ -13,6 +13,8 @@ import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;
 import mypackage.helper.ServletHelper;
 import mypackage.helper.UserService;
+import mypackage.model.db.User;
+import mypackage.model.page.PMHello;
 
 @WebServlet(name = "HelloServlet", urlPatterns = {"/hello"})
 public final class HelloServlet extends HttpServlet {
@@ -22,13 +24,24 @@ public final class HelloServlet extends HttpServlet {
   @EJB
   private UserService userService;
 
+  /**
+   * Handle GET: put the logged-in User object into the template root as "pmUser".
+   *
+   * @param p_request the HttpServletRequest
+   * @param p_response the HttpServletResponse
+   * @throws IOException if an I/O error occurs
+   * @throws ServletException if a servlet error occurs
+   */
   @Override
-  public void doGet(HttpServletRequest request, HttpServletResponse response) throws IOException, ServletException {
-    String loggedInUserName = (String) request.getSession().getAttribute("loggedInUserName");
-    Map<String, Object> root = new HashMap<>();
-    root.put("user", userService.findByUsername(loggedInUserName));
+  public void doGet(HttpServletRequest p_request, HttpServletResponse p_response) throws IOException, ServletException {
+    String strLoggedInUserName = (String) p_request.getSession().getAttribute("loggedInUserName");
+    Map<String, Object> rootMap = new HashMap<>();
+    User loggedInUser = userService.findByUsername(strLoggedInUserName);
+    PMHello pmHello = new PMHello();
+    pmHello.setUser(loggedInUser);
+    rootMap.put("pmHello", pmHello);
 
-    ServletHelper.putPage(response, root, "home.ftlh");
+    ServletHelper.putPage(p_response, rootMap, "hello.ftlh");
   }
 
 }
