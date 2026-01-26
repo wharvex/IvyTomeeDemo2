@@ -7,11 +7,11 @@
 <body>
 <h1>Login</h1>
 <#if pmLogin.getErrorMessage()?has_content>
-    <div class="error">${pmLogin.getErrorMessage()?html}</div>
+    <div class="error">${pmLogin.getErrorMessage()!""}</div>
 </#if>
 <form method="post">
     <label for="username">Username:</label><br/>
-    <input type="text" id="username" name="username" required value="${pmLogin.getUsernamePrefill()?html}">
+    <input type="text" id="username" name="username" required value="${pmLogin.getUsernamePrefill()!""}">
     <br/>
     <label for="password">Password:</label>
     <input type="password" id="password" name="password" required>
