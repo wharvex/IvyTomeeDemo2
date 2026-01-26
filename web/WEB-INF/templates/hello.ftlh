@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <title>Welcome!</title>
-    <link rel="stylesheet" href="/css/global.css">
+    <link rel="stylesheet" href="${.request.contextPath}/css/global.css">
 </head>
 <body>
 <#if (pmHello.getUser().getUsername())??>
