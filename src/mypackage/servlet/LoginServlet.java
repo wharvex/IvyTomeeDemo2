@@ -10,6 +10,7 @@ import mypackage.helper.PasswordHelper;
 import mypackage.helper.ServletHelper;
 import mypackage.helper.UserService;
 import mypackage.model.db.User;
+import mypackage.model.page.PMLogin;
 
 import java.io.IOException;
 import java.util.HashMap;
@@ -24,7 +25,11 @@ public final class LoginServlet extends HttpServlet {
 
   @Override
   public void doGet(HttpServletRequest request, HttpServletResponse response) throws IOException, ServletException {
-    ServletHelper.putPage(response, new HashMap<>(), "login.ftlh");
+    PMLogin pmLogin = new PMLogin();
+    pmLogin.setRequestContextPath(request.getContextPath());
+    HashMap<String, Object> root = new HashMap<>();
+    root.put("pmLogin", pmLogin);
+    ServletHelper.putPage(response, root, "login.ftlh");
   }
 
   @Override
@@ -36,8 +41,12 @@ public final class LoginServlet extends HttpServlet {
       request.getSession().setAttribute("loggedInUserName", username);
       response.sendRedirect("hello");
     } else {
+      PMLogin pmLogin = new PMLogin();
+      pmLogin.setUsernamePrefill(username);
+      pmLogin.setErrorMessage("Invalid username or password");
+      pmLogin.setRequestContextPath(request.getContextPath());
       HashMap<String, Object> root = new HashMap<>();
-      root.put("errorMessage", "Invalid username or password");
+      root.put("pmLogin", pmLogin);
       ServletHelper.putPage(response, root, "login.ftlh");
     }
   }

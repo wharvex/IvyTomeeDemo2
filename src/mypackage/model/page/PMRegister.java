@@ -3,9 +3,9 @@ package mypackage.model.page;
 import java.util.Objects;
 
 /**
- * Page model for the Login page that holds data the template needs.
+ * Page model for the Register page that holds data the template needs.
  */
-public class PMLogin {
+public class PMRegister {
 
   /**
    * Member username prefill.
@@ -25,7 +25,7 @@ public class PMLogin {
   /**
    * Default constructor initializing defaults.
    */
-  public PMLogin() {
+  public PMRegister() {
     this.m_strUsernamePrefill = null;
     this.m_strErrorMessage = null;
     this.m_strRequestContextPath = null;
@@ -36,7 +36,7 @@ public class PMLogin {
    *
    * @param p_strUsernamePrefill username to prefill in the form
    */
-  public PMLogin(String p_strUsernamePrefill) {
+  public PMRegister(String p_strUsernamePrefill) {
     this.m_strUsernamePrefill = p_strUsernamePrefill;
     this.m_strErrorMessage = null;
     this.m_strRequestContextPath = null;
@@ -98,7 +98,7 @@ public class PMLogin {
 
   @Override
   public String toString() {
-    return "PMLogin{" +
+    return "PMRegister{" +
         "usernamePrefill=" + m_strUsernamePrefill +
         ", errorMessage=" + m_strErrorMessage +
         ", requestContextPath=" + m_strRequestContextPath +
@@ -109,10 +109,10 @@ public class PMLogin {
   public boolean equals(Object o) {
     if (this == o) return true;
     if (o == null || getClass() != o.getClass()) return false;
-    PMLogin pmLogin = (PMLogin) o;
-    return Objects.equals(m_strUsernamePrefill, pmLogin.m_strUsernamePrefill) &&
-        Objects.equals(m_strErrorMessage, pmLogin.m_strErrorMessage) &&
-        Objects.equals(m_strRequestContextPath, pmLogin.m_strRequestContextPath);
+    PMRegister pmRegister = (PMRegister) o;
+    return Objects.equals(m_strUsernamePrefill, pmRegister.m_strUsernamePrefill) &&
+        Objects.equals(m_strErrorMessage, pmRegister.m_strErrorMessage) &&
+        Objects.equals(m_strRequestContextPath, pmRegister.m_strRequestContextPath);
   }
 
   @Override
