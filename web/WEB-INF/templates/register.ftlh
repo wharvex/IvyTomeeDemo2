@@ -1,6 +1,7 @@
 <html lang="en">
 <head>
     <title>Register</title>
+    <link rel="stylesheet" href="/css/global.css">
 </head>
 <body>
 <h1>Register</h1>

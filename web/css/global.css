@@ -1,0 +1,42 @@
+/* public global.css - same noticeable styles as the template copy */
+body {
+  background: linear-gradient(180deg,#f0f7fb 0%,#ffffff 100%);
+  font-family: "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  color: #222;
+  margin: 0;
+  padding: 20px;
+}
+
+h1 {
+  color: #d35400; /* loud orange heading so it's obvious */
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+}
+
+form {
+  background: #fff;
+  border: 1px solid #e1eef5;
+  padding: 16px;
+  border-radius: 8px;
+  max-width: 420px;
+}
+
+input, textarea, select {
+  padding: 8px 10px;
+  border: 1px solid #cfe6f2;
+  border-radius: 4px;
+  width: 100%;
+  box-sizing: border-box;
+  margin-bottom: 10px;
+}
+
+button, input[type="submit"] {
+  background: #d35400;
+  color: #fff;
+  border: none;
+  padding: 10px 14px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+a { color: #2a6f97; }

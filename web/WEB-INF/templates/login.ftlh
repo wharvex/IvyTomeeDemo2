@@ -1,11 +1,12 @@
 <html lang="en">
 <head>
     <title>Login</title>
+    <link rel="stylesheet" href="/css/global.css">
 </head>
 <body>
 <h1>Login</h1>
 <form method="post">
-    <span>Username:</span><br/>
+    <label for="username">Username:</label><br/>
     <input type="text" id="username" name="username" required>
     <br/>
     <label for="password">Password:</label>
