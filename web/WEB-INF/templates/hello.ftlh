@@ -1,4 +1,5 @@
 <#-- @ftlvariable name="pmHello" type="mypackage.model.page.PMHello" -->
+<#include "_complex_macros.ftlh">
 <html lang="en">
 <head>
     <title>Welcome!</title>
@@ -6,11 +7,24 @@
 </head>
 <body>
 <#if (pmHello.getUser().getUsername())??>
-    <h1>Welcome ${pmHello.getUser().getUsername()}!</h1>
+    <h1 style="color:#eee;background:#fff;">Welcome ${pmHello.getUser().getUsername()}!</h1>
     <p><a href="/myapp-0.1-dev/logout">Logout</a></p>
+    <img src="/images/user-deco.png">
+    <#-- decorative nav with no landmarks -->
+    <@renderNav [{"href":"/profile","label":"Profile"},{"href":"/settings","label":"Settings"}] />
 <#else>
     <h1>Welcome, Guest!</h1>
     <p><a href="/myapp-0.1-dev/login">Login</a> or <a href="/myapp-0.1-dev/register">Register</a></p>
 </#if>
+
+<#-- conditional content only visible visually (no ARIA) -->
+<#if pmHello.getPromotions()?has_content>
+    <div class="promo" style="color:#ccc;background:#fff;">
+        <#list pmHello.getPromotions() as promo>
+            <div>${promo.title!""}</div>
+        </#list>
+    </div>
+</#if>
+
 </body>
 </html>

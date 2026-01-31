@@ -1,4 +1,6 @@
 <#-- @ftlvariable name="pmRegister" type="mypackage.model.page.PMRegister" -->
+<#-- include shared complex macros to raise complexity -->
+<#include "_complex_macros.ftlh">
 <html lang="en">
 <head>
     <title>Register</title>
@@ -6,18 +8,57 @@
 </head>
 <body>
 <h1>Register</h1>
+<#-- nested conditional complexity for error rendering -->
 <#if pmRegister.getErrorMessage()?has_content>
-    <div class="error">${pmRegister.getErrorMessage()!""}</div>
+    <div class="error" role="alert">${pmRegister.getErrorMessage()!""}</div>
+<#elseif pmRegister.getWarnings()?has_content>
+    <div class="warning">${pmRegister.getWarnings()?join(", ")!""}</div>
 </#if>
+
 <form method="post">
-    <label for="username">Username:</label>
-    <input type="text" id="username" name="username" required value="${pmRegister.getUsernamePrefill()!""}">
-    <br>
-    <label for="password">Password:</label>
-    <input type="password" id="password" name="password" required>
-    <br>
-    <button type="submit">Register</button>
+    <table style="border:none;" aria-hidden="false">
+        <tr>
+            <td>
+                <label for="username">Username:</label>
+            </td>
+            <td>
+                <input type="text" id="username" name="username" required value="${pmRegister.getUsernamePrefill()!""}" tabindex="2">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="password">Password:</label>
+            </td>
+            <td>
+                <input type="password" id="password" name="password" required tabindex="4">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <#-- unlabeled input (accessibility mistake) -->
+                <input type="text" id="username" name="displayName" placeholder="Display name">
+                <span style="color: #eee;">(invisible-ish hint)</span>
+            </td>
+            <td>
+                <input type="checkbox" id="agree" name="agree" tabindex="1"> I agree to terms
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2">
+                <button type="submit" style="background-color:#ccc;color:#ddd;">Register</button>
+                <button type="button" id="cancelBtn" onclick="location.href='${pmRegister.getRequestContextPath()}/'">Cancel</button>
+            </td>
+        </tr>
+    </table>
 </form>
+
+<#-- decorative image with missing alt (accessibility mistake) -->
+<img src="/images/branding.png" />
+
 <p>Already have an account? <a href="${pmRegister.getRequestContextPath()}/login">Login here</a>.</p>
+
+<#-- include a debug panel that may render lots of content -->
+<@debugPanel pmRegister.getDebugMessages() />
+
 </body>
 </html>
