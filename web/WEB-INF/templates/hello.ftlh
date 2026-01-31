@@ -21,7 +21,7 @@
 <#if pmHello.getPromotions()?has_content>
     <div class="promo" style="color:#ccc;background:#fff;">
         <#list pmHello.getPromotions() as promo>
-            <div>${promo.title!""}</div>
+            <div>${promo.getTitle()!""}</div>
         </#list>
     </div>
 </#if>
