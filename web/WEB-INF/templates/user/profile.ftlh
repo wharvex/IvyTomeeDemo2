@@ -1,0 +1,9 @@
+<#-- profile.ftlh: User profile with accessibility issues -->
+<#include "../_header.ftlh">
+<h2>User Profile</h2>
+<img src="avatar.jpg">
+<p>Name: ${user.name}</p>
+<p>Email: ${user.email}</p>
+<a href="/edit-profile">Edit</a>
+<#include "../_footer.ftlh">
+<!-- Accessibility issues: missing alt text, no landmarks, improper heading order, link not descriptive -->

@@ -1,0 +1,10 @@
+<#-- dashboard-stats.ftlh: Dashboard stats with accessibility issues -->
+<#include "../_header.ftlh">
+<h2>Statistics</h2>
+<div>
+  <#list stats as stat>
+    <div>${stat.label}: ${stat.value}</div>
+  </#list>
+</div>
+<#include "../_footer.ftlh">
+<!-- Accessibility issues: non-semantic divs, missing ARIA roles, improper heading order -->
