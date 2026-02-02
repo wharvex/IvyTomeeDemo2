@@ -49,18 +49,6 @@ Captions are provided for all live audio content in synchronized media.
 ### Success Criterion 1.2.5 Audio Description (Prerecorded) (Level AA)
 Audio description is provided for all prerecorded video content in synchronized media.
 
-### Success Criterion 1.2.6 Sign Language (Prerecorded) (Level AAA)
-Sign language interpretation is provided for all prerecorded audio content in synchronized media.
-
-### Success Criterion 1.2.7 Extended Audio Description (Prerecorded) (Level AAA)
-Where pauses in foreground audio are insufficient to allow audio descriptions to convey the sense of the video, extended audio description is provided for all prerecorded video content in synchronized media.
-
-### Success Criterion 1.2.8 Media Alternative (Prerecorded) (Level AAA)
-An alternative for time-based media is provided for all prerecorded synchronized media and for all prerecorded video-only media.
-
-### Success Criterion 1.2.9 Audio-only (Live) (Level AAA)
-An alternative for time-based media that presents equivalent information for live audio-only content is provided.
-
 ## Guideline 1.3 Adaptable
 Create content that can be presented in different ways (for example simpler layout) without losing information or structure.
 
@@ -84,9 +72,6 @@ Note: Examples where a particular display orientation may be essential are a ban
 The purpose of each input field collecting information about the user can be programmatically determined when:
 - The input field serves a purpose identified in the Input Purposes for user interface components section; and
 - The content is implemented using technologies with support for identifying the expected meaning for form input data.
-
-### Success Criterion 1.3.6 Identify Purpose (Level AAA)
-In content implemented using markup languages, the purpose of user interface components, icons, and regions can be programmatically determined.
 
 ## Guideline 1.4 Distinguishable
 Make it easier for users to see and hear content including separating foreground from background.
@@ -114,33 +99,6 @@ Except for captions and images of text, text can be resized without assistive te
 If the technologies being used can achieve the visual presentation, text is used to convey information rather than images of text except for the following:
 - Customizable: The image of text can be visually customized to the user's requirements;
 - Essential: A particular presentation of text is essential to the information being conveyed.
-
-Note: Logotypes (text that is part of a logo or brand name) are considered essential.
-
-### Success Criterion 1.4.6 Contrast (Enhanced) (Level AAA)
-The visual presentation of text and images of text has a contrast ratio of at least 7:1, except for the following:
-- Large Text: Large-scale text and images of large-scale text have a contrast ratio of at least 4.5:1;
-- Incidental: Text or images of text that are part of an inactive user interface component, that are pure decoration, that are not visible to anyone, or that are part of a picture that contains significant other visual content, have no contrast requirement.
-- Logotypes: Text that is part of a logo or brand name has no contrast requirement.
-
-### Success Criterion 1.4.7 Low or No Background Audio (Level AAA)
-For prerecorded audio-only content that (1) contains primarily speech in the foreground, (2) is not an audio CAPTCHA or audio logo, and (3) is not vocalization intended to be primarily musical expression such as singing or rapping, at least one of the following is true:
-- No Background: The audio does not contain background sounds.
-- Turn Off: The background sounds can be turned off.
-- 20 dB: The background sounds are at least 20 decibels lower than the foreground speech content, with the exception of occasional sounds that last for only one or two seconds.
-
-Note: Per the definition of "decibel," background sound that meets this requirement will be approximately four times quieter than the foreground speech content.
-
-### Success Criterion 1.4.8 Visual Presentation (Level AAA)
-For the visual presentation of blocks of text, a mechanism is available to achieve the following:
-- Foreground and background colors can be selected by the user.
-- Width is no more than 80 characters or glyphs (40 if CJK).
-- Text is not justified (aligned to both the left and the right margins).
-- Line spacing (leading) is at least space-and-a-half within paragraphs, and paragraph spacing is at least 1.5 times larger than the line spacing.
-- Text can be resized without assistive technology up to 200 percent in a way that does not require the user to scroll horizontally to read a line of text on a full-screen window.
-
-### Success Criterion 1.4.9 Images of Text (No Exception) (Level AAA)
-Images of text are only used for pure decoration or where a particular presentation of text is essential to the information being conveyed.
 
 Note: Logotypes (text that is part of a logo or brand name) are considered essential.
 
