@@ -1,4 +1,4 @@
-<#-- home.ftlh: Main landing page with accessibility issues -->
+
 <#include "_header.ftlh">
 <h1>Welcome to Our Site</h1>
 <img src="logo.png">
@@ -16,4 +16,4 @@
   <button>Login</button>
 </form>
 <#include "_footer.ftlh">
-<!-- Accessibility issues: missing alt text, low color contrast, unlabeled form fields, navigation not marked up semantically -->
+

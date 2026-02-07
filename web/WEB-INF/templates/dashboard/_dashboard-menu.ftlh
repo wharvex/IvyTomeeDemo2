@@ -1,4 +1,4 @@
-<#-- _dashboard-menu.ftlh: Dashboard menu partial with accessibility issues -->
+
 <nav>
   <ul>
     <li><a href="/dashboard/overview">Overview</a></li>
@@ -6,4 +6,4 @@
     <li><a href="/dashboard/messages">Messages</a></li>
   </ul>
 </nav>
-<!-- Accessibility issues: missing ARIA roles, links not descriptive -->
+

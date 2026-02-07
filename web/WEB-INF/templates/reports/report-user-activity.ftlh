@@ -1,4 +1,4 @@
-<#-- report-user-activity.ftlh: User activity report with accessibility issues -->
+
 <#include "../_header.ftlh">
 <h2>User Activity Report</h2>
 <table>
@@ -12,4 +12,4 @@
 </table>
 <button>Download</button>
 <#include "../_footer.ftlh">
-<!-- Accessibility issues: table missing captions, button not descriptive, improper heading order -->
+

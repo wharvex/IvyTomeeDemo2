@@ -1,8 +1,8 @@
-<#-- Shared complex macros used to increase template complexity for testing -->
-<#-- NOTE: Intentionally complex with nested branches to increase cognitive load -->
+
+
 
 <#macro renderField p_name p_label p_type="text" p_id="" p_required=false p_attrs="">
-    <#-- choose id if not provided -->
+    
     <#if p_id?has_content>
         <#assign fldId = p_id />
     <#else>
@@ -16,7 +16,7 @@
         <input type="${p_type}" id="${fldId}" name="${p_name}" ${p_attrs} <#if p_required>required</#if>/>
     </#if>
 
-    <#-- optional debug hint -->
+    
     <#if .globals.debug?exists && .globals.debug == true>
         <div class="debug">Field: ${p_name!""} id=${fldId}</div>
     </#if>

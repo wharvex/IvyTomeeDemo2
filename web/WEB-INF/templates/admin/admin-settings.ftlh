@@ -1,4 +1,4 @@
-<#-- admin-settings.ftlh: Admin settings with accessibility issues -->
+
 <#include "../_header.ftlh">
 <h2>Settings</h2>
 <form>
@@ -7,4 +7,4 @@
   <button>Save</button>
 </form>
 <#include "../_footer.ftlh">
-<!-- Accessibility issues: form fields not labeled, button not descriptive, improper heading order -->
+

@@ -1,4 +1,4 @@
-<#-- admin-user-edit.ftlh: Edit user with accessibility issues -->
+
 <#include "../_header.ftlh">
 <h3>Edit User</h3>
 <form>
@@ -7,4 +7,4 @@
   <button>Update</button>
 </form>
 <#include "../_footer.ftlh">
-<!-- Accessibility issues: form fields not labeled, button not descriptive, improper heading order -->
+

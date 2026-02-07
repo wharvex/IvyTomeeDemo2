@@ -1,4 +1,4 @@
-<#-- admin-audit.ftlh: Audit trail with accessibility issues -->
+
 <#include "../_header.ftlh">
 <h2>Audit Trail</h2>
 <table>
@@ -12,4 +12,4 @@
 </table>
 <button>Export</button>
 <#include "../_footer.ftlh">
-<!-- Accessibility issues: table missing captions, button not descriptive, improper heading order -->
+

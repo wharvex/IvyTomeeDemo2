@@ -1,4 +1,4 @@
-<#-- settings-language.ftlh: Language selection page with accessibility issues -->
+
 <#include "../_header.ftlh">
 <h3>Language</h3>
 <ul>
@@ -8,4 +8,4 @@
 </ul>
 <button>Set</button>
 <#include "../_footer.ftlh">
-<!-- Accessibility issues: button not descriptive, list items not interactive, improper heading order -->
+

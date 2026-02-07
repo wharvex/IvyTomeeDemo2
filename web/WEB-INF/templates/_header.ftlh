@@ -1,4 +1,4 @@
-<#-- _header.ftlh: Header partial with accessibility issues -->
+
 <header>
   <img src="logo.png">
   <nav>
@@ -9,4 +9,4 @@
     </ul>
   </nav>
 </header>
-<!-- Accessibility issues: missing alt text, navigation not marked up semantically -->
+

@@ -1,4 +1,4 @@
-<#-- register.ftlh: User registration with accessibility issues -->
+
 <#include "../_header.ftlh">
 <h2>Register</h2>
 <form>
@@ -8,4 +8,4 @@
   <button>Sign Up</button>
 </form>
 <#include "../_footer.ftlh">
-<!-- Accessibility issues: form fields not labeled, button not descriptive, no instructions for screen readers -->
+

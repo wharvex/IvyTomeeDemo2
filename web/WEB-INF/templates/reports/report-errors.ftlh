@@ -1,4 +1,4 @@
-<#-- report-errors.ftlh: Error log report with accessibility issues -->
+
 <#include "../_header.ftlh">
 <h3>Error Log</h3>
 <table>
@@ -12,4 +12,4 @@
 </table>
 <button>Download</button>
 <#include "../_footer.ftlh">
-<!-- Accessibility issues: table missing captions, button not descriptive, improper heading order -->
+

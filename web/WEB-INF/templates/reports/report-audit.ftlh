@@ -1,4 +1,4 @@
-<#-- report-audit.ftlh: Audit report with accessibility issues -->
+
 <#include "../_header.ftlh">
 <h2>Audit Report</h2>
 <table>
@@ -12,4 +12,4 @@
 </table>
 <button>Export</button>
 <#include "../_footer.ftlh">
-<!-- Accessibility issues: table missing captions, button not descriptive, improper heading order -->
+

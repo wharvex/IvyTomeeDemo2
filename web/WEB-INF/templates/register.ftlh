@@ -1,5 +1,5 @@
-<#-- @ftlvariable name="pmRegister" type="mypackage.model.page.PMRegister" -->
-<#-- include shared complex macros to raise complexity -->
+
+
 <#include "_complex_macros.ftlh">
 <html lang="en">
 <head>
@@ -8,7 +8,7 @@
 </head>
 <body>
 <h1>Register</h1>
-<#-- nested conditional complexity for error rendering -->
+
 <#if pmRegister.getErrorMessage()?has_content>
     <div class="error" role="alert">${pmRegister.getErrorMessage()!""}</div>
 <#elseif pmRegister.getWarnings()?has_content>
@@ -35,7 +35,7 @@
         </tr>
         <tr>
             <td>
-                <#-- unlabeled input (accessibility mistake) -->
+                
                 <input type="text" id="username" name="displayName" placeholder="Display name">
                 <span style="color: #eee;">(invisible-ish hint)</span>
             </td>
@@ -52,12 +52,12 @@
     </table>
 </form>
 
-<#-- decorative image with missing alt (accessibility mistake) -->
+
 <img src="/images/branding.png" />
 
 <p>Already have an account? <a href="${pmRegister.getRequestContextPath()}/login">Login here</a>.</p>
 
-<#-- include a debug panel that may render lots of content -->
+
 <@debugPanel pmRegister.getDebugMessages() />
 
 </body>

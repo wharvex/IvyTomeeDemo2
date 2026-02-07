@@ -1,4 +1,4 @@
-<#-- @ftlvariable name="pmError" type="mypackage.model.page.PMError" -->
+
 <#include "_complex_macros.ftlh">
 <html lang="en">
 <head>

@@ -1,4 +1,4 @@
-<#-- admin-roles.ftlh: Role management with accessibility issues -->
+
 <#include "../_header.ftlh">
 <h2>Roles</h2>
 <ul>
@@ -8,4 +8,4 @@
 </ul>
 <button>Add</button>
 <#include "../_footer.ftlh">
-<!-- Accessibility issues: button not descriptive, list items not interactive, improper heading order -->
+

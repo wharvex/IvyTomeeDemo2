@@ -1,4 +1,4 @@
-<#-- _pagination.ftlh: Pagination partial with accessibility issues -->
+
 <nav>
   <ul>
     <#list pages as page>
@@ -6,4 +6,4 @@
     </#list>
   </ul>
 </nav>
-<!-- Accessibility issues: missing ARIA labels, links not descriptive -->
+

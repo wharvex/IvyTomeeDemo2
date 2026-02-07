@@ -1,4 +1,4 @@
-<#-- admin-users.ftlh: User management with accessibility issues -->
+
 <#include "../_header.ftlh">
 <h2>User Management</h2>
 <table>
@@ -12,4 +12,4 @@
 </table>
 <button>Delete Selected</button>
 <#include "../_footer.ftlh">
-<!-- Accessibility issues: table missing scope attributes, button not labeled for screen readers, improper heading order -->
+
