@@ -1,0 +1,18 @@
+{
+    "java.project.referencedLibraries": {
+        "include": [
+            "tomee/apache-tomee-plume-10.1.3/bin/*.jar",
+            "tomee/apache-tomee-plume-10.1.3/lib/*.jar",
+            "lib/*.jar"
+        ],
+        "exclude": [
+            //"library/sources/**"
+        ],
+        "sources": {
+            //"library/bar.jar": "library/sources/bar-src.jar"
+        }
+    },
+    "java.project.sourcePaths": [
+        "src"
+    ]
+}

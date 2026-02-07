@@ -1,4 +1,3 @@
-<#-- @ftlvariable name="pmLogin" type="mypackage.model.page.PMLogin" -->
 <#include "_complex_macros.ftlh">
 <html lang="en">
 <head>
@@ -39,7 +38,6 @@
 
 <p>Don't have an account? <a href="${pmLogin.getRequestContextPath()}/register">Register here</a></p>
 
-<#-- call debug nav that may be complex -->
 <@renderNav [ {"href": "/", "label": "Home"}, {"href": "/help", "label": "Help"} ] />
 
 </body>
