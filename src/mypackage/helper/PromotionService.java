@@ -28,10 +28,19 @@ public class PromotionService {
    */
   public Promotion findByTitle(String p_strTitle) {
     return m_em.createQuery("SELECT p FROM Promotion p WHERE p.m_strTitle = :title", Promotion.class)
-               .setParameter("title", p_strTitle)
-               .getResultStream()
-               .findFirst()
-               .orElse(null);
+        .setParameter("title", p_strTitle)
+        .getResultStream()
+        .findFirst()
+        .orElse(null);
+  }
+
+  /**
+   * Get all Promotion entities.
+   * 
+   * @param p_promPromotion
+   */
+  public java.util.List<Promotion> getAll() {
+    return m_em.createQuery("SELECT p FROM Promotion p", Promotion.class).getResultList();
   }
 
   /**

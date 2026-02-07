@@ -14,3 +14,4 @@ When writing Java code for this repository, please adhere to the following guide
 - Prefix all class field names with "m_" to denote member variables.
 - Local variables within methods do not need a "letter-underscore" prefix. They just get the type prefix.
 - Avoid using the "this" keyword unless absolutely necessary.
+- When making a class field that is a collection, only give it a getter, and that getter should check if the field is null and if so, initialize it to an empty collection before returning it. This way, you can avoid null pointer exceptions when trying to add items to the collection.
