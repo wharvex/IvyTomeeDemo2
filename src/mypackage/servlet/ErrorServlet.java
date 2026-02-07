@@ -40,7 +40,7 @@ public final class ErrorServlet extends HttpServlet {
     Map<String, Object> rootMap = new HashMap<>();
     rootMap.put("pmError", pmError);
 
-    ServletHelper.putPage(p_response, rootMap, "error.ftlh");
+    ServletHelper.putPage(p_response, rootMap, "error.ftl");
   }
 
   @Override
@@ -50,3 +50,4 @@ public final class ErrorServlet extends HttpServlet {
   }
 
 }
+

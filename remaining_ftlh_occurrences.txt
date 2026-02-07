@@ -1,0 +1,393 @@
+
+C:\Development\Projects\IvyTomeeDemo2\make_replacements_log.txt:3: BEFORE|3|OLD|19|- Create a new FTLH file for the page, name it `${BaseName}.ftlh`, and put it in the `${FtlhDirectory}` directory. If this directory does not exist, create it.
+C:\Development\Projects\IvyTomeeDemo2\make_replacements_log.txt:5: BEFORE|4|WILL_UPDATE|C:\Development\Projects\IvyTomeeDemo2\build\WEB-INF\templates\error.ftlh|Matches:1
+C:\Development\Projects\IvyTomeeDemo2\make_replacements_log.txt:7: BEFORE|5|OLD|2|<#include "_complex_macros.ftlh">
+C:\Development\Projects\IvyTomeeDemo2\make_replacements_log.txt:9: BEFORE|6|WILL_UPDATE|C:\Development\Projects\IvyTomeeDemo2\build\WEB-INF\templates\hello.ftlh|Matches:1
+C:\Development\Projects\IvyTomeeDemo2\make_replacements_log.txt:11: BEFORE|7|OLD|2|<#include "_complex_macros.ftlh">
+C:\Development\Projects\IvyTomeeDemo2\make_replacements_log.txt:14: BEFORE|19|- Create a new FTLH file for the page, name it `${BaseName}.ftlh`, and put it in the `${FtlhDirectory}` directory. If this directory does not exist, create it.
+C:\Development\Projects\IvyTomeeDemo2\make_replacements_log.txt:16: UPDATED|C:\Development\Projects\IvyTomeeDemo2\build\WEB-INF\templates\error.ftlh|Replacements:1
+C:\Development\Projects\IvyTomeeDemo2\make_replacements_log.txt:17: BEFORE|2|<#include "_complex_macros.ftlh">
+C:\Development\Projects\IvyTomeeDemo2\make_replacements_log.txt:19: UPDATED|C:\Development\Projects\IvyTomeeDemo2\build\WEB-INF\templates\hello.ftlh|Replacements:1
+C:\Development\Projects\IvyTomeeDemo2\make_replacements_log.txt:20: BEFORE|2|<#include "_complex_macros.ftlh">
+C:\Development\Projects\IvyTomeeDemo2\make_replacements_log.txt:22: UPDATED|C:\Development\Projects\IvyTomeeDemo2\build\WEB-INF\templates\login.ftlh|Replacements:1
+C:\Development\Projects\IvyTomeeDemo2\make_replacements_log.txt:23: BEFORE|2|<#include "_complex_macros.ftlh">
+C:\Development\Projects\IvyTomeeDemo2\make_replacements_log.txt:25: UPDATED|C:\Development\Projects\IvyTomeeDemo2\build\WEB-INF\templates\register.ftlh|Replacements:1
+C:\Development\Projects\IvyTomeeDemo2\make_replacements_log.txt:26: BEFORE|1|<#include "_complex_macros.ftlh">
+C:\Development\Projects\IvyTomeeDemo2\make_replacements_log.txt:29: BEFORE|43|    ServletHelper.putPage(p_response, rootMap, "error.ftlh");
+C:\Development\Projects\IvyTomeeDemo2\make_replacements_log.txt:32: BEFORE|45|    ServletHelper.putPage(p_response, rootMap, "hello.ftlh");
+C:\Development\Projects\IvyTomeeDemo2\make_replacements_log.txt:35: BEFORE|32|    ServletHelper.putPage(response, root, "login.ftlh");
+C:\Development\Projects\IvyTomeeDemo2\make_replacements_log.txt:37: BEFORE|50|      ServletHelper.putPage(response, root, "login.ftlh");
+C:\Development\Projects\IvyTomeeDemo2\make_replacements_log.txt:40: BEFORE|32|    ServletHelper.putPage(response, root, "register.ftlh");
+C:\Development\Projects\IvyTomeeDemo2\make_replacements_log.txt:42: BEFORE|49|      ServletHelper.putPage(resp, root, "register.ftlh");
+C:\Development\Projects\IvyTomeeDemo2\make_replacements_log.txt:45: BEFORE|2|<#include "_header.ftlh">
+C:\Development\Projects\IvyTomeeDemo2\make_replacements_log.txt:47: BEFORE|12|<#include "_footer.ftlh">
+C:\Development\Projects\IvyTomeeDemo2\make_replacements_log.txt:49: UPDATED|C:\Development\Projects\IvyTomeeDemo2\web\WEB-INF\templates\about.ftlh|Replacements:2
+C:\Development\Projects\IvyTomeeDemo2\make_replacements_log.txt:50: BEFORE|2|<#include "_header.ftlh">
+C:\Development\Projects\IvyTomeeDemo2\make_replacements_log.txt:52: BEFORE|12|<#include "_footer.ftlh">
+C:\Development\Projects\IvyTomeeDemo2\make_replacements_log.txt:55: BEFORE|2|<#include "_header.ftlh">
+C:\Development\Projects\IvyTomeeDemo2\make_replacements_log.txt:57: BEFORE|11|<#include "_footer.ftlh">
+C:\Development\Projects\IvyTomeeDemo2\make_replacements_log.txt:59: UPDATED|C:\Development\Projects\IvyTomeeDemo2\web\WEB-INF\templates\contact.ftlh|Replacements:2
+C:\Development\Projects\IvyTomeeDemo2\make_replacements_log.txt:60: BEFORE|2|<#include "_header.ftlh">
+C:\Development\Projects\IvyTomeeDemo2\make_replacements_log.txt:62: BEFORE|11|<#include "_footer.ftlh">
+C:\Development\Projects\IvyTomeeDemo2\make_replacements_log.txt:65: BEFORE|2|<#include "_complex_macros.ftlh">
+C:\Development\Projects\IvyTomeeDemo2\make_replacements_log.txt:67: UPDATED|C:\Development\Projects\IvyTomeeDemo2\web\WEB-INF\templates\error.ftlh|Replacements:1
+C:\Development\Projects\IvyTomeeDemo2\make_replacements_log.txt:68: BEFORE|2|<#include "_complex_macros.ftlh">
+C:\Development\Projects\IvyTomeeDemo2\make_replacements_log.txt:71: BEFORE|2|<#include "_header.ftlh">
+C:\Development\Projects\IvyTomeeDemo2\make_replacements_log.txt:73: BEFORE|10|<#include "_footer.ftlh">
+C:\Development\Projects\IvyTomeeDemo2\make_replacements_log.txt:75: UPDATED|C:\Development\Projects\IvyTomeeDemo2\web\WEB-INF\templates\faq.ftlh|Replacements:2
+C:\Development\Projects\IvyTomeeDemo2\make_replacements_log.txt:76: BEFORE|2|<#include "_header.ftlh">
+C:\Development\Projects\IvyTomeeDemo2\make_replacements_log.txt:78: BEFORE|10|<#include "_footer.ftlh">
+C:\Development\Projects\IvyTomeeDemo2\make_replacements_log.txt:81: BEFORE|2|<#include "_complex_macros.ftlh">
+C:\Development\Projects\IvyTomeeDemo2\make_replacements_log.txt:83: UPDATED|C:\Development\Projects\IvyTomeeDemo2\web\WEB-INF\templates\hello.ftlh|Replacements:1
+C:\Development\Projects\IvyTomeeDemo2\make_replacements_log.txt:84: BEFORE|2|<#include "_complex_macros.ftlh">
+C:\Development\Projects\IvyTomeeDemo2\make_replacements_log.txt:87: BEFORE|2|<#include "_header.ftlh">
+C:\Development\Projects\IvyTomeeDemo2\make_replacements_log.txt:89: BEFORE|18|<#include "_footer.ftlh">
+C:\Development\Projects\IvyTomeeDemo2\make_replacements_log.txt:91: UPDATED|C:\Development\Projects\IvyTomeeDemo2\web\WEB-INF\templates\home.ftlh|Replacements:2
+C:\Development\Projects\IvyTomeeDemo2\make_replacements_log.txt:92: BEFORE|2|<#include "_header.ftlh">
+C:\Development\Projects\IvyTomeeDemo2\make_replacements_log.txt:94: BEFORE|18|<#include "_footer.ftlh">
+C:\Development\Projects\IvyTomeeDemo2\make_replacements_log.txt:97: BEFORE|1|<#include "_complex_macros.ftlh">
+C:\Development\Projects\IvyTomeeDemo2\make_replacements_log.txt:99: UPDATED|C:\Development\Projects\IvyTomeeDemo2\web\WEB-INF\templates\login.ftlh|Replacements:1
+C:\Development\Projects\IvyTomeeDemo2\make_replacements_log.txt:100: BEFORE|1|<#include "_complex_macros.ftlh">
+C:\Development\Projects\IvyTomeeDemo2\make_replacements_log.txt:103: BEFORE|2|<#include "_header.ftlh">
+C:\Development\Projects\IvyTomeeDemo2\make_replacements_log.txt:105: BEFORE|10|<#include "_footer.ftlh">
+C:\Development\Projects\IvyTomeeDemo2\make_replacements_log.txt:107: UPDATED|C:\Development\Projects\IvyTomeeDemo2\web\WEB-INF\templates\privacy.ftlh|Replacements:2
+C:\Development\Projects\IvyTomeeDemo2\make_replacements_log.txt:108: BEFORE|2|<#include "_header.ftlh">
+C:\Development\Projects\IvyTomeeDemo2\make_replacements_log.txt:110: BEFORE|10|<#include "_footer.ftlh">
+C:\Development\Projects\IvyTomeeDemo2\make_replacements_log.txt:113: BEFORE|3|<#include "_complex_macros.ftlh">
+C:\Development\Projects\IvyTomeeDemo2\make_replacements_log.txt:115: UPDATED|C:\Development\Projects\IvyTomeeDemo2\web\WEB-INF\templates\register.ftlh|Replacements:1
+C:\Development\Projects\IvyTomeeDemo2\make_replacements_log.txt:116: BEFORE|3|<#include "_complex_macros.ftlh">
+C:\Development\Projects\IvyTomeeDemo2\make_replacements_log.txt:119: BEFORE|2|<#include "_header.ftlh">
+C:\Development\Projects\IvyTomeeDemo2\make_replacements_log.txt:121: BEFORE|10|<#include "_footer.ftlh">
+C:\Development\Projects\IvyTomeeDemo2\make_replacements_log.txt:123: UPDATED|C:\Development\Projects\IvyTomeeDemo2\web\WEB-INF\templates\terms.ftlh|Replacements:2
+C:\Development\Projects\IvyTomeeDemo2\make_replacements_log.txt:124: BEFORE|2|<#include "_header.ftlh">
+C:\Development\Projects\IvyTomeeDemo2\make_replacements_log.txt:126: BEFORE|10|<#include "_footer.ftlh">
+C:\Development\Projects\IvyTomeeDemo2\make_replacements_log.txt:129: BEFORE|2|<#include "../_header.ftlh">
+C:\Development\Projects\IvyTomeeDemo2\make_replacements_log.txt:131: BEFORE|14|<#include "../_footer.ftlh">
+C:\Development\Projects\IvyTomeeDemo2\make_replacements_log.txt:133: UPDATED|C:\Development\Projects\IvyTomeeDemo2\web\WEB-INF\templates\admin\admin-audit.ftlh|Replacements:2
+C:\Development\Projects\IvyTomeeDemo2\make_replacements_log.txt:134: BEFORE|2|<#include "../_header.ftlh">
+C:\Development\Projects\IvyTomeeDemo2\make_replacements_log.txt:136: BEFORE|14|<#include "../_footer.ftlh">
+C:\Development\Projects\IvyTomeeDemo2\make_replacements_log.txt:139: BEFORE|2|<#include "../_header.ftlh">
+C:\Development\Projects\IvyTomeeDemo2\make_replacements_log.txt:141: BEFORE|9|<#include "../_footer.ftlh">
+C:\Development\Projects\IvyTomeeDemo2\make_replacements_log.txt:143: UPDATED|C:\Development\Projects\IvyTomeeDemo2\web\WEB-INF\templates\admin\admin-dashboard-quicklinks.ftlh|Replacements:2
+C:\Development\Projects\IvyTomeeDemo2\make_replacements_log.txt:144: BEFORE|2|<#include "../_header.ftlh">
+C:\Development\Projects\IvyTomeeDemo2\make_replacements_log.txt:146: BEFORE|9|<#include "../_footer.ftlh">
+C:\Development\Projects\IvyTomeeDemo2\make_replacements_log.txt:149: BEFORE|2|<#include "../_header.ftlh">
+C:\Development\Projects\IvyTomeeDemo2\make_replacements_log.txt:151: BEFORE|9|<#include "../_footer.ftlh">
+C:\Development\Projects\IvyTomeeDemo2\make_replacements_log.txt:153: UPDATED|C:\Development\Projects\IvyTomeeDemo2\web\WEB-INF\templates\admin\admin-dashboard-stats.ftlh|Replacements:2
+C:\Development\Projects\IvyTomeeDemo2\make_replacements_log.txt:154: BEFORE|2|<#include "../_header.ftlh">
+C:\Development\Projects\IvyTomeeDemo2\make_replacements_log.txt:156: BEFORE|9|<#include "../_footer.ftlh">
+C:\Development\Projects\IvyTomeeDemo2\make_replacements_log.txt:159: BEFORE|2|<#include "../_header.ftlh">
+C:\Development\Projects\IvyTomeeDemo2\make_replacements_log.txt:161: BEFORE|9|<#include "../_footer.ftlh">
+C:\Development\Projects\IvyTomeeDemo2\make_replacements_log.txt:163: UPDATED|C:\Development\Projects\IvyTomeeDemo2\web\WEB-INF\templates\admin\admin-dashboard-widgets.ftlh|Replacements:2
+C:\Development\Projects\IvyTomeeDemo2\make_replacements_log.txt:164: BEFORE|2|<#include "../_header.ftlh">
+C:\Development\Projects\IvyTomeeDemo2\make_replacements_log.txt:166: BEFORE|9|<#include "../_footer.ftlh">
+C:\Development\Projects\IvyTomeeDemo2\make_replacements_log.txt:169: BEFORE|2|<#include "../_header.ftlh">
+C:\Development\Projects\IvyTomeeDemo2\make_replacements_log.txt:171: BEFORE|13|<#include "../_footer.ftlh">
+C:\Development\Projects\IvyTomeeDemo2\make_replacements_log.txt:173: UPDATED|C:\Development\Projects\IvyTomeeDemo2\web\WEB-INF\templates\admin\admin-dashboard.ftlh|Replacements:2
+C:\Development\Projects\IvyTomeeDemo2\make_replacements_log.txt:174: BEFORE|2|<#include "../_header.ftlh">
+C:\Development\Projects\IvyTomeeDemo2\make_replacements_log.txt:176: BEFORE|13|<#include "../_footer.ftlh">
+C:\Development\Projects\IvyTomeeDemo2\make_replacements_log.txt:179: BEFORE|2|<#include "../_header.ftlh">
+C:\Development\Projects\IvyTomeeDemo2\make_replacements_log.txt:181: BEFORE|14|<#include "../_footer.ftlh">
+C:\Development\Projects\IvyTomeeDemo2\make_replacements_log.txt:183: UPDATED|C:\Development\Projects\IvyTomeeDemo2\web\WEB-INF\templates\admin\admin-logs.ftlh|Replacements:2
+C:\Development\Projects\IvyTomeeDemo2\make_replacements_log.txt:184: BEFORE|2|<#include "../_header.ftlh">
+C:\Development\Projects\IvyTomeeDemo2\make_replacements_log.txt:186: BEFORE|14|<#include "../_footer.ftlh">
+C:\Development\Projects\IvyTomeeDemo2\make_replacements_log.txt:189: BEFORE|2|<#include "../_header.ftlh">
+C:\Development\Projects\IvyTomeeDemo2\make_replacements_log.txt:191: BEFORE|10|<#include "../_footer.ftlh">
+C:\Development\Projects\IvyTomeeDemo2\make_replacements_log.txt:193: UPDATED|C:\Development\Projects\IvyTomeeDemo2\web\WEB-INF\templates\admin\admin-permissions.ftlh|Replacements:2
+C:\Development\Projects\IvyTomeeDemo2\make_replacements_log.txt:194: BEFORE|2|<#include "../_header.ftlh">
+C:\Development\Projects\IvyTomeeDemo2\make_replacements_log.txt:196: BEFORE|10|<#include "../_footer.ftlh">
+C:\Development\Projects\IvyTomeeDemo2\make_replacements_log.txt:199: BEFORE|2|<#include "../_header.ftlh">
+C:\Development\Projects\IvyTomeeDemo2\make_replacements_log.txt:201: BEFORE|8|<#include "../_footer.ftlh">
+C:\Development\Projects\IvyTomeeDemo2\make_replacements_log.txt:203: UPDATED|C:\Development\Projects\IvyTomeeDemo2\web\WEB-INF\templates\admin\admin-role-edit.ftlh|Replacements:2
+C:\Development\Projects\IvyTomeeDemo2\make_replacements_log.txt:204: BEFORE|2|<#include "../_header.ftlh">
+C:\Development\Projects\IvyTomeeDemo2\make_replacements_log.txt:206: BEFORE|8|<#include "../_footer.ftlh">
+C:\Development\Projects\IvyTomeeDemo2\make_replacements_log.txt:209: BEFORE|2|<#include "../_header.ftlh">
+C:\Development\Projects\IvyTomeeDemo2\make_replacements_log.txt:211: BEFORE|10|<#include "../_footer.ftlh">
+C:\Development\Projects\IvyTomeeDemo2\make_replacements_log.txt:213: UPDATED|C:\Development\Projects\IvyTomeeDemo2\web\WEB-INF\templates\admin\admin-roles.ftlh|Replacements:2
+C:\Development\Projects\IvyTomeeDemo2\make_replacements_log.txt:214: BEFORE|2|<#include "../_header.ftlh">
+C:\Development\Projects\IvyTomeeDemo2\make_replacements_log.txt:216: BEFORE|10|<#include "../_footer.ftlh">
+C:\Development\Projects\IvyTomeeDemo2\make_replacements_log.txt:219: BEFORE|2|<#include "../_header.ftlh">
+C:\Development\Projects\IvyTomeeDemo2\make_replacements_log.txt:221: BEFORE|9|<#include "../_footer.ftlh">
+C:\Development\Projects\IvyTomeeDemo2\make_replacements_log.txt:223: UPDATED|C:\Development\Projects\IvyTomeeDemo2\web\WEB-INF\templates\admin\admin-settings.ftlh|Replacements:2
+C:\Development\Projects\IvyTomeeDemo2\make_replacements_log.txt:224: BEFORE|2|<#include "../_header.ftlh">
+C:\Development\Projects\IvyTomeeDemo2\make_replacements_log.txt:226: BEFORE|9|<#include "../_footer.ftlh">
+C:\Development\Projects\IvyTomeeDemo2\make_replacements_log.txt:229: BEFORE|2|<#include "../_header.ftlh">
+C:\Development\Projects\IvyTomeeDemo2\make_replacements_log.txt:231: BEFORE|9|<#include "../_footer.ftlh">
+C:\Development\Projects\IvyTomeeDemo2\make_replacements_log.txt:233: UPDATED|C:\Development\Projects\IvyTomeeDemo2\web\WEB-INF\templates\admin\admin-user-create.ftlh|Replacements:2
+C:\Development\Projects\IvyTomeeDemo2\make_replacements_log.txt:234: BEFORE|2|<#include "../_header.ftlh">
+C:\Development\Projects\IvyTomeeDemo2\make_replacements_log.txt:236: BEFORE|9|<#include "../_footer.ftlh">
+C:\Development\Projects\IvyTomeeDemo2\make_replacements_log.txt:239: BEFORE|2|<#include "../_header.ftlh">
+C:\Development\Projects\IvyTomeeDemo2\make_replacements_log.txt:241: BEFORE|7|<#include "../_footer.ftlh">
+C:\Development\Projects\IvyTomeeDemo2\make_replacements_log.txt:243: UPDATED|C:\Development\Projects\IvyTomeeDemo2\web\WEB-INF\templates\admin\admin-user-delete.ftlh|Replacements:2
+C:\Development\Projects\IvyTomeeDemo2\make_replacements_log.txt:244: BEFORE|2|<#include "../_header.ftlh">
+C:\Development\Projects\IvyTomeeDemo2\make_replacements_log.txt:246: BEFORE|7|<#include "../_footer.ftlh">
+C:\Development\Projects\IvyTomeeDemo2\make_replacements_log.txt:249: BEFORE|2|<#include "../_header.ftlh">
+C:\Development\Projects\IvyTomeeDemo2\make_replacements_log.txt:251: BEFORE|9|<#include "../_footer.ftlh">
+C:\Development\Projects\IvyTomeeDemo2\make_replacements_log.txt:253: UPDATED|C:\Development\Projects\IvyTomeeDemo2\web\WEB-INF\templates\admin\admin-user-edit.ftlh|Replacements:2
+C:\Development\Projects\IvyTomeeDemo2\make_replacements_log.txt:254: BEFORE|2|<#include "../_header.ftlh">
+C:\Development\Projects\IvyTomeeDemo2\make_replacements_log.txt:256: BEFORE|9|<#include "../_footer.ftlh">
+C:\Development\Projects\IvyTomeeDemo2\make_replacements_log.txt:259: BEFORE|2|<#include "../_header.ftlh">
+C:\Development\Projects\IvyTomeeDemo2\make_replacements_log.txt:261: BEFORE|14|<#include "../_footer.ftlh">
+C:\Development\Projects\IvyTomeeDemo2\make_replacements_log.txt:263: UPDATED|C:\Development\Projects\IvyTomeeDemo2\web\WEB-INF\templates\admin\admin-users.ftlh|Replacements:2
+C:\Development\Projects\IvyTomeeDemo2\make_replacements_log.txt:264: BEFORE|2|<#include "../_header.ftlh">
+C:\Development\Projects\IvyTomeeDemo2\make_replacements_log.txt:266: BEFORE|14|<#include "../_footer.ftlh">
+C:\Development\Projects\IvyTomeeDemo2\make_replacements_log.txt:269: BEFORE|2|<#include "../_header.ftlh">
+C:\Development\Projects\IvyTomeeDemo2\make_replacements_log.txt:271: BEFORE|9|<#include "../_footer.ftlh">
+C:\Development\Projects\IvyTomeeDemo2\make_replacements_log.txt:273: UPDATED|C:\Development\Projects\IvyTomeeDemo2\web\WEB-INF\templates\dashboard\dashboard-activity.ftlh|Replacements:2
+C:\Development\Projects\IvyTomeeDemo2\make_replacements_log.txt:274: BEFORE|2|<#include "../_header.ftlh">
+C:\Development\Projects\IvyTomeeDemo2\make_replacements_log.txt:276: BEFORE|9|<#include "../_footer.ftlh">
+C:\Development\Projects\IvyTomeeDemo2\make_replacements_log.txt:279: BEFORE|2|<#include "../_header.ftlh">
+C:\Development\Projects\IvyTomeeDemo2\make_replacements_log.txt:281: BEFORE|9|<#include "../_footer.ftlh">
+C:\Development\Projects\IvyTomeeDemo2\make_replacements_log.txt:283: UPDATED|C:\Development\Projects\IvyTomeeDemo2\web\WEB-INF\templates\dashboard\dashboard-calendar.ftlh|Replacements:2
+C:\Development\Projects\IvyTomeeDemo2\make_replacements_log.txt:284: BEFORE|2|<#include "../_header.ftlh">
+C:\Development\Projects\IvyTomeeDemo2\make_replacements_log.txt:286: BEFORE|9|<#include "../_footer.ftlh">
+C:\Development\Projects\IvyTomeeDemo2\make_replacements_log.txt:289: BEFORE|2|<#include "../_header.ftlh">
+C:\Development\Projects\IvyTomeeDemo2\make_replacements_log.txt:291: BEFORE|9|<#include "../_footer.ftlh">
+C:\Development\Projects\IvyTomeeDemo2\make_replacements_log.txt:293: UPDATED|C:\Development\Projects\IvyTomeeDemo2\web\WEB-INF\templates\dashboard\dashboard-messages.ftlh|Replacements:2
+C:\Development\Projects\IvyTomeeDemo2\make_replacements_log.txt:294: BEFORE|2|<#include "../_header.ftlh">
+C:\Development\Projects\IvyTomeeDemo2\make_replacements_log.txt:296: BEFORE|9|<#include "../_footer.ftlh">
+C:\Development\Projects\IvyTomeeDemo2\make_replacements_log.txt:299: BEFORE|2|<#include "../_header.ftlh">
+C:\Development\Projects\IvyTomeeDemo2\make_replacements_log.txt:301: BEFORE|9|<#include "../_footer.ftlh">
+C:\Development\Projects\IvyTomeeDemo2\make_replacements_log.txt:303: UPDATED|C:\Development\Projects\IvyTomeeDemo2\web\WEB-INF\templates\dashboard\dashboard-notifications.ftlh|Replacements:2
+C:\Development\Projects\IvyTomeeDemo2\make_replacements_log.txt:304: BEFORE|2|<#include "../_header.ftlh">
+C:\Development\Projects\IvyTomeeDemo2\make_replacements_log.txt:306: BEFORE|9|<#include "../_footer.ftlh">
+C:\Development\Projects\IvyTomeeDemo2\make_replacements_log.txt:309: BEFORE|2|<#include "../_header.ftlh">
+C:\Development\Projects\IvyTomeeDemo2\make_replacements_log.txt:311: BEFORE|10|<#include "../_footer.ftlh">
+C:\Development\Projects\IvyTomeeDemo2\make_replacements_log.txt:313: UPDATED|C:\Development\Projects\IvyTomeeDemo2\web\WEB-INF\templates\dashboard\dashboard-overview.ftlh|Replacements:2
+C:\Development\Projects\IvyTomeeDemo2\make_replacements_log.txt:314: BEFORE|2|<#include "../_header.ftlh">
+C:\Development\Projects\IvyTomeeDemo2\make_replacements_log.txt:316: BEFORE|10|<#include "../_footer.ftlh">
+C:\Development\Projects\IvyTomeeDemo2\make_replacements_log.txt:319: BEFORE|2|<#include "../_header.ftlh">
+C:\Development\Projects\IvyTomeeDemo2\make_replacements_log.txt:321: BEFORE|9|<#include "../_footer.ftlh">
+C:\Development\Projects\IvyTomeeDemo2\make_replacements_log.txt:323: UPDATED|C:\Development\Projects\IvyTomeeDemo2\web\WEB-INF\templates\dashboard\dashboard-quicklinks.ftlh|Replacements:2
+C:\Development\Projects\IvyTomeeDemo2\make_replacements_log.txt:324: BEFORE|2|<#include "../_header.ftlh">
+C:\Development\Projects\IvyTomeeDemo2\make_replacements_log.txt:326: BEFORE|9|<#include "../_footer.ftlh">
+C:\Development\Projects\IvyTomeeDemo2\make_replacements_log.txt:329: BEFORE|2|<#include "../_header.ftlh">
+C:\Development\Projects\IvyTomeeDemo2\make_replacements_log.txt:331: BEFORE|9|<#include "../_footer.ftlh">
+C:\Development\Projects\IvyTomeeDemo2\make_replacements_log.txt:333: UPDATED|C:\Development\Projects\IvyTomeeDemo2\web\WEB-INF\templates\dashboard\dashboard-recent-items.ftlh|Replacements:2
+C:\Development\Projects\IvyTomeeDemo2\make_replacements_log.txt:334: BEFORE|2|<#include "../_header.ftlh">
+C:\Development\Projects\IvyTomeeDemo2\make_replacements_log.txt:336: BEFORE|9|<#include "../_footer.ftlh">
+C:\Development\Projects\IvyTomeeDemo2\make_replacements_log.txt:339: BEFORE|2|<#include "../_header.ftlh">
+C:\Development\Projects\IvyTomeeDemo2\make_replacements_log.txt:341: BEFORE|9|<#include "../_footer.ftlh">
+C:\Development\Projects\IvyTomeeDemo2\make_replacements_log.txt:343: UPDATED|C:\Development\Projects\IvyTomeeDemo2\web\WEB-INF\templates\dashboard\dashboard-stats.ftlh|Replacements:2
+C:\Development\Projects\IvyTomeeDemo2\make_replacements_log.txt:344: BEFORE|2|<#include "../_header.ftlh">
+C:\Development\Projects\IvyTomeeDemo2\make_replacements_log.txt:346: BEFORE|9|<#include "../_footer.ftlh">
+C:\Development\Projects\IvyTomeeDemo2\make_replacements_log.txt:349: BEFORE|2|<#include "../_header.ftlh">
+C:\Development\Projects\IvyTomeeDemo2\make_replacements_log.txt:351: BEFORE|10|<#include "../_footer.ftlh">
+C:\Development\Projects\IvyTomeeDemo2\make_replacements_log.txt:353: UPDATED|C:\Development\Projects\IvyTomeeDemo2\web\WEB-INF\templates\dashboard\dashboard-tasks.ftlh|Replacements:2
+C:\Development\Projects\IvyTomeeDemo2\make_replacements_log.txt:354: BEFORE|2|<#include "../_header.ftlh">
+C:\Development\Projects\IvyTomeeDemo2\make_replacements_log.txt:356: BEFORE|10|<#include "../_footer.ftlh">
+C:\Development\Projects\IvyTomeeDemo2\make_replacements_log.txt:359: BEFORE|2|<#include "../_header.ftlh">
+C:\Development\Projects\IvyTomeeDemo2\make_replacements_log.txt:361: BEFORE|10|<#include "../_footer.ftlh">
+C:\Development\Projects\IvyTomeeDemo2\make_replacements_log.txt:363: UPDATED|C:\Development\Projects\IvyTomeeDemo2\web\WEB-INF\templates\dashboard\dashboard-widgets.ftlh|Replacements:2
+C:\Development\Projects\IvyTomeeDemo2\make_replacements_log.txt:364: BEFORE|2|<#include "../_header.ftlh">
+C:\Development\Projects\IvyTomeeDemo2\make_replacements_log.txt:366: BEFORE|10|<#include "../_footer.ftlh">
+C:\Development\Projects\IvyTomeeDemo2\make_replacements_log.txt:369: BEFORE|2|<#include "../_header.ftlh">
+C:\Development\Projects\IvyTomeeDemo2\make_replacements_log.txt:371: BEFORE|10|<#include "../_footer.ftlh">
+C:\Development\Projects\IvyTomeeDemo2\make_replacements_log.txt:373: UPDATED|C:\Development\Projects\IvyTomeeDemo2\web\WEB-INF\templates\dashboard\dashboard.ftlh|Replacements:2
+C:\Development\Projects\IvyTomeeDemo2\make_replacements_log.txt:374: BEFORE|2|<#include "../_header.ftlh">
+C:\Development\Projects\IvyTomeeDemo2\make_replacements_log.txt:376: BEFORE|10|<#include "../_footer.ftlh">
+C:\Development\Projects\IvyTomeeDemo2\make_replacements_log.txt:379: BEFORE|2|<#include "../_header.ftlh">
+C:\Development\Projects\IvyTomeeDemo2\make_replacements_log.txt:381: BEFORE|14|<#include "../_footer.ftlh">
+C:\Development\Projects\IvyTomeeDemo2\make_replacements_log.txt:383: UPDATED|C:\Development\Projects\IvyTomeeDemo2\web\WEB-INF\templates\reports\report-audit.ftlh|Replacements:2
+C:\Development\Projects\IvyTomeeDemo2\make_replacements_log.txt:384: BEFORE|2|<#include "../_header.ftlh">
+C:\Development\Projects\IvyTomeeDemo2\make_replacements_log.txt:386: BEFORE|14|<#include "../_footer.ftlh">
+C:\Development\Projects\IvyTomeeDemo2\make_replacements_log.txt:389: BEFORE|2|<#include "../_header.ftlh">
+C:\Development\Projects\IvyTomeeDemo2\make_replacements_log.txt:391: BEFORE|9|<#include "../_footer.ftlh">
+C:\Development\Projects\IvyTomeeDemo2\make_replacements_log.txt:393: UPDATED|C:\Development\Projects\IvyTomeeDemo2\web\WEB-INF\templates\reports\report-charts.ftlh|Replacements:2
+C:\Development\Projects\IvyTomeeDemo2\make_replacements_log.txt:394: BEFORE|2|<#include "../_header.ftlh">
+C:\Development\Projects\IvyTomeeDemo2\make_replacements_log.txt:396: BEFORE|9|<#include "../_footer.ftlh">
+C:\Development\Projects\IvyTomeeDemo2\make_replacements_log.txt:399: BEFORE|2|<#include "../_header.ftlh">
+C:\Development\Projects\IvyTomeeDemo2\make_replacements_log.txt:401: BEFORE|5|<#include "../_footer.ftlh">
+C:\Development\Projects\IvyTomeeDemo2\make_replacements_log.txt:403: UPDATED|C:\Development\Projects\IvyTomeeDemo2\web\WEB-INF\templates\reports\report-download.ftlh|Replacements:2
+C:\Development\Projects\IvyTomeeDemo2\make_replacements_log.txt:404: BEFORE|2|<#include "../_header.ftlh">
+C:\Development\Projects\IvyTomeeDemo2\make_replacements_log.txt:406: BEFORE|5|<#include "../_footer.ftlh">
+C:\Development\Projects\IvyTomeeDemo2\make_replacements_log.txt:409: BEFORE|2|<#include "../_header.ftlh">
+C:\Development\Projects\IvyTomeeDemo2\make_replacements_log.txt:411: BEFORE|14|<#include "../_footer.ftlh">
+C:\Development\Projects\IvyTomeeDemo2\make_replacements_log.txt:413: UPDATED|C:\Development\Projects\IvyTomeeDemo2\web\WEB-INF\templates\reports\report-errors.ftlh|Replacements:2
+C:\Development\Projects\IvyTomeeDemo2\make_replacements_log.txt:414: BEFORE|2|<#include "../_header.ftlh">
+C:\Development\Projects\IvyTomeeDemo2\make_replacements_log.txt:416: BEFORE|14|<#include "../_footer.ftlh">
+C:\Development\Projects\IvyTomeeDemo2\make_replacements_log.txt:419: BEFORE|2|<#include "../_header.ftlh">
+C:\Development\Projects\IvyTomeeDemo2\make_replacements_log.txt:421: BEFORE|9|<#include "../_footer.ftlh">
+C:\Development\Projects\IvyTomeeDemo2\make_replacements_log.txt:423: UPDATED|C:\Development\Projects\IvyTomeeDemo2\web\WEB-INF\templates\reports\report-export.ftlh|Replacements:2
+C:\Development\Projects\IvyTomeeDemo2\make_replacements_log.txt:424: BEFORE|2|<#include "../_header.ftlh">
+C:\Development\Projects\IvyTomeeDemo2\make_replacements_log.txt:426: BEFORE|9|<#include "../_footer.ftlh">
+C:\Development\Projects\IvyTomeeDemo2\make_replacements_log.txt:429: BEFORE|2|<#include "../_header.ftlh">
+C:\Development\Projects\IvyTomeeDemo2\make_replacements_log.txt:431: BEFORE|8|<#include "../_footer.ftlh">
+C:\Development\Projects\IvyTomeeDemo2\make_replacements_log.txt:433: UPDATED|C:\Development\Projects\IvyTomeeDemo2\web\WEB-INF\templates\reports\report-filters.ftlh|Replacements:2
+C:\Development\Projects\IvyTomeeDemo2\make_replacements_log.txt:434: BEFORE|2|<#include "../_header.ftlh">
+C:\Development\Projects\IvyTomeeDemo2\make_replacements_log.txt:436: BEFORE|8|<#include "../_footer.ftlh">
+C:\Development\Projects\IvyTomeeDemo2\make_replacements_log.txt:439: BEFORE|2|<#include "../_header.ftlh">
+C:\Development\Projects\IvyTomeeDemo2\make_replacements_log.txt:441: BEFORE|14|<#include "../_footer.ftlh">
+C:\Development\Projects\IvyTomeeDemo2\make_replacements_log.txt:443: UPDATED|C:\Development\Projects\IvyTomeeDemo2\web\WEB-INF\templates\reports\report-performance.ftlh|Replacements:2
+C:\Development\Projects\IvyTomeeDemo2\make_replacements_log.txt:444: BEFORE|2|<#include "../_header.ftlh">
+C:\Development\Projects\IvyTomeeDemo2\make_replacements_log.txt:446: BEFORE|14|<#include "../_footer.ftlh">
+C:\Development\Projects\IvyTomeeDemo2\make_replacements_log.txt:449: BEFORE|2|<#include "../_header.ftlh">
+C:\Development\Projects\IvyTomeeDemo2\make_replacements_log.txt:451: BEFORE|9|<#include "../_footer.ftlh">
+C:\Development\Projects\IvyTomeeDemo2\make_replacements_log.txt:453: UPDATED|C:\Development\Projects\IvyTomeeDemo2\web\WEB-INF\templates\reports\report-summary.ftlh|Replacements:2
+C:\Development\Projects\IvyTomeeDemo2\make_replacements_log.txt:454: BEFORE|2|<#include "../_header.ftlh">
+C:\Development\Projects\IvyTomeeDemo2\make_replacements_log.txt:456: BEFORE|9|<#include "../_footer.ftlh">
+C:\Development\Projects\IvyTomeeDemo2\make_replacements_log.txt:459: BEFORE|2|<#include "../_header.ftlh">
+C:\Development\Projects\IvyTomeeDemo2\make_replacements_log.txt:461: BEFORE|14|<#include "../_footer.ftlh">
+C:\Development\Projects\IvyTomeeDemo2\make_replacements_log.txt:463: UPDATED|C:\Development\Projects\IvyTomeeDemo2\web\WEB-INF\templates\reports\report-system-usage.ftlh|Replacements:2
+C:\Development\Projects\IvyTomeeDemo2\make_replacements_log.txt:464: BEFORE|2|<#include "../_header.ftlh">
+C:\Development\Projects\IvyTomeeDemo2\make_replacements_log.txt:466: BEFORE|14|<#include "../_footer.ftlh">
+C:\Development\Projects\IvyTomeeDemo2\make_replacements_log.txt:469: BEFORE|2|<#include "../_header.ftlh">
+C:\Development\Projects\IvyTomeeDemo2\make_replacements_log.txt:471: BEFORE|13|<#include "../_footer.ftlh">
+C:\Development\Projects\IvyTomeeDemo2\make_replacements_log.txt:473: UPDATED|C:\Development\Projects\IvyTomeeDemo2\web\WEB-INF\templates\reports\report-table.ftlh|Replacements:2
+C:\Development\Projects\IvyTomeeDemo2\make_replacements_log.txt:474: BEFORE|2|<#include "../_header.ftlh">
+C:\Development\Projects\IvyTomeeDemo2\make_replacements_log.txt:476: BEFORE|13|<#include "../_footer.ftlh">
+C:\Development\Projects\IvyTomeeDemo2\make_replacements_log.txt:479: BEFORE|2|<#include "../_header.ftlh">
+C:\Development\Projects\IvyTomeeDemo2\make_replacements_log.txt:481: BEFORE|14|<#include "../_footer.ftlh">
+C:\Development\Projects\IvyTomeeDemo2\make_replacements_log.txt:483: UPDATED|C:\Development\Projects\IvyTomeeDemo2\web\WEB-INF\templates\reports\report-user-activity.ftlh|Replacements:2
+C:\Development\Projects\IvyTomeeDemo2\make_replacements_log.txt:484: BEFORE|2|<#include "../_header.ftlh">
+C:\Development\Projects\IvyTomeeDemo2\make_replacements_log.txt:486: BEFORE|14|<#include "../_footer.ftlh">
+C:\Development\Projects\IvyTomeeDemo2\make_replacements_log.txt:489: BEFORE|2|<#include "../_header.ftlh">
+C:\Development\Projects\IvyTomeeDemo2\make_replacements_log.txt:491: BEFORE|10|<#include "../_footer.ftlh">
+C:\Development\Projects\IvyTomeeDemo2\make_replacements_log.txt:493: UPDATED|C:\Development\Projects\IvyTomeeDemo2\web\WEB-INF\templates\reports\reports.ftlh|Replacements:2
+C:\Development\Projects\IvyTomeeDemo2\make_replacements_log.txt:494: BEFORE|2|<#include "../_header.ftlh">
+C:\Development\Projects\IvyTomeeDemo2\make_replacements_log.txt:496: BEFORE|10|<#include "../_footer.ftlh">
+C:\Development\Projects\IvyTomeeDemo2\make_replacements_log.txt:499: BEFORE|2|<#include "../_header.ftlh">
+C:\Development\Projects\IvyTomeeDemo2\make_replacements_log.txt:501: BEFORE|10|<#include "../_footer.ftlh">
+C:\Development\Projects\IvyTomeeDemo2\make_replacements_log.txt:503: UPDATED|C:\Development\Projects\IvyTomeeDemo2\web\WEB-INF\templates\settings\settings-access.ftlh|Replacements:2
+C:\Development\Projects\IvyTomeeDemo2\make_replacements_log.txt:504: BEFORE|2|<#include "../_header.ftlh">
+C:\Development\Projects\IvyTomeeDemo2\make_replacements_log.txt:506: BEFORE|10|<#include "../_footer.ftlh">
+C:\Development\Projects\IvyTomeeDemo2\make_replacements_log.txt:509: BEFORE|2|<#include "../_header.ftlh">
+C:\Development\Projects\IvyTomeeDemo2\make_replacements_log.txt:511: BEFORE|10|<#include "../_footer.ftlh">
+C:\Development\Projects\IvyTomeeDemo2\make_replacements_log.txt:513: UPDATED|C:\Development\Projects\IvyTomeeDemo2\web\WEB-INF\templates\settings\settings-api.ftlh|Replacements:2
+C:\Development\Projects\IvyTomeeDemo2\make_replacements_log.txt:514: BEFORE|2|<#include "../_header.ftlh">
+C:\Development\Projects\IvyTomeeDemo2\make_replacements_log.txt:516: BEFORE|10|<#include "../_footer.ftlh">
+C:\Development\Projects\IvyTomeeDemo2\make_replacements_log.txt:519: BEFORE|2|<#include "../_header.ftlh">
+C:\Development\Projects\IvyTomeeDemo2\make_replacements_log.txt:521: BEFORE|10|<#include "../_footer.ftlh">
+C:\Development\Projects\IvyTomeeDemo2\make_replacements_log.txt:523: UPDATED|C:\Development\Projects\IvyTomeeDemo2\web\WEB-INF\templates\settings\settings-billing.ftlh|Replacements:2
+C:\Development\Projects\IvyTomeeDemo2\make_replacements_log.txt:524: BEFORE|2|<#include "../_header.ftlh">
+C:\Development\Projects\IvyTomeeDemo2\make_replacements_log.txt:526: BEFORE|10|<#include "../_footer.ftlh">
+C:\Development\Projects\IvyTomeeDemo2\make_replacements_log.txt:529: BEFORE|2|<#include "../_header.ftlh">
+C:\Development\Projects\IvyTomeeDemo2\make_replacements_log.txt:531: BEFORE|7|<#include "../_footer.ftlh">
+C:\Development\Projects\IvyTomeeDemo2\make_replacements_log.txt:533: UPDATED|C:\Development\Projects\IvyTomeeDemo2\web\WEB-INF\templates\settings\settings-delete-account.ftlh|Replacements:2
+C:\Development\Projects\IvyTomeeDemo2\make_replacements_log.txt:534: BEFORE|2|<#include "../_header.ftlh">
+C:\Development\Projects\IvyTomeeDemo2\make_replacements_log.txt:536: BEFORE|7|<#include "../_footer.ftlh">
+C:\Development\Projects\IvyTomeeDemo2\make_replacements_log.txt:539: BEFORE|2|<#include "../_header.ftlh">
+C:\Development\Projects\IvyTomeeDemo2\make_replacements_log.txt:541: BEFORE|10|<#include "../_footer.ftlh">
+C:\Development\Projects\IvyTomeeDemo2\make_replacements_log.txt:543: UPDATED|C:\Development\Projects\IvyTomeeDemo2\web\WEB-INF\templates\settings\settings-integrations.ftlh|Replacements:2
+C:\Development\Projects\IvyTomeeDemo2\make_replacements_log.txt:544: BEFORE|2|<#include "../_header.ftlh">
+C:\Development\Projects\IvyTomeeDemo2\make_replacements_log.txt:546: BEFORE|10|<#include "../_footer.ftlh">
+C:\Development\Projects\IvyTomeeDemo2\make_replacements_log.txt:549: BEFORE|2|<#include "../_header.ftlh">
+C:\Development\Projects\IvyTomeeDemo2\make_replacements_log.txt:551: BEFORE|10|<#include "../_footer.ftlh">
+C:\Development\Projects\IvyTomeeDemo2\make_replacements_log.txt:553: UPDATED|C:\Development\Projects\IvyTomeeDemo2\web\WEB-INF\templates\settings\settings-language.ftlh|Replacements:2
+C:\Development\Projects\IvyTomeeDemo2\make_replacements_log.txt:554: BEFORE|2|<#include "../_header.ftlh">
+C:\Development\Projects\IvyTomeeDemo2\make_replacements_log.txt:556: BEFORE|10|<#include "../_footer.ftlh">
+C:\Development\Projects\IvyTomeeDemo2\make_replacements_log.txt:559: BEFORE|2|<#include "../_header.ftlh">
+C:\Development\Projects\IvyTomeeDemo2\make_replacements_log.txt:561: BEFORE|9|<#include "../_footer.ftlh">
+C:\Development\Projects\IvyTomeeDemo2\make_replacements_log.txt:563: UPDATED|C:\Development\Projects\IvyTomeeDemo2\web\WEB-INF\templates\settings\settings-notifications.ftlh|Replacements:2
+C:\Development\Projects\IvyTomeeDemo2\make_replacements_log.txt:564: BEFORE|2|<#include "../_header.ftlh">
+C:\Development\Projects\IvyTomeeDemo2\make_replacements_log.txt:566: BEFORE|9|<#include "../_footer.ftlh">
+C:\Development\Projects\IvyTomeeDemo2\make_replacements_log.txt:569: BEFORE|2|<#include "../_header.ftlh">
+C:\Development\Projects\IvyTomeeDemo2\make_replacements_log.txt:571: BEFORE|9|<#include "../_footer.ftlh">
+C:\Development\Projects\IvyTomeeDemo2\make_replacements_log.txt:573: UPDATED|C:\Development\Projects\IvyTomeeDemo2\web\WEB-INF\templates\settings\settings-preferences.ftlh|Replacements:2
+C:\Development\Projects\IvyTomeeDemo2\make_replacements_log.txt:574: BEFORE|2|<#include "../_header.ftlh">
+C:\Development\Projects\IvyTomeeDemo2\make_replacements_log.txt:576: BEFORE|9|<#include "../_footer.ftlh">
+C:\Development\Projects\IvyTomeeDemo2\make_replacements_log.txt:579: BEFORE|2|<#include "../_header.ftlh">
+C:\Development\Projects\IvyTomeeDemo2\make_replacements_log.txt:581: BEFORE|9|<#include "../_footer.ftlh">
+C:\Development\Projects\IvyTomeeDemo2\make_replacements_log.txt:583: UPDATED|C:\Development\Projects\IvyTomeeDemo2\web\WEB-INF\templates\settings\settings-privacy.ftlh|Replacements:2
+C:\Development\Projects\IvyTomeeDemo2\make_replacements_log.txt:584: BEFORE|2|<#include "../_header.ftlh">
+C:\Development\Projects\IvyTomeeDemo2\make_replacements_log.txt:586: BEFORE|9|<#include "../_footer.ftlh">
+C:\Development\Projects\IvyTomeeDemo2\make_replacements_log.txt:589: BEFORE|2|<#include "../_header.ftlh">
+C:\Development\Projects\IvyTomeeDemo2\make_replacements_log.txt:591: BEFORE|8|<#include "../_footer.ftlh">
+C:\Development\Projects\IvyTomeeDemo2\make_replacements_log.txt:593: UPDATED|C:\Development\Projects\IvyTomeeDemo2\web\WEB-INF\templates\settings\settings-profile.ftlh|Replacements:2
+C:\Development\Projects\IvyTomeeDemo2\make_replacements_log.txt:594: BEFORE|2|<#include "../_header.ftlh">
+C:\Development\Projects\IvyTomeeDemo2\make_replacements_log.txt:596: BEFORE|8|<#include "../_footer.ftlh">
+C:\Development\Projects\IvyTomeeDemo2\make_replacements_log.txt:599: BEFORE|2|<#include "../_header.ftlh">
+C:\Development\Projects\IvyTomeeDemo2\make_replacements_log.txt:601: BEFORE|9|<#include "../_footer.ftlh">
+C:\Development\Projects\IvyTomeeDemo2\make_replacements_log.txt:603: UPDATED|C:\Development\Projects\IvyTomeeDemo2\web\WEB-INF\templates\settings\settings-security.ftlh|Replacements:2
+C:\Development\Projects\IvyTomeeDemo2\make_replacements_log.txt:604: BEFORE|2|<#include "../_header.ftlh">
+C:\Development\Projects\IvyTomeeDemo2\make_replacements_log.txt:606: BEFORE|9|<#include "../_footer.ftlh">
+C:\Development\Projects\IvyTomeeDemo2\make_replacements_log.txt:609: BEFORE|2|<#include "../_header.ftlh">
+C:\Development\Projects\IvyTomeeDemo2\make_replacements_log.txt:611: BEFORE|10|<#include "../_footer.ftlh">
+C:\Development\Projects\IvyTomeeDemo2\make_replacements_log.txt:613: UPDATED|C:\Development\Projects\IvyTomeeDemo2\web\WEB-INF\templates\settings\settings-subscription.ftlh|Replacements:2
+C:\Development\Projects\IvyTomeeDemo2\make_replacements_log.txt:614: BEFORE|2|<#include "../_header.ftlh">
+C:\Development\Projects\IvyTomeeDemo2\make_replacements_log.txt:616: BEFORE|10|<#include "../_footer.ftlh">
+C:\Development\Projects\IvyTomeeDemo2\make_replacements_log.txt:619: BEFORE|2|<#include "../_header.ftlh">
+C:\Development\Projects\IvyTomeeDemo2\make_replacements_log.txt:621: BEFORE|10|<#include "../_footer.ftlh">
+C:\Development\Projects\IvyTomeeDemo2\make_replacements_log.txt:623: UPDATED|C:\Development\Projects\IvyTomeeDemo2\web\WEB-INF\templates\settings\settings-team.ftlh|Replacements:2
+C:\Development\Projects\IvyTomeeDemo2\make_replacements_log.txt:624: BEFORE|2|<#include "../_header.ftlh">
+C:\Development\Projects\IvyTomeeDemo2\make_replacements_log.txt:626: BEFORE|10|<#include "../_footer.ftlh">
+C:\Development\Projects\IvyTomeeDemo2\make_replacements_log.txt:629: BEFORE|2|<#include "../_header.ftlh">
+C:\Development\Projects\IvyTomeeDemo2\make_replacements_log.txt:631: BEFORE|8|<#include "../_footer.ftlh">
+C:\Development\Projects\IvyTomeeDemo2\make_replacements_log.txt:633: UPDATED|C:\Development\Projects\IvyTomeeDemo2\web\WEB-INF\templates\settings\settings-theme.ftlh|Replacements:2
+C:\Development\Projects\IvyTomeeDemo2\make_replacements_log.txt:634: BEFORE|2|<#include "../_header.ftlh">
+C:\Development\Projects\IvyTomeeDemo2\make_replacements_log.txt:636: BEFORE|8|<#include "../_footer.ftlh">
+C:\Development\Projects\IvyTomeeDemo2\make_replacements_log.txt:639: BEFORE|2|<#include "../_header.ftlh">
+C:\Development\Projects\IvyTomeeDemo2\make_replacements_log.txt:641: BEFORE|9|<#include "../_footer.ftlh">
+C:\Development\Projects\IvyTomeeDemo2\make_replacements_log.txt:643: UPDATED|C:\Development\Projects\IvyTomeeDemo2\web\WEB-INF\templates\settings\settings.ftlh|Replacements:2
+C:\Development\Projects\IvyTomeeDemo2\make_replacements_log.txt:644: BEFORE|2|<#include "../_header.ftlh">
+C:\Development\Projects\IvyTomeeDemo2\make_replacements_log.txt:646: BEFORE|9|<#include "../_footer.ftlh">
+C:\Development\Projects\IvyTomeeDemo2\make_replacements_log.txt:649: BEFORE|2|<#include "../_header.ftlh">
+C:\Development\Projects\IvyTomeeDemo2\make_replacements_log.txt:651: BEFORE|9|<#include "../_footer.ftlh">
+C:\Development\Projects\IvyTomeeDemo2\make_replacements_log.txt:653: UPDATED|C:\Development\Projects\IvyTomeeDemo2\web\WEB-INF\templates\user\change-password.ftlh|Replacements:2
+C:\Development\Projects\IvyTomeeDemo2\make_replacements_log.txt:654: BEFORE|2|<#include "../_header.ftlh">
+C:\Development\Projects\IvyTomeeDemo2\make_replacements_log.txt:656: BEFORE|9|<#include "../_footer.ftlh">
+C:\Development\Projects\IvyTomeeDemo2\make_replacements_log.txt:659: BEFORE|2|<#include "../_header.ftlh">
+C:\Development\Projects\IvyTomeeDemo2\make_replacements_log.txt:661: BEFORE|9|<#include "../_footer.ftlh">
+C:\Development\Projects\IvyTomeeDemo2\make_replacements_log.txt:663: UPDATED|C:\Development\Projects\IvyTomeeDemo2\web\WEB-INF\templates\user\edit-profile.ftlh|Replacements:2
+C:\Development\Projects\IvyTomeeDemo2\make_replacements_log.txt:664: BEFORE|2|<#include "../_header.ftlh">
+C:\Development\Projects\IvyTomeeDemo2\make_replacements_log.txt:666: BEFORE|9|<#include "../_footer.ftlh">
+C:\Development\Projects\IvyTomeeDemo2\make_replacements_log.txt:669: BEFORE|2|<#include "../_header.ftlh">
+C:\Development\Projects\IvyTomeeDemo2\make_replacements_log.txt:671: BEFORE|8|<#include "../_footer.ftlh">
+C:\Development\Projects\IvyTomeeDemo2\make_replacements_log.txt:673: UPDATED|C:\Development\Projects\IvyTomeeDemo2\web\WEB-INF\templates\user\forgot-password.ftlh|Replacements:2
+C:\Development\Projects\IvyTomeeDemo2\make_replacements_log.txt:674: BEFORE|2|<#include "../_header.ftlh">
+C:\Development\Projects\IvyTomeeDemo2\make_replacements_log.txt:676: BEFORE|8|<#include "../_footer.ftlh">
+C:\Development\Projects\IvyTomeeDemo2\make_replacements_log.txt:679: BEFORE|2|<#include "../_header.ftlh">
+C:\Development\Projects\IvyTomeeDemo2\make_replacements_log.txt:681: BEFORE|8|<#include "../_footer.ftlh">
+C:\Development\Projects\IvyTomeeDemo2\make_replacements_log.txt:683: UPDATED|C:\Development\Projects\IvyTomeeDemo2\web\WEB-INF\templates\user\profile.ftlh|Replacements:2
+C:\Development\Projects\IvyTomeeDemo2\make_replacements_log.txt:684: BEFORE|2|<#include "../_header.ftlh">
+C:\Development\Projects\IvyTomeeDemo2\make_replacements_log.txt:686: BEFORE|8|<#include "../_footer.ftlh">
+C:\Development\Projects\IvyTomeeDemo2\make_replacements_log.txt:689: BEFORE|2|<#include "../_header.ftlh">
+C:\Development\Projects\IvyTomeeDemo2\make_replacements_log.txt:691: BEFORE|10|<#include "../_footer.ftlh">
+C:\Development\Projects\IvyTomeeDemo2\make_replacements_log.txt:693: UPDATED|C:\Development\Projects\IvyTomeeDemo2\web\WEB-INF\templates\user\register.ftlh|Replacements:2
+C:\Development\Projects\IvyTomeeDemo2\make_replacements_log.txt:694: BEFORE|2|<#include "../_header.ftlh">
+C:\Development\Projects\IvyTomeeDemo2\make_replacements_log.txt:696: BEFORE|10|<#include "../_footer.ftlh">
+C:\Development\Projects\IvyTomeeDemo2\make_replacements_log.txt:699: BEFORE|2|<#include "../_header.ftlh">
+C:\Development\Projects\IvyTomeeDemo2\make_replacements_log.txt:701: BEFORE|9|<#include "../_footer.ftlh">
+C:\Development\Projects\IvyTomeeDemo2\make_replacements_log.txt:703: UPDATED|C:\Development\Projects\IvyTomeeDemo2\web\WEB-INF\templates\user\user-activity.ftlh|Replacements:2
+C:\Development\Projects\IvyTomeeDemo2\make_replacements_log.txt:704: BEFORE|2|<#include "../_header.ftlh">
+C:\Development\Projects\IvyTomeeDemo2\make_replacements_log.txt:706: BEFORE|9|<#include "../_footer.ftlh">
+C:\Development\Projects\IvyTomeeDemo2\make_replacements_log.txt:709: BEFORE|2|<#include "../_header.ftlh">
+C:\Development\Projects\IvyTomeeDemo2\make_replacements_log.txt:711: BEFORE|8|<#include "../_footer.ftlh">
+C:\Development\Projects\IvyTomeeDemo2\make_replacements_log.txt:713: UPDATED|C:\Development\Projects\IvyTomeeDemo2\web\WEB-INF\templates\user\user-avatar-upload.ftlh|Replacements:2
+C:\Development\Projects\IvyTomeeDemo2\make_replacements_log.txt:714: BEFORE|2|<#include "../_header.ftlh">
+C:\Development\Projects\IvyTomeeDemo2\make_replacements_log.txt:716: BEFORE|8|<#include "../_footer.ftlh">
+C:\Development\Projects\IvyTomeeDemo2\make_replacements_log.txt:719: BEFORE|2|<#include "../_header.ftlh">
+C:\Development\Projects\IvyTomeeDemo2\make_replacements_log.txt:721: BEFORE|9|<#include "../_footer.ftlh">
+C:\Development\Projects\IvyTomeeDemo2\make_replacements_log.txt:723: UPDATED|C:\Development\Projects\IvyTomeeDemo2\web\WEB-INF\templates\user\user-dashboard-quicklinks.ftlh|Replacements:2
+C:\Development\Projects\IvyTomeeDemo2\make_replacements_log.txt:724: BEFORE|2|<#include "../_header.ftlh">
+C:\Development\Projects\IvyTomeeDemo2\make_replacements_log.txt:726: BEFORE|9|<#include "../_footer.ftlh">
+C:\Development\Projects\IvyTomeeDemo2\make_replacements_log.txt:729: BEFORE|2|<#include "../_header.ftlh">
+C:\Development\Projects\IvyTomeeDemo2\make_replacements_log.txt:731: BEFORE|9|<#include "../_footer.ftlh">
+C:\Development\Projects\IvyTomeeDemo2\make_replacements_log.txt:733: UPDATED|C:\Development\Projects\IvyTomeeDemo2\web\WEB-INF\templates\user\user-dashboard-stats.ftlh|Replacements:2
+C:\Development\Projects\IvyTomeeDemo2\make_replacements_log.txt:734: BEFORE|2|<#include "../_header.ftlh">
+C:\Development\Projects\IvyTomeeDemo2\make_replacements_log.txt:736: BEFORE|9|<#include "../_footer.ftlh">
+C:\Development\Projects\IvyTomeeDemo2\make_replacements_log.txt:739: BEFORE|2|<#include "../_header.ftlh">
+C:\Development\Projects\IvyTomeeDemo2\make_replacements_log.txt:741: BEFORE|9|<#include "../_footer.ftlh">
+C:\Development\Projects\IvyTomeeDemo2\make_replacements_log.txt:743: UPDATED|C:\Development\Projects\IvyTomeeDemo2\web\WEB-INF\templates\user\user-dashboard-widgets.ftlh|Replacements:2
+C:\Development\Projects\IvyTomeeDemo2\make_replacements_log.txt:744: BEFORE|2|<#include "../_header.ftlh">
+C:\Development\Projects\IvyTomeeDemo2\make_replacements_log.txt:746: BEFORE|9|<#include "../_footer.ftlh">
+C:\Development\Projects\IvyTomeeDemo2\make_replacements_log.txt:749: BEFORE|2|<#include "../_header.ftlh">
+C:\Development\Projects\IvyTomeeDemo2\make_replacements_log.txt:751: BEFORE|9|<#include "../_footer.ftlh">
+C:\Development\Projects\IvyTomeeDemo2\make_replacements_log.txt:753: UPDATED|C:\Development\Projects\IvyTomeeDemo2\web\WEB-INF\templates\user\user-dashboard.ftlh|Replacements:2
+C:\Development\Projects\IvyTomeeDemo2\make_replacements_log.txt:754: BEFORE|2|<#include "../_header.ftlh">
+C:\Development\Projects\IvyTomeeDemo2\make_replacements_log.txt:756: BEFORE|9|<#include "../_footer.ftlh">
+C:\Development\Projects\IvyTomeeDemo2\make_replacements_log.txt:759: BEFORE|2|<#include "../_header.ftlh">
+C:\Development\Projects\IvyTomeeDemo2\make_replacements_log.txt:761: BEFORE|7|<#include "../_footer.ftlh">
+C:\Development\Projects\IvyTomeeDemo2\make_replacements_log.txt:763: UPDATED|C:\Development\Projects\IvyTomeeDemo2\web\WEB-INF\templates\user\user-delete-account.ftlh|Replacements:2
+C:\Development\Projects\IvyTomeeDemo2\make_replacements_log.txt:764: BEFORE|2|<#include "../_header.ftlh">
+C:\Development\Projects\IvyTomeeDemo2\make_replacements_log.txt:766: BEFORE|7|<#include "../_footer.ftlh">
+C:\Development\Projects\IvyTomeeDemo2\make_replacements_log.txt:769: BEFORE|2|<#include "../_header.ftlh">
+C:\Development\Projects\IvyTomeeDemo2\make_replacements_log.txt:771: BEFORE|9|<#include "../_footer.ftlh">
+C:\Development\Projects\IvyTomeeDemo2\make_replacements_log.txt:773: UPDATED|C:\Development\Projects\IvyTomeeDemo2\web\WEB-INF\templates\user\user-notifications.ftlh|Replacements:2
+C:\Development\Projects\IvyTomeeDemo2\make_replacements_log.txt:774: BEFORE|2|<#include "../_header.ftlh">
+C:\Development\Projects\IvyTomeeDemo2\make_replacements_log.txt:776: BEFORE|9|<#include "../_footer.ftlh">
+C:\Development\Projects\IvyTomeeDemo2\make_replacements_log.txt:779: BEFORE|2|<#include "../_header.ftlh">
+C:\Development\Projects\IvyTomeeDemo2\make_replacements_log.txt:781: BEFORE|9|<#include "../_footer.ftlh">
+C:\Development\Projects\IvyTomeeDemo2\make_replacements_log.txt:783: UPDATED|C:\Development\Projects\IvyTomeeDemo2\web\WEB-INF\templates\user\user-preferences.ftlh|Replacements:2
+C:\Development\Projects\IvyTomeeDemo2\make_replacements_log.txt:784: BEFORE|2|<#include "../_header.ftlh">
+C:\Development\Projects\IvyTomeeDemo2\make_replacements_log.txt:786: BEFORE|9|<#include "../_footer.ftlh">

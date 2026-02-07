@@ -29,7 +29,7 @@ public final class LoginServlet extends HttpServlet {
     pmLogin.setRequestContextPath(request.getContextPath());
     HashMap<String, Object> root = new HashMap<>();
     root.put("pmLogin", pmLogin);
-    ServletHelper.putPage(response, root, "login.ftlh");
+    ServletHelper.putPage(response, root, "login.ftl");
   }
 
   @Override
@@ -47,8 +47,9 @@ public final class LoginServlet extends HttpServlet {
       pmLogin.setRequestContextPath(request.getContextPath());
       HashMap<String, Object> root = new HashMap<>();
       root.put("pmLogin", pmLogin);
-      ServletHelper.putPage(response, root, "login.ftlh");
+      ServletHelper.putPage(response, root, "login.ftl");
     }
   }
 
 }
+

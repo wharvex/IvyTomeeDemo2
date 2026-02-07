@@ -1,0 +1,787 @@
+
+UPDATED|C:\Development\Projects\IvyTomeeDemo2\make_replacements_dryrun.txt|Replacements:387
+BEFORE|3|OLD|19|- Create a new FTLH file for the page, name it `${BaseName}.ftlh`, and put it in the `${FtlhDirectory}` directory. If this directory does not exist, create it.
+AFTER|3|OLD|19|- Create a new FTLH file for the page, name it `${BaseName}.ftl`, and put it in the `${FtlhDirectory}` directory. If this directory does not exist, create it.
+BEFORE|4|WILL_UPDATE|C:\Development\Projects\IvyTomeeDemo2\build\WEB-INF\templates\error.ftlh|Matches:1
+AFTER|4|WILL_UPDATE|C:\Development\Projects\IvyTomeeDemo2\build\WEB-INF\templates\error.ftl|Matches:1
+BEFORE|5|OLD|2|<#include "_complex_macros.ftlh">
+AFTER|5|OLD|2|<#include "_complex_macros.ftl">
+BEFORE|6|WILL_UPDATE|C:\Development\Projects\IvyTomeeDemo2\build\WEB-INF\templates\hello.ftlh|Matches:1
+AFTER|6|WILL_UPDATE|C:\Development\Projects\IvyTomeeDemo2\build\WEB-INF\templates\hello.ftl|Matches:1
+BEFORE|7|OLD|2|<#include "_complex_macros.ftlh">
+AFTER|7|OLD|2|<#include "_complex_macros.ftl">
+UPDATED|C:\Development\Projects\IvyTomeeDemo2\.github\prompts\new_page.prompt.md|Replacements:1
+BEFORE|19|- Create a new FTLH file for the page, name it `${BaseName}.ftlh`, and put it in the `${FtlhDirectory}` directory. If this directory does not exist, create it.
+AFTER|19|- Create a new FTLH file for the page, name it `${BaseName}.ftl`, and put it in the `${FtlhDirectory}` directory. If this directory does not exist, create it.
+UPDATED|C:\Development\Projects\IvyTomeeDemo2\build\WEB-INF\templates\error.ftlh|Replacements:1
+BEFORE|2|<#include "_complex_macros.ftlh">
+AFTER|2|<#include "_complex_macros.ftl">
+UPDATED|C:\Development\Projects\IvyTomeeDemo2\build\WEB-INF\templates\hello.ftlh|Replacements:1
+BEFORE|2|<#include "_complex_macros.ftlh">
+AFTER|2|<#include "_complex_macros.ftl">
+UPDATED|C:\Development\Projects\IvyTomeeDemo2\build\WEB-INF\templates\login.ftlh|Replacements:1
+BEFORE|2|<#include "_complex_macros.ftlh">
+AFTER|2|<#include "_complex_macros.ftl">
+UPDATED|C:\Development\Projects\IvyTomeeDemo2\build\WEB-INF\templates\register.ftlh|Replacements:1
+BEFORE|1|<#include "_complex_macros.ftlh">
+AFTER|1|<#include "_complex_macros.ftl">
+UPDATED|C:\Development\Projects\IvyTomeeDemo2\src\mypackage\servlet\ErrorServlet.java|Replacements:1
+BEFORE|43|    ServletHelper.putPage(p_response, rootMap, "error.ftlh");
+AFTER|43|    ServletHelper.putPage(p_response, rootMap, "error.ftl");
+UPDATED|C:\Development\Projects\IvyTomeeDemo2\src\mypackage\servlet\HelloServlet.java|Replacements:1
+BEFORE|45|    ServletHelper.putPage(p_response, rootMap, "hello.ftlh");
+AFTER|45|    ServletHelper.putPage(p_response, rootMap, "hello.ftl");
+UPDATED|C:\Development\Projects\IvyTomeeDemo2\src\mypackage\servlet\LoginServlet.java|Replacements:2
+BEFORE|32|    ServletHelper.putPage(response, root, "login.ftlh");
+AFTER|32|    ServletHelper.putPage(response, root, "login.ftl");
+BEFORE|50|      ServletHelper.putPage(response, root, "login.ftlh");
+AFTER|50|      ServletHelper.putPage(response, root, "login.ftl");
+UPDATED|C:\Development\Projects\IvyTomeeDemo2\src\mypackage\servlet\RegisterServlet.java|Replacements:2
+BEFORE|32|    ServletHelper.putPage(response, root, "register.ftlh");
+AFTER|32|    ServletHelper.putPage(response, root, "register.ftl");
+BEFORE|49|      ServletHelper.putPage(resp, root, "register.ftlh");
+AFTER|49|      ServletHelper.putPage(resp, root, "register.ftl");
+UPDATED|C:\Development\Projects\IvyTomeeDemo2\web\WEB-INF\templates\about.ftl|Replacements:2
+BEFORE|2|<#include "_header.ftlh">
+AFTER|2|<#include "_header.ftl">
+BEFORE|12|<#include "_footer.ftlh">
+AFTER|12|<#include "_footer.ftl">
+UPDATED|C:\Development\Projects\IvyTomeeDemo2\web\WEB-INF\templates\about.ftlh|Replacements:2
+BEFORE|2|<#include "_header.ftlh">
+AFTER|2|<#include "_header.ftl">
+BEFORE|12|<#include "_footer.ftlh">
+AFTER|12|<#include "_footer.ftl">
+UPDATED|C:\Development\Projects\IvyTomeeDemo2\web\WEB-INF\templates\contact.ftl|Replacements:2
+BEFORE|2|<#include "_header.ftlh">
+AFTER|2|<#include "_header.ftl">
+BEFORE|11|<#include "_footer.ftlh">
+AFTER|11|<#include "_footer.ftl">
+UPDATED|C:\Development\Projects\IvyTomeeDemo2\web\WEB-INF\templates\contact.ftlh|Replacements:2
+BEFORE|2|<#include "_header.ftlh">
+AFTER|2|<#include "_header.ftl">
+BEFORE|11|<#include "_footer.ftlh">
+AFTER|11|<#include "_footer.ftl">
+UPDATED|C:\Development\Projects\IvyTomeeDemo2\web\WEB-INF\templates\error.ftl|Replacements:1
+BEFORE|2|<#include "_complex_macros.ftlh">
+AFTER|2|<#include "_complex_macros.ftl">
+UPDATED|C:\Development\Projects\IvyTomeeDemo2\web\WEB-INF\templates\error.ftlh|Replacements:1
+BEFORE|2|<#include "_complex_macros.ftlh">
+AFTER|2|<#include "_complex_macros.ftl">
+UPDATED|C:\Development\Projects\IvyTomeeDemo2\web\WEB-INF\templates\faq.ftl|Replacements:2
+BEFORE|2|<#include "_header.ftlh">
+AFTER|2|<#include "_header.ftl">
+BEFORE|10|<#include "_footer.ftlh">
+AFTER|10|<#include "_footer.ftl">
+UPDATED|C:\Development\Projects\IvyTomeeDemo2\web\WEB-INF\templates\faq.ftlh|Replacements:2
+BEFORE|2|<#include "_header.ftlh">
+AFTER|2|<#include "_header.ftl">
+BEFORE|10|<#include "_footer.ftlh">
+AFTER|10|<#include "_footer.ftl">
+UPDATED|C:\Development\Projects\IvyTomeeDemo2\web\WEB-INF\templates\hello.ftl|Replacements:1
+BEFORE|2|<#include "_complex_macros.ftlh">
+AFTER|2|<#include "_complex_macros.ftl">
+UPDATED|C:\Development\Projects\IvyTomeeDemo2\web\WEB-INF\templates\hello.ftlh|Replacements:1
+BEFORE|2|<#include "_complex_macros.ftlh">
+AFTER|2|<#include "_complex_macros.ftl">
+UPDATED|C:\Development\Projects\IvyTomeeDemo2\web\WEB-INF\templates\home.ftl|Replacements:2
+BEFORE|2|<#include "_header.ftlh">
+AFTER|2|<#include "_header.ftl">
+BEFORE|18|<#include "_footer.ftlh">
+AFTER|18|<#include "_footer.ftl">
+UPDATED|C:\Development\Projects\IvyTomeeDemo2\web\WEB-INF\templates\home.ftlh|Replacements:2
+BEFORE|2|<#include "_header.ftlh">
+AFTER|2|<#include "_header.ftl">
+BEFORE|18|<#include "_footer.ftlh">
+AFTER|18|<#include "_footer.ftl">
+UPDATED|C:\Development\Projects\IvyTomeeDemo2\web\WEB-INF\templates\login.ftl|Replacements:1
+BEFORE|1|<#include "_complex_macros.ftlh">
+AFTER|1|<#include "_complex_macros.ftl">
+UPDATED|C:\Development\Projects\IvyTomeeDemo2\web\WEB-INF\templates\login.ftlh|Replacements:1
+BEFORE|1|<#include "_complex_macros.ftlh">
+AFTER|1|<#include "_complex_macros.ftl">
+UPDATED|C:\Development\Projects\IvyTomeeDemo2\web\WEB-INF\templates\privacy.ftl|Replacements:2
+BEFORE|2|<#include "_header.ftlh">
+AFTER|2|<#include "_header.ftl">
+BEFORE|10|<#include "_footer.ftlh">
+AFTER|10|<#include "_footer.ftl">
+UPDATED|C:\Development\Projects\IvyTomeeDemo2\web\WEB-INF\templates\privacy.ftlh|Replacements:2
+BEFORE|2|<#include "_header.ftlh">
+AFTER|2|<#include "_header.ftl">
+BEFORE|10|<#include "_footer.ftlh">
+AFTER|10|<#include "_footer.ftl">
+UPDATED|C:\Development\Projects\IvyTomeeDemo2\web\WEB-INF\templates\register.ftl|Replacements:1
+BEFORE|3|<#include "_complex_macros.ftlh">
+AFTER|3|<#include "_complex_macros.ftl">
+UPDATED|C:\Development\Projects\IvyTomeeDemo2\web\WEB-INF\templates\register.ftlh|Replacements:1
+BEFORE|3|<#include "_complex_macros.ftlh">
+AFTER|3|<#include "_complex_macros.ftl">
+UPDATED|C:\Development\Projects\IvyTomeeDemo2\web\WEB-INF\templates\terms.ftl|Replacements:2
+BEFORE|2|<#include "_header.ftlh">
+AFTER|2|<#include "_header.ftl">
+BEFORE|10|<#include "_footer.ftlh">
+AFTER|10|<#include "_footer.ftl">
+UPDATED|C:\Development\Projects\IvyTomeeDemo2\web\WEB-INF\templates\terms.ftlh|Replacements:2
+BEFORE|2|<#include "_header.ftlh">
+AFTER|2|<#include "_header.ftl">
+BEFORE|10|<#include "_footer.ftlh">
+AFTER|10|<#include "_footer.ftl">
+UPDATED|C:\Development\Projects\IvyTomeeDemo2\web\WEB-INF\templates\admin\admin-audit.ftl|Replacements:2
+BEFORE|2|<#include "../_header.ftlh">
+AFTER|2|<#include "../_header.ftl">
+BEFORE|14|<#include "../_footer.ftlh">
+AFTER|14|<#include "../_footer.ftl">
+UPDATED|C:\Development\Projects\IvyTomeeDemo2\web\WEB-INF\templates\admin\admin-audit.ftlh|Replacements:2
+BEFORE|2|<#include "../_header.ftlh">
+AFTER|2|<#include "../_header.ftl">
+BEFORE|14|<#include "../_footer.ftlh">
+AFTER|14|<#include "../_footer.ftl">
+UPDATED|C:\Development\Projects\IvyTomeeDemo2\web\WEB-INF\templates\admin\admin-dashboard-quicklinks.ftl|Replacements:2
+BEFORE|2|<#include "../_header.ftlh">
+AFTER|2|<#include "../_header.ftl">
+BEFORE|9|<#include "../_footer.ftlh">
+AFTER|9|<#include "../_footer.ftl">
+UPDATED|C:\Development\Projects\IvyTomeeDemo2\web\WEB-INF\templates\admin\admin-dashboard-quicklinks.ftlh|Replacements:2
+BEFORE|2|<#include "../_header.ftlh">
+AFTER|2|<#include "../_header.ftl">
+BEFORE|9|<#include "../_footer.ftlh">
+AFTER|9|<#include "../_footer.ftl">
+UPDATED|C:\Development\Projects\IvyTomeeDemo2\web\WEB-INF\templates\admin\admin-dashboard-stats.ftl|Replacements:2
+BEFORE|2|<#include "../_header.ftlh">
+AFTER|2|<#include "../_header.ftl">
+BEFORE|9|<#include "../_footer.ftlh">
+AFTER|9|<#include "../_footer.ftl">
+UPDATED|C:\Development\Projects\IvyTomeeDemo2\web\WEB-INF\templates\admin\admin-dashboard-stats.ftlh|Replacements:2
+BEFORE|2|<#include "../_header.ftlh">
+AFTER|2|<#include "../_header.ftl">
+BEFORE|9|<#include "../_footer.ftlh">
+AFTER|9|<#include "../_footer.ftl">
+UPDATED|C:\Development\Projects\IvyTomeeDemo2\web\WEB-INF\templates\admin\admin-dashboard-widgets.ftl|Replacements:2
+BEFORE|2|<#include "../_header.ftlh">
+AFTER|2|<#include "../_header.ftl">
+BEFORE|9|<#include "../_footer.ftlh">
+AFTER|9|<#include "../_footer.ftl">
+UPDATED|C:\Development\Projects\IvyTomeeDemo2\web\WEB-INF\templates\admin\admin-dashboard-widgets.ftlh|Replacements:2
+BEFORE|2|<#include "../_header.ftlh">
+AFTER|2|<#include "../_header.ftl">
+BEFORE|9|<#include "../_footer.ftlh">
+AFTER|9|<#include "../_footer.ftl">
+UPDATED|C:\Development\Projects\IvyTomeeDemo2\web\WEB-INF\templates\admin\admin-dashboard.ftl|Replacements:2
+BEFORE|2|<#include "../_header.ftlh">
+AFTER|2|<#include "../_header.ftl">
+BEFORE|13|<#include "../_footer.ftlh">
+AFTER|13|<#include "../_footer.ftl">
+UPDATED|C:\Development\Projects\IvyTomeeDemo2\web\WEB-INF\templates\admin\admin-dashboard.ftlh|Replacements:2
+BEFORE|2|<#include "../_header.ftlh">
+AFTER|2|<#include "../_header.ftl">
+BEFORE|13|<#include "../_footer.ftlh">
+AFTER|13|<#include "../_footer.ftl">
+UPDATED|C:\Development\Projects\IvyTomeeDemo2\web\WEB-INF\templates\admin\admin-logs.ftl|Replacements:2
+BEFORE|2|<#include "../_header.ftlh">
+AFTER|2|<#include "../_header.ftl">
+BEFORE|14|<#include "../_footer.ftlh">
+AFTER|14|<#include "../_footer.ftl">
+UPDATED|C:\Development\Projects\IvyTomeeDemo2\web\WEB-INF\templates\admin\admin-logs.ftlh|Replacements:2
+BEFORE|2|<#include "../_header.ftlh">
+AFTER|2|<#include "../_header.ftl">
+BEFORE|14|<#include "../_footer.ftlh">
+AFTER|14|<#include "../_footer.ftl">
+UPDATED|C:\Development\Projects\IvyTomeeDemo2\web\WEB-INF\templates\admin\admin-permissions.ftl|Replacements:2
+BEFORE|2|<#include "../_header.ftlh">
+AFTER|2|<#include "../_header.ftl">
+BEFORE|10|<#include "../_footer.ftlh">
+AFTER|10|<#include "../_footer.ftl">
+UPDATED|C:\Development\Projects\IvyTomeeDemo2\web\WEB-INF\templates\admin\admin-permissions.ftlh|Replacements:2
+BEFORE|2|<#include "../_header.ftlh">
+AFTER|2|<#include "../_header.ftl">
+BEFORE|10|<#include "../_footer.ftlh">
+AFTER|10|<#include "../_footer.ftl">
+UPDATED|C:\Development\Projects\IvyTomeeDemo2\web\WEB-INF\templates\admin\admin-role-edit.ftl|Replacements:2
+BEFORE|2|<#include "../_header.ftlh">
+AFTER|2|<#include "../_header.ftl">
+BEFORE|8|<#include "../_footer.ftlh">
+AFTER|8|<#include "../_footer.ftl">
+UPDATED|C:\Development\Projects\IvyTomeeDemo2\web\WEB-INF\templates\admin\admin-role-edit.ftlh|Replacements:2
+BEFORE|2|<#include "../_header.ftlh">
+AFTER|2|<#include "../_header.ftl">
+BEFORE|8|<#include "../_footer.ftlh">
+AFTER|8|<#include "../_footer.ftl">
+UPDATED|C:\Development\Projects\IvyTomeeDemo2\web\WEB-INF\templates\admin\admin-roles.ftl|Replacements:2
+BEFORE|2|<#include "../_header.ftlh">
+AFTER|2|<#include "../_header.ftl">
+BEFORE|10|<#include "../_footer.ftlh">
+AFTER|10|<#include "../_footer.ftl">
+UPDATED|C:\Development\Projects\IvyTomeeDemo2\web\WEB-INF\templates\admin\admin-roles.ftlh|Replacements:2
+BEFORE|2|<#include "../_header.ftlh">
+AFTER|2|<#include "../_header.ftl">
+BEFORE|10|<#include "../_footer.ftlh">
+AFTER|10|<#include "../_footer.ftl">
+UPDATED|C:\Development\Projects\IvyTomeeDemo2\web\WEB-INF\templates\admin\admin-settings.ftl|Replacements:2
+BEFORE|2|<#include "../_header.ftlh">
+AFTER|2|<#include "../_header.ftl">
+BEFORE|9|<#include "../_footer.ftlh">
+AFTER|9|<#include "../_footer.ftl">
+UPDATED|C:\Development\Projects\IvyTomeeDemo2\web\WEB-INF\templates\admin\admin-settings.ftlh|Replacements:2
+BEFORE|2|<#include "../_header.ftlh">
+AFTER|2|<#include "../_header.ftl">
+BEFORE|9|<#include "../_footer.ftlh">
+AFTER|9|<#include "../_footer.ftl">
+UPDATED|C:\Development\Projects\IvyTomeeDemo2\web\WEB-INF\templates\admin\admin-user-create.ftl|Replacements:2
+BEFORE|2|<#include "../_header.ftlh">
+AFTER|2|<#include "../_header.ftl">
+BEFORE|9|<#include "../_footer.ftlh">
+AFTER|9|<#include "../_footer.ftl">
+UPDATED|C:\Development\Projects\IvyTomeeDemo2\web\WEB-INF\templates\admin\admin-user-create.ftlh|Replacements:2
+BEFORE|2|<#include "../_header.ftlh">
+AFTER|2|<#include "../_header.ftl">
+BEFORE|9|<#include "../_footer.ftlh">
+AFTER|9|<#include "../_footer.ftl">
+UPDATED|C:\Development\Projects\IvyTomeeDemo2\web\WEB-INF\templates\admin\admin-user-delete.ftl|Replacements:2
+BEFORE|2|<#include "../_header.ftlh">
+AFTER|2|<#include "../_header.ftl">
+BEFORE|7|<#include "../_footer.ftlh">
+AFTER|7|<#include "../_footer.ftl">
+UPDATED|C:\Development\Projects\IvyTomeeDemo2\web\WEB-INF\templates\admin\admin-user-delete.ftlh|Replacements:2
+BEFORE|2|<#include "../_header.ftlh">
+AFTER|2|<#include "../_header.ftl">
+BEFORE|7|<#include "../_footer.ftlh">
+AFTER|7|<#include "../_footer.ftl">
+UPDATED|C:\Development\Projects\IvyTomeeDemo2\web\WEB-INF\templates\admin\admin-user-edit.ftl|Replacements:2
+BEFORE|2|<#include "../_header.ftlh">
+AFTER|2|<#include "../_header.ftl">
+BEFORE|9|<#include "../_footer.ftlh">
+AFTER|9|<#include "../_footer.ftl">
+UPDATED|C:\Development\Projects\IvyTomeeDemo2\web\WEB-INF\templates\admin\admin-user-edit.ftlh|Replacements:2
+BEFORE|2|<#include "../_header.ftlh">
+AFTER|2|<#include "../_header.ftl">
+BEFORE|9|<#include "../_footer.ftlh">
+AFTER|9|<#include "../_footer.ftl">
+UPDATED|C:\Development\Projects\IvyTomeeDemo2\web\WEB-INF\templates\admin\admin-users.ftl|Replacements:2
+BEFORE|2|<#include "../_header.ftlh">
+AFTER|2|<#include "../_header.ftl">
+BEFORE|14|<#include "../_footer.ftlh">
+AFTER|14|<#include "../_footer.ftl">
+UPDATED|C:\Development\Projects\IvyTomeeDemo2\web\WEB-INF\templates\admin\admin-users.ftlh|Replacements:2
+BEFORE|2|<#include "../_header.ftlh">
+AFTER|2|<#include "../_header.ftl">
+BEFORE|14|<#include "../_footer.ftlh">
+AFTER|14|<#include "../_footer.ftl">
+UPDATED|C:\Development\Projects\IvyTomeeDemo2\web\WEB-INF\templates\dashboard\dashboard-activity.ftl|Replacements:2
+BEFORE|2|<#include "../_header.ftlh">
+AFTER|2|<#include "../_header.ftl">
+BEFORE|9|<#include "../_footer.ftlh">
+AFTER|9|<#include "../_footer.ftl">
+UPDATED|C:\Development\Projects\IvyTomeeDemo2\web\WEB-INF\templates\dashboard\dashboard-activity.ftlh|Replacements:2
+BEFORE|2|<#include "../_header.ftlh">
+AFTER|2|<#include "../_header.ftl">
+BEFORE|9|<#include "../_footer.ftlh">
+AFTER|9|<#include "../_footer.ftl">
+UPDATED|C:\Development\Projects\IvyTomeeDemo2\web\WEB-INF\templates\dashboard\dashboard-calendar.ftl|Replacements:2
+BEFORE|2|<#include "../_header.ftlh">
+AFTER|2|<#include "../_header.ftl">
+BEFORE|9|<#include "../_footer.ftlh">
+AFTER|9|<#include "../_footer.ftl">
+UPDATED|C:\Development\Projects\IvyTomeeDemo2\web\WEB-INF\templates\dashboard\dashboard-calendar.ftlh|Replacements:2
+BEFORE|2|<#include "../_header.ftlh">
+AFTER|2|<#include "../_header.ftl">
+BEFORE|9|<#include "../_footer.ftlh">
+AFTER|9|<#include "../_footer.ftl">
+UPDATED|C:\Development\Projects\IvyTomeeDemo2\web\WEB-INF\templates\dashboard\dashboard-messages.ftl|Replacements:2
+BEFORE|2|<#include "../_header.ftlh">
+AFTER|2|<#include "../_header.ftl">
+BEFORE|9|<#include "../_footer.ftlh">
+AFTER|9|<#include "../_footer.ftl">
+UPDATED|C:\Development\Projects\IvyTomeeDemo2\web\WEB-INF\templates\dashboard\dashboard-messages.ftlh|Replacements:2
+BEFORE|2|<#include "../_header.ftlh">
+AFTER|2|<#include "../_header.ftl">
+BEFORE|9|<#include "../_footer.ftlh">
+AFTER|9|<#include "../_footer.ftl">
+UPDATED|C:\Development\Projects\IvyTomeeDemo2\web\WEB-INF\templates\dashboard\dashboard-notifications.ftl|Replacements:2
+BEFORE|2|<#include "../_header.ftlh">
+AFTER|2|<#include "../_header.ftl">
+BEFORE|9|<#include "../_footer.ftlh">
+AFTER|9|<#include "../_footer.ftl">
+UPDATED|C:\Development\Projects\IvyTomeeDemo2\web\WEB-INF\templates\dashboard\dashboard-notifications.ftlh|Replacements:2
+BEFORE|2|<#include "../_header.ftlh">
+AFTER|2|<#include "../_header.ftl">
+BEFORE|9|<#include "../_footer.ftlh">
+AFTER|9|<#include "../_footer.ftl">
+UPDATED|C:\Development\Projects\IvyTomeeDemo2\web\WEB-INF\templates\dashboard\dashboard-overview.ftl|Replacements:2
+BEFORE|2|<#include "../_header.ftlh">
+AFTER|2|<#include "../_header.ftl">
+BEFORE|10|<#include "../_footer.ftlh">
+AFTER|10|<#include "../_footer.ftl">
+UPDATED|C:\Development\Projects\IvyTomeeDemo2\web\WEB-INF\templates\dashboard\dashboard-overview.ftlh|Replacements:2
+BEFORE|2|<#include "../_header.ftlh">
+AFTER|2|<#include "../_header.ftl">
+BEFORE|10|<#include "../_footer.ftlh">
+AFTER|10|<#include "../_footer.ftl">
+UPDATED|C:\Development\Projects\IvyTomeeDemo2\web\WEB-INF\templates\dashboard\dashboard-quicklinks.ftl|Replacements:2
+BEFORE|2|<#include "../_header.ftlh">
+AFTER|2|<#include "../_header.ftl">
+BEFORE|9|<#include "../_footer.ftlh">
+AFTER|9|<#include "../_footer.ftl">
+UPDATED|C:\Development\Projects\IvyTomeeDemo2\web\WEB-INF\templates\dashboard\dashboard-quicklinks.ftlh|Replacements:2
+BEFORE|2|<#include "../_header.ftlh">
+AFTER|2|<#include "../_header.ftl">
+BEFORE|9|<#include "../_footer.ftlh">
+AFTER|9|<#include "../_footer.ftl">
+UPDATED|C:\Development\Projects\IvyTomeeDemo2\web\WEB-INF\templates\dashboard\dashboard-recent-items.ftl|Replacements:2
+BEFORE|2|<#include "../_header.ftlh">
+AFTER|2|<#include "../_header.ftl">
+BEFORE|9|<#include "../_footer.ftlh">
+AFTER|9|<#include "../_footer.ftl">
+UPDATED|C:\Development\Projects\IvyTomeeDemo2\web\WEB-INF\templates\dashboard\dashboard-recent-items.ftlh|Replacements:2
+BEFORE|2|<#include "../_header.ftlh">
+AFTER|2|<#include "../_header.ftl">
+BEFORE|9|<#include "../_footer.ftlh">
+AFTER|9|<#include "../_footer.ftl">
+UPDATED|C:\Development\Projects\IvyTomeeDemo2\web\WEB-INF\templates\dashboard\dashboard-stats.ftl|Replacements:2
+BEFORE|2|<#include "../_header.ftlh">
+AFTER|2|<#include "../_header.ftl">
+BEFORE|9|<#include "../_footer.ftlh">
+AFTER|9|<#include "../_footer.ftl">
+UPDATED|C:\Development\Projects\IvyTomeeDemo2\web\WEB-INF\templates\dashboard\dashboard-stats.ftlh|Replacements:2
+BEFORE|2|<#include "../_header.ftlh">
+AFTER|2|<#include "../_header.ftl">
+BEFORE|9|<#include "../_footer.ftlh">
+AFTER|9|<#include "../_footer.ftl">
+UPDATED|C:\Development\Projects\IvyTomeeDemo2\web\WEB-INF\templates\dashboard\dashboard-tasks.ftl|Replacements:2
+BEFORE|2|<#include "../_header.ftlh">
+AFTER|2|<#include "../_header.ftl">
+BEFORE|10|<#include "../_footer.ftlh">
+AFTER|10|<#include "../_footer.ftl">
+UPDATED|C:\Development\Projects\IvyTomeeDemo2\web\WEB-INF\templates\dashboard\dashboard-tasks.ftlh|Replacements:2
+BEFORE|2|<#include "../_header.ftlh">
+AFTER|2|<#include "../_header.ftl">
+BEFORE|10|<#include "../_footer.ftlh">
+AFTER|10|<#include "../_footer.ftl">
+UPDATED|C:\Development\Projects\IvyTomeeDemo2\web\WEB-INF\templates\dashboard\dashboard-widgets.ftl|Replacements:2
+BEFORE|2|<#include "../_header.ftlh">
+AFTER|2|<#include "../_header.ftl">
+BEFORE|10|<#include "../_footer.ftlh">
+AFTER|10|<#include "../_footer.ftl">
+UPDATED|C:\Development\Projects\IvyTomeeDemo2\web\WEB-INF\templates\dashboard\dashboard-widgets.ftlh|Replacements:2
+BEFORE|2|<#include "../_header.ftlh">
+AFTER|2|<#include "../_header.ftl">
+BEFORE|10|<#include "../_footer.ftlh">
+AFTER|10|<#include "../_footer.ftl">
+UPDATED|C:\Development\Projects\IvyTomeeDemo2\web\WEB-INF\templates\dashboard\dashboard.ftl|Replacements:2
+BEFORE|2|<#include "../_header.ftlh">
+AFTER|2|<#include "../_header.ftl">
+BEFORE|10|<#include "../_footer.ftlh">
+AFTER|10|<#include "../_footer.ftl">
+UPDATED|C:\Development\Projects\IvyTomeeDemo2\web\WEB-INF\templates\dashboard\dashboard.ftlh|Replacements:2
+BEFORE|2|<#include "../_header.ftlh">
+AFTER|2|<#include "../_header.ftl">
+BEFORE|10|<#include "../_footer.ftlh">
+AFTER|10|<#include "../_footer.ftl">
+UPDATED|C:\Development\Projects\IvyTomeeDemo2\web\WEB-INF\templates\reports\report-audit.ftl|Replacements:2
+BEFORE|2|<#include "../_header.ftlh">
+AFTER|2|<#include "../_header.ftl">
+BEFORE|14|<#include "../_footer.ftlh">
+AFTER|14|<#include "../_footer.ftl">
+UPDATED|C:\Development\Projects\IvyTomeeDemo2\web\WEB-INF\templates\reports\report-audit.ftlh|Replacements:2
+BEFORE|2|<#include "../_header.ftlh">
+AFTER|2|<#include "../_header.ftl">
+BEFORE|14|<#include "../_footer.ftlh">
+AFTER|14|<#include "../_footer.ftl">
+UPDATED|C:\Development\Projects\IvyTomeeDemo2\web\WEB-INF\templates\reports\report-charts.ftl|Replacements:2
+BEFORE|2|<#include "../_header.ftlh">
+AFTER|2|<#include "../_header.ftl">
+BEFORE|9|<#include "../_footer.ftlh">
+AFTER|9|<#include "../_footer.ftl">
+UPDATED|C:\Development\Projects\IvyTomeeDemo2\web\WEB-INF\templates\reports\report-charts.ftlh|Replacements:2
+BEFORE|2|<#include "../_header.ftlh">
+AFTER|2|<#include "../_header.ftl">
+BEFORE|9|<#include "../_footer.ftlh">
+AFTER|9|<#include "../_footer.ftl">
+UPDATED|C:\Development\Projects\IvyTomeeDemo2\web\WEB-INF\templates\reports\report-download.ftl|Replacements:2
+BEFORE|2|<#include "../_header.ftlh">
+AFTER|2|<#include "../_header.ftl">
+BEFORE|5|<#include "../_footer.ftlh">
+AFTER|5|<#include "../_footer.ftl">
+UPDATED|C:\Development\Projects\IvyTomeeDemo2\web\WEB-INF\templates\reports\report-download.ftlh|Replacements:2
+BEFORE|2|<#include "../_header.ftlh">
+AFTER|2|<#include "../_header.ftl">
+BEFORE|5|<#include "../_footer.ftlh">
+AFTER|5|<#include "../_footer.ftl">
+UPDATED|C:\Development\Projects\IvyTomeeDemo2\web\WEB-INF\templates\reports\report-errors.ftl|Replacements:2
+BEFORE|2|<#include "../_header.ftlh">
+AFTER|2|<#include "../_header.ftl">
+BEFORE|14|<#include "../_footer.ftlh">
+AFTER|14|<#include "../_footer.ftl">
+UPDATED|C:\Development\Projects\IvyTomeeDemo2\web\WEB-INF\templates\reports\report-errors.ftlh|Replacements:2
+BEFORE|2|<#include "../_header.ftlh">
+AFTER|2|<#include "../_header.ftl">
+BEFORE|14|<#include "../_footer.ftlh">
+AFTER|14|<#include "../_footer.ftl">
+UPDATED|C:\Development\Projects\IvyTomeeDemo2\web\WEB-INF\templates\reports\report-export.ftl|Replacements:2
+BEFORE|2|<#include "../_header.ftlh">
+AFTER|2|<#include "../_header.ftl">
+BEFORE|9|<#include "../_footer.ftlh">
+AFTER|9|<#include "../_footer.ftl">
+UPDATED|C:\Development\Projects\IvyTomeeDemo2\web\WEB-INF\templates\reports\report-export.ftlh|Replacements:2
+BEFORE|2|<#include "../_header.ftlh">
+AFTER|2|<#include "../_header.ftl">
+BEFORE|9|<#include "../_footer.ftlh">
+AFTER|9|<#include "../_footer.ftl">
+UPDATED|C:\Development\Projects\IvyTomeeDemo2\web\WEB-INF\templates\reports\report-filters.ftl|Replacements:2
+BEFORE|2|<#include "../_header.ftlh">
+AFTER|2|<#include "../_header.ftl">
+BEFORE|8|<#include "../_footer.ftlh">
+AFTER|8|<#include "../_footer.ftl">
+UPDATED|C:\Development\Projects\IvyTomeeDemo2\web\WEB-INF\templates\reports\report-filters.ftlh|Replacements:2
+BEFORE|2|<#include "../_header.ftlh">
+AFTER|2|<#include "../_header.ftl">
+BEFORE|8|<#include "../_footer.ftlh">
+AFTER|8|<#include "../_footer.ftl">
+UPDATED|C:\Development\Projects\IvyTomeeDemo2\web\WEB-INF\templates\reports\report-performance.ftl|Replacements:2
+BEFORE|2|<#include "../_header.ftlh">
+AFTER|2|<#include "../_header.ftl">
+BEFORE|14|<#include "../_footer.ftlh">
+AFTER|14|<#include "../_footer.ftl">
+UPDATED|C:\Development\Projects\IvyTomeeDemo2\web\WEB-INF\templates\reports\report-performance.ftlh|Replacements:2
+BEFORE|2|<#include "../_header.ftlh">
+AFTER|2|<#include "../_header.ftl">
+BEFORE|14|<#include "../_footer.ftlh">
+AFTER|14|<#include "../_footer.ftl">
+UPDATED|C:\Development\Projects\IvyTomeeDemo2\web\WEB-INF\templates\reports\report-summary.ftl|Replacements:2
+BEFORE|2|<#include "../_header.ftlh">
+AFTER|2|<#include "../_header.ftl">
+BEFORE|9|<#include "../_footer.ftlh">
+AFTER|9|<#include "../_footer.ftl">
+UPDATED|C:\Development\Projects\IvyTomeeDemo2\web\WEB-INF\templates\reports\report-summary.ftlh|Replacements:2
+BEFORE|2|<#include "../_header.ftlh">
+AFTER|2|<#include "../_header.ftl">
+BEFORE|9|<#include "../_footer.ftlh">
+AFTER|9|<#include "../_footer.ftl">
+UPDATED|C:\Development\Projects\IvyTomeeDemo2\web\WEB-INF\templates\reports\report-system-usage.ftl|Replacements:2
+BEFORE|2|<#include "../_header.ftlh">
+AFTER|2|<#include "../_header.ftl">
+BEFORE|14|<#include "../_footer.ftlh">
+AFTER|14|<#include "../_footer.ftl">
+UPDATED|C:\Development\Projects\IvyTomeeDemo2\web\WEB-INF\templates\reports\report-system-usage.ftlh|Replacements:2
+BEFORE|2|<#include "../_header.ftlh">
+AFTER|2|<#include "../_header.ftl">
+BEFORE|14|<#include "../_footer.ftlh">
+AFTER|14|<#include "../_footer.ftl">
+UPDATED|C:\Development\Projects\IvyTomeeDemo2\web\WEB-INF\templates\reports\report-table.ftl|Replacements:2
+BEFORE|2|<#include "../_header.ftlh">
+AFTER|2|<#include "../_header.ftl">
+BEFORE|13|<#include "../_footer.ftlh">
+AFTER|13|<#include "../_footer.ftl">
+UPDATED|C:\Development\Projects\IvyTomeeDemo2\web\WEB-INF\templates\reports\report-table.ftlh|Replacements:2
+BEFORE|2|<#include "../_header.ftlh">
+AFTER|2|<#include "../_header.ftl">
+BEFORE|13|<#include "../_footer.ftlh">
+AFTER|13|<#include "../_footer.ftl">
+UPDATED|C:\Development\Projects\IvyTomeeDemo2\web\WEB-INF\templates\reports\report-user-activity.ftl|Replacements:2
+BEFORE|2|<#include "../_header.ftlh">
+AFTER|2|<#include "../_header.ftl">
+BEFORE|14|<#include "../_footer.ftlh">
+AFTER|14|<#include "../_footer.ftl">
+UPDATED|C:\Development\Projects\IvyTomeeDemo2\web\WEB-INF\templates\reports\report-user-activity.ftlh|Replacements:2
+BEFORE|2|<#include "../_header.ftlh">
+AFTER|2|<#include "../_header.ftl">
+BEFORE|14|<#include "../_footer.ftlh">
+AFTER|14|<#include "../_footer.ftl">
+UPDATED|C:\Development\Projects\IvyTomeeDemo2\web\WEB-INF\templates\reports\reports.ftl|Replacements:2
+BEFORE|2|<#include "../_header.ftlh">
+AFTER|2|<#include "../_header.ftl">
+BEFORE|10|<#include "../_footer.ftlh">
+AFTER|10|<#include "../_footer.ftl">
+UPDATED|C:\Development\Projects\IvyTomeeDemo2\web\WEB-INF\templates\reports\reports.ftlh|Replacements:2
+BEFORE|2|<#include "../_header.ftlh">
+AFTER|2|<#include "../_header.ftl">
+BEFORE|10|<#include "../_footer.ftlh">
+AFTER|10|<#include "../_footer.ftl">
+UPDATED|C:\Development\Projects\IvyTomeeDemo2\web\WEB-INF\templates\settings\settings-access.ftl|Replacements:2
+BEFORE|2|<#include "../_header.ftlh">
+AFTER|2|<#include "../_header.ftl">
+BEFORE|10|<#include "../_footer.ftlh">
+AFTER|10|<#include "../_footer.ftl">
+UPDATED|C:\Development\Projects\IvyTomeeDemo2\web\WEB-INF\templates\settings\settings-access.ftlh|Replacements:2
+BEFORE|2|<#include "../_header.ftlh">
+AFTER|2|<#include "../_header.ftl">
+BEFORE|10|<#include "../_footer.ftlh">
+AFTER|10|<#include "../_footer.ftl">
+UPDATED|C:\Development\Projects\IvyTomeeDemo2\web\WEB-INF\templates\settings\settings-api.ftl|Replacements:2
+BEFORE|2|<#include "../_header.ftlh">
+AFTER|2|<#include "../_header.ftl">
+BEFORE|10|<#include "../_footer.ftlh">
+AFTER|10|<#include "../_footer.ftl">
+UPDATED|C:\Development\Projects\IvyTomeeDemo2\web\WEB-INF\templates\settings\settings-api.ftlh|Replacements:2
+BEFORE|2|<#include "../_header.ftlh">
+AFTER|2|<#include "../_header.ftl">
+BEFORE|10|<#include "../_footer.ftlh">
+AFTER|10|<#include "../_footer.ftl">
+UPDATED|C:\Development\Projects\IvyTomeeDemo2\web\WEB-INF\templates\settings\settings-billing.ftl|Replacements:2
+BEFORE|2|<#include "../_header.ftlh">
+AFTER|2|<#include "../_header.ftl">
+BEFORE|10|<#include "../_footer.ftlh">
+AFTER|10|<#include "../_footer.ftl">
+UPDATED|C:\Development\Projects\IvyTomeeDemo2\web\WEB-INF\templates\settings\settings-billing.ftlh|Replacements:2
+BEFORE|2|<#include "../_header.ftlh">
+AFTER|2|<#include "../_header.ftl">
+BEFORE|10|<#include "../_footer.ftlh">
+AFTER|10|<#include "../_footer.ftl">
+UPDATED|C:\Development\Projects\IvyTomeeDemo2\web\WEB-INF\templates\settings\settings-delete-account.ftl|Replacements:2
+BEFORE|2|<#include "../_header.ftlh">
+AFTER|2|<#include "../_header.ftl">
+BEFORE|7|<#include "../_footer.ftlh">
+AFTER|7|<#include "../_footer.ftl">
+UPDATED|C:\Development\Projects\IvyTomeeDemo2\web\WEB-INF\templates\settings\settings-delete-account.ftlh|Replacements:2
+BEFORE|2|<#include "../_header.ftlh">
+AFTER|2|<#include "../_header.ftl">
+BEFORE|7|<#include "../_footer.ftlh">
+AFTER|7|<#include "../_footer.ftl">
+UPDATED|C:\Development\Projects\IvyTomeeDemo2\web\WEB-INF\templates\settings\settings-integrations.ftl|Replacements:2
+BEFORE|2|<#include "../_header.ftlh">
+AFTER|2|<#include "../_header.ftl">
+BEFORE|10|<#include "../_footer.ftlh">
+AFTER|10|<#include "../_footer.ftl">
+UPDATED|C:\Development\Projects\IvyTomeeDemo2\web\WEB-INF\templates\settings\settings-integrations.ftlh|Replacements:2
+BEFORE|2|<#include "../_header.ftlh">
+AFTER|2|<#include "../_header.ftl">
+BEFORE|10|<#include "../_footer.ftlh">
+AFTER|10|<#include "../_footer.ftl">
+UPDATED|C:\Development\Projects\IvyTomeeDemo2\web\WEB-INF\templates\settings\settings-language.ftl|Replacements:2
+BEFORE|2|<#include "../_header.ftlh">
+AFTER|2|<#include "../_header.ftl">
+BEFORE|10|<#include "../_footer.ftlh">
+AFTER|10|<#include "../_footer.ftl">
+UPDATED|C:\Development\Projects\IvyTomeeDemo2\web\WEB-INF\templates\settings\settings-language.ftlh|Replacements:2
+BEFORE|2|<#include "../_header.ftlh">
+AFTER|2|<#include "../_header.ftl">
+BEFORE|10|<#include "../_footer.ftlh">
+AFTER|10|<#include "../_footer.ftl">
+UPDATED|C:\Development\Projects\IvyTomeeDemo2\web\WEB-INF\templates\settings\settings-notifications.ftl|Replacements:2
+BEFORE|2|<#include "../_header.ftlh">
+AFTER|2|<#include "../_header.ftl">
+BEFORE|9|<#include "../_footer.ftlh">
+AFTER|9|<#include "../_footer.ftl">
+UPDATED|C:\Development\Projects\IvyTomeeDemo2\web\WEB-INF\templates\settings\settings-notifications.ftlh|Replacements:2
+BEFORE|2|<#include "../_header.ftlh">
+AFTER|2|<#include "../_header.ftl">
+BEFORE|9|<#include "../_footer.ftlh">
+AFTER|9|<#include "../_footer.ftl">
+UPDATED|C:\Development\Projects\IvyTomeeDemo2\web\WEB-INF\templates\settings\settings-preferences.ftl|Replacements:2
+BEFORE|2|<#include "../_header.ftlh">
+AFTER|2|<#include "../_header.ftl">
+BEFORE|9|<#include "../_footer.ftlh">
+AFTER|9|<#include "../_footer.ftl">
+UPDATED|C:\Development\Projects\IvyTomeeDemo2\web\WEB-INF\templates\settings\settings-preferences.ftlh|Replacements:2
+BEFORE|2|<#include "../_header.ftlh">
+AFTER|2|<#include "../_header.ftl">
+BEFORE|9|<#include "../_footer.ftlh">
+AFTER|9|<#include "../_footer.ftl">
+UPDATED|C:\Development\Projects\IvyTomeeDemo2\web\WEB-INF\templates\settings\settings-privacy.ftl|Replacements:2
+BEFORE|2|<#include "../_header.ftlh">
+AFTER|2|<#include "../_header.ftl">
+BEFORE|9|<#include "../_footer.ftlh">
+AFTER|9|<#include "../_footer.ftl">
+UPDATED|C:\Development\Projects\IvyTomeeDemo2\web\WEB-INF\templates\settings\settings-privacy.ftlh|Replacements:2
+BEFORE|2|<#include "../_header.ftlh">
+AFTER|2|<#include "../_header.ftl">
+BEFORE|9|<#include "../_footer.ftlh">
+AFTER|9|<#include "../_footer.ftl">
+UPDATED|C:\Development\Projects\IvyTomeeDemo2\web\WEB-INF\templates\settings\settings-profile.ftl|Replacements:2
+BEFORE|2|<#include "../_header.ftlh">
+AFTER|2|<#include "../_header.ftl">
+BEFORE|8|<#include "../_footer.ftlh">
+AFTER|8|<#include "../_footer.ftl">
+UPDATED|C:\Development\Projects\IvyTomeeDemo2\web\WEB-INF\templates\settings\settings-profile.ftlh|Replacements:2
+BEFORE|2|<#include "../_header.ftlh">
+AFTER|2|<#include "../_header.ftl">
+BEFORE|8|<#include "../_footer.ftlh">
+AFTER|8|<#include "../_footer.ftl">
+UPDATED|C:\Development\Projects\IvyTomeeDemo2\web\WEB-INF\templates\settings\settings-security.ftl|Replacements:2
+BEFORE|2|<#include "../_header.ftlh">
+AFTER|2|<#include "../_header.ftl">
+BEFORE|9|<#include "../_footer.ftlh">
+AFTER|9|<#include "../_footer.ftl">
+UPDATED|C:\Development\Projects\IvyTomeeDemo2\web\WEB-INF\templates\settings\settings-security.ftlh|Replacements:2
+BEFORE|2|<#include "../_header.ftlh">
+AFTER|2|<#include "../_header.ftl">
+BEFORE|9|<#include "../_footer.ftlh">
+AFTER|9|<#include "../_footer.ftl">
+UPDATED|C:\Development\Projects\IvyTomeeDemo2\web\WEB-INF\templates\settings\settings-subscription.ftl|Replacements:2
+BEFORE|2|<#include "../_header.ftlh">
+AFTER|2|<#include "../_header.ftl">
+BEFORE|10|<#include "../_footer.ftlh">
+AFTER|10|<#include "../_footer.ftl">
+UPDATED|C:\Development\Projects\IvyTomeeDemo2\web\WEB-INF\templates\settings\settings-subscription.ftlh|Replacements:2
+BEFORE|2|<#include "../_header.ftlh">
+AFTER|2|<#include "../_header.ftl">
+BEFORE|10|<#include "../_footer.ftlh">
+AFTER|10|<#include "../_footer.ftl">
+UPDATED|C:\Development\Projects\IvyTomeeDemo2\web\WEB-INF\templates\settings\settings-team.ftl|Replacements:2
+BEFORE|2|<#include "../_header.ftlh">
+AFTER|2|<#include "../_header.ftl">
+BEFORE|10|<#include "../_footer.ftlh">
+AFTER|10|<#include "../_footer.ftl">
+UPDATED|C:\Development\Projects\IvyTomeeDemo2\web\WEB-INF\templates\settings\settings-team.ftlh|Replacements:2
+BEFORE|2|<#include "../_header.ftlh">
+AFTER|2|<#include "../_header.ftl">
+BEFORE|10|<#include "../_footer.ftlh">
+AFTER|10|<#include "../_footer.ftl">
+UPDATED|C:\Development\Projects\IvyTomeeDemo2\web\WEB-INF\templates\settings\settings-theme.ftl|Replacements:2
+BEFORE|2|<#include "../_header.ftlh">
+AFTER|2|<#include "../_header.ftl">
+BEFORE|8|<#include "../_footer.ftlh">
+AFTER|8|<#include "../_footer.ftl">
+UPDATED|C:\Development\Projects\IvyTomeeDemo2\web\WEB-INF\templates\settings\settings-theme.ftlh|Replacements:2
+BEFORE|2|<#include "../_header.ftlh">
+AFTER|2|<#include "../_header.ftl">
+BEFORE|8|<#include "../_footer.ftlh">
+AFTER|8|<#include "../_footer.ftl">
+UPDATED|C:\Development\Projects\IvyTomeeDemo2\web\WEB-INF\templates\settings\settings.ftl|Replacements:2
+BEFORE|2|<#include "../_header.ftlh">
+AFTER|2|<#include "../_header.ftl">
+BEFORE|9|<#include "../_footer.ftlh">
+AFTER|9|<#include "../_footer.ftl">
+UPDATED|C:\Development\Projects\IvyTomeeDemo2\web\WEB-INF\templates\settings\settings.ftlh|Replacements:2
+BEFORE|2|<#include "../_header.ftlh">
+AFTER|2|<#include "../_header.ftl">
+BEFORE|9|<#include "../_footer.ftlh">
+AFTER|9|<#include "../_footer.ftl">
+UPDATED|C:\Development\Projects\IvyTomeeDemo2\web\WEB-INF\templates\user\change-password.ftl|Replacements:2
+BEFORE|2|<#include "../_header.ftlh">
+AFTER|2|<#include "../_header.ftl">
+BEFORE|9|<#include "../_footer.ftlh">
+AFTER|9|<#include "../_footer.ftl">
+UPDATED|C:\Development\Projects\IvyTomeeDemo2\web\WEB-INF\templates\user\change-password.ftlh|Replacements:2
+BEFORE|2|<#include "../_header.ftlh">
+AFTER|2|<#include "../_header.ftl">
+BEFORE|9|<#include "../_footer.ftlh">
+AFTER|9|<#include "../_footer.ftl">
+UPDATED|C:\Development\Projects\IvyTomeeDemo2\web\WEB-INF\templates\user\edit-profile.ftl|Replacements:2
+BEFORE|2|<#include "../_header.ftlh">
+AFTER|2|<#include "../_header.ftl">
+BEFORE|9|<#include "../_footer.ftlh">
+AFTER|9|<#include "../_footer.ftl">
+UPDATED|C:\Development\Projects\IvyTomeeDemo2\web\WEB-INF\templates\user\edit-profile.ftlh|Replacements:2
+BEFORE|2|<#include "../_header.ftlh">
+AFTER|2|<#include "../_header.ftl">
+BEFORE|9|<#include "../_footer.ftlh">
+AFTER|9|<#include "../_footer.ftl">
+UPDATED|C:\Development\Projects\IvyTomeeDemo2\web\WEB-INF\templates\user\forgot-password.ftl|Replacements:2
+BEFORE|2|<#include "../_header.ftlh">
+AFTER|2|<#include "../_header.ftl">
+BEFORE|8|<#include "../_footer.ftlh">
+AFTER|8|<#include "../_footer.ftl">
+UPDATED|C:\Development\Projects\IvyTomeeDemo2\web\WEB-INF\templates\user\forgot-password.ftlh|Replacements:2
+BEFORE|2|<#include "../_header.ftlh">
+AFTER|2|<#include "../_header.ftl">
+BEFORE|8|<#include "../_footer.ftlh">
+AFTER|8|<#include "../_footer.ftl">
+UPDATED|C:\Development\Projects\IvyTomeeDemo2\web\WEB-INF\templates\user\profile.ftl|Replacements:2
+BEFORE|2|<#include "../_header.ftlh">
+AFTER|2|<#include "../_header.ftl">
+BEFORE|8|<#include "../_footer.ftlh">
+AFTER|8|<#include "../_footer.ftl">
+UPDATED|C:\Development\Projects\IvyTomeeDemo2\web\WEB-INF\templates\user\profile.ftlh|Replacements:2
+BEFORE|2|<#include "../_header.ftlh">
+AFTER|2|<#include "../_header.ftl">
+BEFORE|8|<#include "../_footer.ftlh">
+AFTER|8|<#include "../_footer.ftl">
+UPDATED|C:\Development\Projects\IvyTomeeDemo2\web\WEB-INF\templates\user\register.ftl|Replacements:2
+BEFORE|2|<#include "../_header.ftlh">
+AFTER|2|<#include "../_header.ftl">
+BEFORE|10|<#include "../_footer.ftlh">
+AFTER|10|<#include "../_footer.ftl">
+UPDATED|C:\Development\Projects\IvyTomeeDemo2\web\WEB-INF\templates\user\register.ftlh|Replacements:2
+BEFORE|2|<#include "../_header.ftlh">
+AFTER|2|<#include "../_header.ftl">
+BEFORE|10|<#include "../_footer.ftlh">
+AFTER|10|<#include "../_footer.ftl">
+UPDATED|C:\Development\Projects\IvyTomeeDemo2\web\WEB-INF\templates\user\user-activity.ftl|Replacements:2
+BEFORE|2|<#include "../_header.ftlh">
+AFTER|2|<#include "../_header.ftl">
+BEFORE|9|<#include "../_footer.ftlh">
+AFTER|9|<#include "../_footer.ftl">
+UPDATED|C:\Development\Projects\IvyTomeeDemo2\web\WEB-INF\templates\user\user-activity.ftlh|Replacements:2
+BEFORE|2|<#include "../_header.ftlh">
+AFTER|2|<#include "../_header.ftl">
+BEFORE|9|<#include "../_footer.ftlh">
+AFTER|9|<#include "../_footer.ftl">
+UPDATED|C:\Development\Projects\IvyTomeeDemo2\web\WEB-INF\templates\user\user-avatar-upload.ftl|Replacements:2
+BEFORE|2|<#include "../_header.ftlh">
+AFTER|2|<#include "../_header.ftl">
+BEFORE|8|<#include "../_footer.ftlh">
+AFTER|8|<#include "../_footer.ftl">
+UPDATED|C:\Development\Projects\IvyTomeeDemo2\web\WEB-INF\templates\user\user-avatar-upload.ftlh|Replacements:2
+BEFORE|2|<#include "../_header.ftlh">
+AFTER|2|<#include "../_header.ftl">
+BEFORE|8|<#include "../_footer.ftlh">
+AFTER|8|<#include "../_footer.ftl">
+UPDATED|C:\Development\Projects\IvyTomeeDemo2\web\WEB-INF\templates\user\user-dashboard-quicklinks.ftl|Replacements:2
+BEFORE|2|<#include "../_header.ftlh">
+AFTER|2|<#include "../_header.ftl">
+BEFORE|9|<#include "../_footer.ftlh">
+AFTER|9|<#include "../_footer.ftl">
+UPDATED|C:\Development\Projects\IvyTomeeDemo2\web\WEB-INF\templates\user\user-dashboard-quicklinks.ftlh|Replacements:2
+BEFORE|2|<#include "../_header.ftlh">
+AFTER|2|<#include "../_header.ftl">
+BEFORE|9|<#include "../_footer.ftlh">
+AFTER|9|<#include "../_footer.ftl">
+UPDATED|C:\Development\Projects\IvyTomeeDemo2\web\WEB-INF\templates\user\user-dashboard-stats.ftl|Replacements:2
+BEFORE|2|<#include "../_header.ftlh">
+AFTER|2|<#include "../_header.ftl">
+BEFORE|9|<#include "../_footer.ftlh">
+AFTER|9|<#include "../_footer.ftl">
+UPDATED|C:\Development\Projects\IvyTomeeDemo2\web\WEB-INF\templates\user\user-dashboard-stats.ftlh|Replacements:2
+BEFORE|2|<#include "../_header.ftlh">
+AFTER|2|<#include "../_header.ftl">
+BEFORE|9|<#include "../_footer.ftlh">
+AFTER|9|<#include "../_footer.ftl">
+UPDATED|C:\Development\Projects\IvyTomeeDemo2\web\WEB-INF\templates\user\user-dashboard-widgets.ftl|Replacements:2
+BEFORE|2|<#include "../_header.ftlh">
+AFTER|2|<#include "../_header.ftl">
+BEFORE|9|<#include "../_footer.ftlh">
+AFTER|9|<#include "../_footer.ftl">
+UPDATED|C:\Development\Projects\IvyTomeeDemo2\web\WEB-INF\templates\user\user-dashboard-widgets.ftlh|Replacements:2
+BEFORE|2|<#include "../_header.ftlh">
+AFTER|2|<#include "../_header.ftl">
+BEFORE|9|<#include "../_footer.ftlh">
+AFTER|9|<#include "../_footer.ftl">
+UPDATED|C:\Development\Projects\IvyTomeeDemo2\web\WEB-INF\templates\user\user-dashboard.ftl|Replacements:2
+BEFORE|2|<#include "../_header.ftlh">
+AFTER|2|<#include "../_header.ftl">
+BEFORE|9|<#include "../_footer.ftlh">
+AFTER|9|<#include "../_footer.ftl">
+UPDATED|C:\Development\Projects\IvyTomeeDemo2\web\WEB-INF\templates\user\user-dashboard.ftlh|Replacements:2
+BEFORE|2|<#include "../_header.ftlh">
+AFTER|2|<#include "../_header.ftl">
+BEFORE|9|<#include "../_footer.ftlh">
+AFTER|9|<#include "../_footer.ftl">
+UPDATED|C:\Development\Projects\IvyTomeeDemo2\web\WEB-INF\templates\user\user-delete-account.ftl|Replacements:2
+BEFORE|2|<#include "../_header.ftlh">
+AFTER|2|<#include "../_header.ftl">
+BEFORE|7|<#include "../_footer.ftlh">
+AFTER|7|<#include "../_footer.ftl">
+UPDATED|C:\Development\Projects\IvyTomeeDemo2\web\WEB-INF\templates\user\user-delete-account.ftlh|Replacements:2
+BEFORE|2|<#include "../_header.ftlh">
+AFTER|2|<#include "../_header.ftl">
+BEFORE|7|<#include "../_footer.ftlh">
+AFTER|7|<#include "../_footer.ftl">
+UPDATED|C:\Development\Projects\IvyTomeeDemo2\web\WEB-INF\templates\user\user-notifications.ftl|Replacements:2
+BEFORE|2|<#include "../_header.ftlh">
+AFTER|2|<#include "../_header.ftl">
+BEFORE|9|<#include "../_footer.ftlh">
+AFTER|9|<#include "../_footer.ftl">
+UPDATED|C:\Development\Projects\IvyTomeeDemo2\web\WEB-INF\templates\user\user-notifications.ftlh|Replacements:2
+BEFORE|2|<#include "../_header.ftlh">
+AFTER|2|<#include "../_header.ftl">
+BEFORE|9|<#include "../_footer.ftlh">
+AFTER|9|<#include "../_footer.ftl">
+UPDATED|C:\Development\Projects\IvyTomeeDemo2\web\WEB-INF\templates\user\user-preferences.ftl|Replacements:2
+BEFORE|2|<#include "../_header.ftlh">
+AFTER|2|<#include "../_header.ftl">
+BEFORE|9|<#include "../_footer.ftlh">
+AFTER|9|<#include "../_footer.ftl">
+UPDATED|C:\Development\Projects\IvyTomeeDemo2\web\WEB-INF\templates\user\user-preferences.ftlh|Replacements:2
+BEFORE|2|<#include "../_header.ftlh">
+AFTER|2|<#include "../_header.ftl">
+BEFORE|9|<#include "../_footer.ftlh">
+AFTER|9|<#include "../_footer.ftl">

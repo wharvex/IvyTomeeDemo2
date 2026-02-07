@@ -29,7 +29,7 @@ public final class RegisterServlet extends HttpServlet {
     pmRegister.setRequestContextPath(request.getContextPath());
     HashMap<String, Object> root = new HashMap<>();
     root.put("pmRegister", pmRegister);
-    ServletHelper.putPage(response, root, "register.ftlh");
+    ServletHelper.putPage(response, root, "register.ftl");
   }
 
   @Override
@@ -46,7 +46,7 @@ public final class RegisterServlet extends HttpServlet {
       pmRegister.setRequestContextPath(req.getContextPath());
       HashMap<String, Object> root = new HashMap<>();
       root.put("pmRegister", pmRegister);
-      ServletHelper.putPage(resp, root, "register.ftlh");
+      ServletHelper.putPage(resp, root, "register.ftl");
       return;
     }
 
@@ -61,3 +61,4 @@ public final class RegisterServlet extends HttpServlet {
   }
 
 }
+

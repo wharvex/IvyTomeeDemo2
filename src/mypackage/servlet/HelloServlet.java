@@ -42,7 +42,8 @@ public final class HelloServlet extends HttpServlet {
     pmHello.setRequestContextPath(p_request.getContextPath());
     rootMap.put("pmHello", pmHello);
 
-    ServletHelper.putPage(p_response, rootMap, "hello.ftlh");
+    ServletHelper.putPage(p_response, rootMap, "hello.ftl");
   }
 
 }
+

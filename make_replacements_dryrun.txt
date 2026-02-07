@@ -1,0 +1,470 @@
+
+WILL_UPDATE|C:\Development\Projects\IvyTomeeDemo2\.github\prompts\new_page.prompt.md|Matches:1
+OLD|19|- Create a new FTLH file for the page, name it `${BaseName}.ftl`, and put it in the `${FtlhDirectory}` directory. If this directory does not exist, create it.
+WILL_UPDATE|C:\Development\Projects\IvyTomeeDemo2\build\WEB-INF\templates\error.ftl|Matches:1
+OLD|2|<#include "_complex_macros.ftl">
+WILL_UPDATE|C:\Development\Projects\IvyTomeeDemo2\build\WEB-INF\templates\hello.ftl|Matches:1
+OLD|2|<#include "_complex_macros.ftl">
+WILL_UPDATE|C:\Development\Projects\IvyTomeeDemo2\build\WEB-INF\templates\login.ftl|Matches:1
+OLD|2|<#include "_complex_macros.ftl">
+WILL_UPDATE|C:\Development\Projects\IvyTomeeDemo2\build\WEB-INF\templates\register.ftl|Matches:1
+OLD|1|<#include "_complex_macros.ftl">
+WILL_UPDATE|C:\Development\Projects\IvyTomeeDemo2\src\mypackage\servlet\ErrorServlet.java|Matches:1
+OLD|43|    ServletHelper.putPage(p_response, rootMap, "error.ftl");
+WILL_UPDATE|C:\Development\Projects\IvyTomeeDemo2\src\mypackage\servlet\HelloServlet.java|Matches:1
+OLD|45|    ServletHelper.putPage(p_response, rootMap, "hello.ftl");
+WILL_UPDATE|C:\Development\Projects\IvyTomeeDemo2\src\mypackage\servlet\LoginServlet.java|Matches:2
+OLD|32|    ServletHelper.putPage(response, root, "login.ftl");
+OLD|50|      ServletHelper.putPage(response, root, "login.ftl");
+WILL_UPDATE|C:\Development\Projects\IvyTomeeDemo2\src\mypackage\servlet\RegisterServlet.java|Matches:2
+OLD|32|    ServletHelper.putPage(response, root, "register.ftl");
+OLD|49|      ServletHelper.putPage(resp, root, "register.ftl");
+WILL_UPDATE|C:\Development\Projects\IvyTomeeDemo2\web\WEB-INF\templates\about.ftl|Matches:2
+OLD|2|<#include "_header.ftl">
+OLD|12|<#include "_footer.ftl">
+WILL_UPDATE|C:\Development\Projects\IvyTomeeDemo2\web\WEB-INF\templates\about.ftl|Matches:2
+OLD|2|<#include "_header.ftl">
+OLD|12|<#include "_footer.ftl">
+WILL_UPDATE|C:\Development\Projects\IvyTomeeDemo2\web\WEB-INF\templates\contact.ftl|Matches:2
+OLD|2|<#include "_header.ftl">
+OLD|11|<#include "_footer.ftl">
+WILL_UPDATE|C:\Development\Projects\IvyTomeeDemo2\web\WEB-INF\templates\contact.ftl|Matches:2
+OLD|2|<#include "_header.ftl">
+OLD|11|<#include "_footer.ftl">
+WILL_UPDATE|C:\Development\Projects\IvyTomeeDemo2\web\WEB-INF\templates\error.ftl|Matches:1
+OLD|2|<#include "_complex_macros.ftl">
+WILL_UPDATE|C:\Development\Projects\IvyTomeeDemo2\web\WEB-INF\templates\error.ftl|Matches:1
+OLD|2|<#include "_complex_macros.ftl">
+WILL_UPDATE|C:\Development\Projects\IvyTomeeDemo2\web\WEB-INF\templates\faq.ftl|Matches:2
+OLD|2|<#include "_header.ftl">
+OLD|10|<#include "_footer.ftl">
+WILL_UPDATE|C:\Development\Projects\IvyTomeeDemo2\web\WEB-INF\templates\faq.ftl|Matches:2
+OLD|2|<#include "_header.ftl">
+OLD|10|<#include "_footer.ftl">
+WILL_UPDATE|C:\Development\Projects\IvyTomeeDemo2\web\WEB-INF\templates\hello.ftl|Matches:1
+OLD|2|<#include "_complex_macros.ftl">
+WILL_UPDATE|C:\Development\Projects\IvyTomeeDemo2\web\WEB-INF\templates\hello.ftl|Matches:1
+OLD|2|<#include "_complex_macros.ftl">
+WILL_UPDATE|C:\Development\Projects\IvyTomeeDemo2\web\WEB-INF\templates\home.ftl|Matches:2
+OLD|2|<#include "_header.ftl">
+OLD|18|<#include "_footer.ftl">
+WILL_UPDATE|C:\Development\Projects\IvyTomeeDemo2\web\WEB-INF\templates\home.ftl|Matches:2
+OLD|2|<#include "_header.ftl">
+OLD|18|<#include "_footer.ftl">
+WILL_UPDATE|C:\Development\Projects\IvyTomeeDemo2\web\WEB-INF\templates\login.ftl|Matches:1
+OLD|1|<#include "_complex_macros.ftl">
+WILL_UPDATE|C:\Development\Projects\IvyTomeeDemo2\web\WEB-INF\templates\login.ftl|Matches:1
+OLD|1|<#include "_complex_macros.ftl">
+WILL_UPDATE|C:\Development\Projects\IvyTomeeDemo2\web\WEB-INF\templates\privacy.ftl|Matches:2
+OLD|2|<#include "_header.ftl">
+OLD|10|<#include "_footer.ftl">
+WILL_UPDATE|C:\Development\Projects\IvyTomeeDemo2\web\WEB-INF\templates\privacy.ftl|Matches:2
+OLD|2|<#include "_header.ftl">
+OLD|10|<#include "_footer.ftl">
+WILL_UPDATE|C:\Development\Projects\IvyTomeeDemo2\web\WEB-INF\templates\register.ftl|Matches:1
+OLD|3|<#include "_complex_macros.ftl">
+WILL_UPDATE|C:\Development\Projects\IvyTomeeDemo2\web\WEB-INF\templates\register.ftl|Matches:1
+OLD|3|<#include "_complex_macros.ftl">
+WILL_UPDATE|C:\Development\Projects\IvyTomeeDemo2\web\WEB-INF\templates\terms.ftl|Matches:2
+OLD|2|<#include "_header.ftl">
+OLD|10|<#include "_footer.ftl">
+WILL_UPDATE|C:\Development\Projects\IvyTomeeDemo2\web\WEB-INF\templates\terms.ftl|Matches:2
+OLD|2|<#include "_header.ftl">
+OLD|10|<#include "_footer.ftl">
+WILL_UPDATE|C:\Development\Projects\IvyTomeeDemo2\web\WEB-INF\templates\admin\admin-audit.ftl|Matches:2
+OLD|2|<#include "../_header.ftl">
+OLD|14|<#include "../_footer.ftl">
+WILL_UPDATE|C:\Development\Projects\IvyTomeeDemo2\web\WEB-INF\templates\admin\admin-audit.ftl|Matches:2
+OLD|2|<#include "../_header.ftl">
+OLD|14|<#include "../_footer.ftl">
+WILL_UPDATE|C:\Development\Projects\IvyTomeeDemo2\web\WEB-INF\templates\admin\admin-dashboard-quicklinks.ftl|Matches:2
+OLD|2|<#include "../_header.ftl">
+OLD|9|<#include "../_footer.ftl">
+WILL_UPDATE|C:\Development\Projects\IvyTomeeDemo2\web\WEB-INF\templates\admin\admin-dashboard-quicklinks.ftl|Matches:2
+OLD|2|<#include "../_header.ftl">
+OLD|9|<#include "../_footer.ftl">
+WILL_UPDATE|C:\Development\Projects\IvyTomeeDemo2\web\WEB-INF\templates\admin\admin-dashboard-stats.ftl|Matches:2
+OLD|2|<#include "../_header.ftl">
+OLD|9|<#include "../_footer.ftl">
+WILL_UPDATE|C:\Development\Projects\IvyTomeeDemo2\web\WEB-INF\templates\admin\admin-dashboard-stats.ftl|Matches:2
+OLD|2|<#include "../_header.ftl">
+OLD|9|<#include "../_footer.ftl">
+WILL_UPDATE|C:\Development\Projects\IvyTomeeDemo2\web\WEB-INF\templates\admin\admin-dashboard-widgets.ftl|Matches:2
+OLD|2|<#include "../_header.ftl">
+OLD|9|<#include "../_footer.ftl">
+WILL_UPDATE|C:\Development\Projects\IvyTomeeDemo2\web\WEB-INF\templates\admin\admin-dashboard-widgets.ftl|Matches:2
+OLD|2|<#include "../_header.ftl">
+OLD|9|<#include "../_footer.ftl">
+WILL_UPDATE|C:\Development\Projects\IvyTomeeDemo2\web\WEB-INF\templates\admin\admin-dashboard.ftl|Matches:2
+OLD|2|<#include "../_header.ftl">
+OLD|13|<#include "../_footer.ftl">
+WILL_UPDATE|C:\Development\Projects\IvyTomeeDemo2\web\WEB-INF\templates\admin\admin-dashboard.ftl|Matches:2
+OLD|2|<#include "../_header.ftl">
+OLD|13|<#include "../_footer.ftl">
+WILL_UPDATE|C:\Development\Projects\IvyTomeeDemo2\web\WEB-INF\templates\admin\admin-logs.ftl|Matches:2
+OLD|2|<#include "../_header.ftl">
+OLD|14|<#include "../_footer.ftl">
+WILL_UPDATE|C:\Development\Projects\IvyTomeeDemo2\web\WEB-INF\templates\admin\admin-logs.ftl|Matches:2
+OLD|2|<#include "../_header.ftl">
+OLD|14|<#include "../_footer.ftl">
+WILL_UPDATE|C:\Development\Projects\IvyTomeeDemo2\web\WEB-INF\templates\admin\admin-permissions.ftl|Matches:2
+OLD|2|<#include "../_header.ftl">
+OLD|10|<#include "../_footer.ftl">
+WILL_UPDATE|C:\Development\Projects\IvyTomeeDemo2\web\WEB-INF\templates\admin\admin-permissions.ftl|Matches:2
+OLD|2|<#include "../_header.ftl">
+OLD|10|<#include "../_footer.ftl">
+WILL_UPDATE|C:\Development\Projects\IvyTomeeDemo2\web\WEB-INF\templates\admin\admin-role-edit.ftl|Matches:2
+OLD|2|<#include "../_header.ftl">
+OLD|8|<#include "../_footer.ftl">
+WILL_UPDATE|C:\Development\Projects\IvyTomeeDemo2\web\WEB-INF\templates\admin\admin-role-edit.ftl|Matches:2
+OLD|2|<#include "../_header.ftl">
+OLD|8|<#include "../_footer.ftl">
+WILL_UPDATE|C:\Development\Projects\IvyTomeeDemo2\web\WEB-INF\templates\admin\admin-roles.ftl|Matches:2
+OLD|2|<#include "../_header.ftl">
+OLD|10|<#include "../_footer.ftl">
+WILL_UPDATE|C:\Development\Projects\IvyTomeeDemo2\web\WEB-INF\templates\admin\admin-roles.ftl|Matches:2
+OLD|2|<#include "../_header.ftl">
+OLD|10|<#include "../_footer.ftl">
+WILL_UPDATE|C:\Development\Projects\IvyTomeeDemo2\web\WEB-INF\templates\admin\admin-settings.ftl|Matches:2
+OLD|2|<#include "../_header.ftl">
+OLD|9|<#include "../_footer.ftl">
+WILL_UPDATE|C:\Development\Projects\IvyTomeeDemo2\web\WEB-INF\templates\admin\admin-settings.ftl|Matches:2
+OLD|2|<#include "../_header.ftl">
+OLD|9|<#include "../_footer.ftl">
+WILL_UPDATE|C:\Development\Projects\IvyTomeeDemo2\web\WEB-INF\templates\admin\admin-user-create.ftl|Matches:2
+OLD|2|<#include "../_header.ftl">
+OLD|9|<#include "../_footer.ftl">
+WILL_UPDATE|C:\Development\Projects\IvyTomeeDemo2\web\WEB-INF\templates\admin\admin-user-create.ftl|Matches:2
+OLD|2|<#include "../_header.ftl">
+OLD|9|<#include "../_footer.ftl">
+WILL_UPDATE|C:\Development\Projects\IvyTomeeDemo2\web\WEB-INF\templates\admin\admin-user-delete.ftl|Matches:2
+OLD|2|<#include "../_header.ftl">
+OLD|7|<#include "../_footer.ftl">
+WILL_UPDATE|C:\Development\Projects\IvyTomeeDemo2\web\WEB-INF\templates\admin\admin-user-delete.ftl|Matches:2
+OLD|2|<#include "../_header.ftl">
+OLD|7|<#include "../_footer.ftl">
+WILL_UPDATE|C:\Development\Projects\IvyTomeeDemo2\web\WEB-INF\templates\admin\admin-user-edit.ftl|Matches:2
+OLD|2|<#include "../_header.ftl">
+OLD|9|<#include "../_footer.ftl">
+WILL_UPDATE|C:\Development\Projects\IvyTomeeDemo2\web\WEB-INF\templates\admin\admin-user-edit.ftl|Matches:2
+OLD|2|<#include "../_header.ftl">
+OLD|9|<#include "../_footer.ftl">
+WILL_UPDATE|C:\Development\Projects\IvyTomeeDemo2\web\WEB-INF\templates\admin\admin-users.ftl|Matches:2
+OLD|2|<#include "../_header.ftl">
+OLD|14|<#include "../_footer.ftl">
+WILL_UPDATE|C:\Development\Projects\IvyTomeeDemo2\web\WEB-INF\templates\admin\admin-users.ftl|Matches:2
+OLD|2|<#include "../_header.ftl">
+OLD|14|<#include "../_footer.ftl">
+WILL_UPDATE|C:\Development\Projects\IvyTomeeDemo2\web\WEB-INF\templates\dashboard\dashboard-activity.ftl|Matches:2
+OLD|2|<#include "../_header.ftl">
+OLD|9|<#include "../_footer.ftl">
+WILL_UPDATE|C:\Development\Projects\IvyTomeeDemo2\web\WEB-INF\templates\dashboard\dashboard-activity.ftl|Matches:2
+OLD|2|<#include "../_header.ftl">
+OLD|9|<#include "../_footer.ftl">
+WILL_UPDATE|C:\Development\Projects\IvyTomeeDemo2\web\WEB-INF\templates\dashboard\dashboard-calendar.ftl|Matches:2
+OLD|2|<#include "../_header.ftl">
+OLD|9|<#include "../_footer.ftl">
+WILL_UPDATE|C:\Development\Projects\IvyTomeeDemo2\web\WEB-INF\templates\dashboard\dashboard-calendar.ftl|Matches:2
+OLD|2|<#include "../_header.ftl">
+OLD|9|<#include "../_footer.ftl">
+WILL_UPDATE|C:\Development\Projects\IvyTomeeDemo2\web\WEB-INF\templates\dashboard\dashboard-messages.ftl|Matches:2
+OLD|2|<#include "../_header.ftl">
+OLD|9|<#include "../_footer.ftl">
+WILL_UPDATE|C:\Development\Projects\IvyTomeeDemo2\web\WEB-INF\templates\dashboard\dashboard-messages.ftl|Matches:2
+OLD|2|<#include "../_header.ftl">
+OLD|9|<#include "../_footer.ftl">
+WILL_UPDATE|C:\Development\Projects\IvyTomeeDemo2\web\WEB-INF\templates\dashboard\dashboard-notifications.ftl|Matches:2
+OLD|2|<#include "../_header.ftl">
+OLD|9|<#include "../_footer.ftl">
+WILL_UPDATE|C:\Development\Projects\IvyTomeeDemo2\web\WEB-INF\templates\dashboard\dashboard-notifications.ftl|Matches:2
+OLD|2|<#include "../_header.ftl">
+OLD|9|<#include "../_footer.ftl">
+WILL_UPDATE|C:\Development\Projects\IvyTomeeDemo2\web\WEB-INF\templates\dashboard\dashboard-overview.ftl|Matches:2
+OLD|2|<#include "../_header.ftl">
+OLD|10|<#include "../_footer.ftl">
+WILL_UPDATE|C:\Development\Projects\IvyTomeeDemo2\web\WEB-INF\templates\dashboard\dashboard-overview.ftl|Matches:2
+OLD|2|<#include "../_header.ftl">
+OLD|10|<#include "../_footer.ftl">
+WILL_UPDATE|C:\Development\Projects\IvyTomeeDemo2\web\WEB-INF\templates\dashboard\dashboard-quicklinks.ftl|Matches:2
+OLD|2|<#include "../_header.ftl">
+OLD|9|<#include "../_footer.ftl">
+WILL_UPDATE|C:\Development\Projects\IvyTomeeDemo2\web\WEB-INF\templates\dashboard\dashboard-quicklinks.ftl|Matches:2
+OLD|2|<#include "../_header.ftl">
+OLD|9|<#include "../_footer.ftl">
+WILL_UPDATE|C:\Development\Projects\IvyTomeeDemo2\web\WEB-INF\templates\dashboard\dashboard-recent-items.ftl|Matches:2
+OLD|2|<#include "../_header.ftl">
+OLD|9|<#include "../_footer.ftl">
+WILL_UPDATE|C:\Development\Projects\IvyTomeeDemo2\web\WEB-INF\templates\dashboard\dashboard-recent-items.ftl|Matches:2
+OLD|2|<#include "../_header.ftl">
+OLD|9|<#include "../_footer.ftl">
+WILL_UPDATE|C:\Development\Projects\IvyTomeeDemo2\web\WEB-INF\templates\dashboard\dashboard-stats.ftl|Matches:2
+OLD|2|<#include "../_header.ftl">
+OLD|9|<#include "../_footer.ftl">
+WILL_UPDATE|C:\Development\Projects\IvyTomeeDemo2\web\WEB-INF\templates\dashboard\dashboard-stats.ftl|Matches:2
+OLD|2|<#include "../_header.ftl">
+OLD|9|<#include "../_footer.ftl">
+WILL_UPDATE|C:\Development\Projects\IvyTomeeDemo2\web\WEB-INF\templates\dashboard\dashboard-tasks.ftl|Matches:2
+OLD|2|<#include "../_header.ftl">
+OLD|10|<#include "../_footer.ftl">
+WILL_UPDATE|C:\Development\Projects\IvyTomeeDemo2\web\WEB-INF\templates\dashboard\dashboard-tasks.ftl|Matches:2
+OLD|2|<#include "../_header.ftl">
+OLD|10|<#include "../_footer.ftl">
+WILL_UPDATE|C:\Development\Projects\IvyTomeeDemo2\web\WEB-INF\templates\dashboard\dashboard-widgets.ftl|Matches:2
+OLD|2|<#include "../_header.ftl">
+OLD|10|<#include "../_footer.ftl">
+WILL_UPDATE|C:\Development\Projects\IvyTomeeDemo2\web\WEB-INF\templates\dashboard\dashboard-widgets.ftl|Matches:2
+OLD|2|<#include "../_header.ftl">
+OLD|10|<#include "../_footer.ftl">
+WILL_UPDATE|C:\Development\Projects\IvyTomeeDemo2\web\WEB-INF\templates\dashboard\dashboard.ftl|Matches:2
+OLD|2|<#include "../_header.ftl">
+OLD|10|<#include "../_footer.ftl">
+WILL_UPDATE|C:\Development\Projects\IvyTomeeDemo2\web\WEB-INF\templates\dashboard\dashboard.ftl|Matches:2
+OLD|2|<#include "../_header.ftl">
+OLD|10|<#include "../_footer.ftl">
+WILL_UPDATE|C:\Development\Projects\IvyTomeeDemo2\web\WEB-INF\templates\reports\report-audit.ftl|Matches:2
+OLD|2|<#include "../_header.ftl">
+OLD|14|<#include "../_footer.ftl">
+WILL_UPDATE|C:\Development\Projects\IvyTomeeDemo2\web\WEB-INF\templates\reports\report-audit.ftl|Matches:2
+OLD|2|<#include "../_header.ftl">
+OLD|14|<#include "../_footer.ftl">
+WILL_UPDATE|C:\Development\Projects\IvyTomeeDemo2\web\WEB-INF\templates\reports\report-charts.ftl|Matches:2
+OLD|2|<#include "../_header.ftl">
+OLD|9|<#include "../_footer.ftl">
+WILL_UPDATE|C:\Development\Projects\IvyTomeeDemo2\web\WEB-INF\templates\reports\report-charts.ftl|Matches:2
+OLD|2|<#include "../_header.ftl">
+OLD|9|<#include "../_footer.ftl">
+WILL_UPDATE|C:\Development\Projects\IvyTomeeDemo2\web\WEB-INF\templates\reports\report-download.ftl|Matches:2
+OLD|2|<#include "../_header.ftl">
+OLD|5|<#include "../_footer.ftl">
+WILL_UPDATE|C:\Development\Projects\IvyTomeeDemo2\web\WEB-INF\templates\reports\report-download.ftl|Matches:2
+OLD|2|<#include "../_header.ftl">
+OLD|5|<#include "../_footer.ftl">
+WILL_UPDATE|C:\Development\Projects\IvyTomeeDemo2\web\WEB-INF\templates\reports\report-errors.ftl|Matches:2
+OLD|2|<#include "../_header.ftl">
+OLD|14|<#include "../_footer.ftl">
+WILL_UPDATE|C:\Development\Projects\IvyTomeeDemo2\web\WEB-INF\templates\reports\report-errors.ftl|Matches:2
+OLD|2|<#include "../_header.ftl">
+OLD|14|<#include "../_footer.ftl">
+WILL_UPDATE|C:\Development\Projects\IvyTomeeDemo2\web\WEB-INF\templates\reports\report-export.ftl|Matches:2
+OLD|2|<#include "../_header.ftl">
+OLD|9|<#include "../_footer.ftl">
+WILL_UPDATE|C:\Development\Projects\IvyTomeeDemo2\web\WEB-INF\templates\reports\report-export.ftl|Matches:2
+OLD|2|<#include "../_header.ftl">
+OLD|9|<#include "../_footer.ftl">
+WILL_UPDATE|C:\Development\Projects\IvyTomeeDemo2\web\WEB-INF\templates\reports\report-filters.ftl|Matches:2
+OLD|2|<#include "../_header.ftl">
+OLD|8|<#include "../_footer.ftl">
+WILL_UPDATE|C:\Development\Projects\IvyTomeeDemo2\web\WEB-INF\templates\reports\report-filters.ftl|Matches:2
+OLD|2|<#include "../_header.ftl">
+OLD|8|<#include "../_footer.ftl">
+WILL_UPDATE|C:\Development\Projects\IvyTomeeDemo2\web\WEB-INF\templates\reports\report-performance.ftl|Matches:2
+OLD|2|<#include "../_header.ftl">
+OLD|14|<#include "../_footer.ftl">
+WILL_UPDATE|C:\Development\Projects\IvyTomeeDemo2\web\WEB-INF\templates\reports\report-performance.ftl|Matches:2
+OLD|2|<#include "../_header.ftl">
+OLD|14|<#include "../_footer.ftl">
+WILL_UPDATE|C:\Development\Projects\IvyTomeeDemo2\web\WEB-INF\templates\reports\report-summary.ftl|Matches:2
+OLD|2|<#include "../_header.ftl">
+OLD|9|<#include "../_footer.ftl">
+WILL_UPDATE|C:\Development\Projects\IvyTomeeDemo2\web\WEB-INF\templates\reports\report-summary.ftl|Matches:2
+OLD|2|<#include "../_header.ftl">
+OLD|9|<#include "../_footer.ftl">
+WILL_UPDATE|C:\Development\Projects\IvyTomeeDemo2\web\WEB-INF\templates\reports\report-system-usage.ftl|Matches:2
+OLD|2|<#include "../_header.ftl">
+OLD|14|<#include "../_footer.ftl">
+WILL_UPDATE|C:\Development\Projects\IvyTomeeDemo2\web\WEB-INF\templates\reports\report-system-usage.ftl|Matches:2
+OLD|2|<#include "../_header.ftl">
+OLD|14|<#include "../_footer.ftl">
+WILL_UPDATE|C:\Development\Projects\IvyTomeeDemo2\web\WEB-INF\templates\reports\report-table.ftl|Matches:2
+OLD|2|<#include "../_header.ftl">
+OLD|13|<#include "../_footer.ftl">
+WILL_UPDATE|C:\Development\Projects\IvyTomeeDemo2\web\WEB-INF\templates\reports\report-table.ftl|Matches:2
+OLD|2|<#include "../_header.ftl">
+OLD|13|<#include "../_footer.ftl">
+WILL_UPDATE|C:\Development\Projects\IvyTomeeDemo2\web\WEB-INF\templates\reports\report-user-activity.ftl|Matches:2
+OLD|2|<#include "../_header.ftl">
+OLD|14|<#include "../_footer.ftl">
+WILL_UPDATE|C:\Development\Projects\IvyTomeeDemo2\web\WEB-INF\templates\reports\report-user-activity.ftl|Matches:2
+OLD|2|<#include "../_header.ftl">
+OLD|14|<#include "../_footer.ftl">
+WILL_UPDATE|C:\Development\Projects\IvyTomeeDemo2\web\WEB-INF\templates\reports\reports.ftl|Matches:2
+OLD|2|<#include "../_header.ftl">
+OLD|10|<#include "../_footer.ftl">
+WILL_UPDATE|C:\Development\Projects\IvyTomeeDemo2\web\WEB-INF\templates\reports\reports.ftl|Matches:2
+OLD|2|<#include "../_header.ftl">
+OLD|10|<#include "../_footer.ftl">
+WILL_UPDATE|C:\Development\Projects\IvyTomeeDemo2\web\WEB-INF\templates\settings\settings-access.ftl|Matches:2
+OLD|2|<#include "../_header.ftl">
+OLD|10|<#include "../_footer.ftl">
+WILL_UPDATE|C:\Development\Projects\IvyTomeeDemo2\web\WEB-INF\templates\settings\settings-access.ftl|Matches:2
+OLD|2|<#include "../_header.ftl">
+OLD|10|<#include "../_footer.ftl">
+WILL_UPDATE|C:\Development\Projects\IvyTomeeDemo2\web\WEB-INF\templates\settings\settings-api.ftl|Matches:2
+OLD|2|<#include "../_header.ftl">
+OLD|10|<#include "../_footer.ftl">
+WILL_UPDATE|C:\Development\Projects\IvyTomeeDemo2\web\WEB-INF\templates\settings\settings-api.ftl|Matches:2
+OLD|2|<#include "../_header.ftl">
+OLD|10|<#include "../_footer.ftl">
+WILL_UPDATE|C:\Development\Projects\IvyTomeeDemo2\web\WEB-INF\templates\settings\settings-billing.ftl|Matches:2
+OLD|2|<#include "../_header.ftl">
+OLD|10|<#include "../_footer.ftl">
+WILL_UPDATE|C:\Development\Projects\IvyTomeeDemo2\web\WEB-INF\templates\settings\settings-billing.ftl|Matches:2
+OLD|2|<#include "../_header.ftl">
+OLD|10|<#include "../_footer.ftl">
+WILL_UPDATE|C:\Development\Projects\IvyTomeeDemo2\web\WEB-INF\templates\settings\settings-delete-account.ftl|Matches:2
+OLD|2|<#include "../_header.ftl">
+OLD|7|<#include "../_footer.ftl">
+WILL_UPDATE|C:\Development\Projects\IvyTomeeDemo2\web\WEB-INF\templates\settings\settings-delete-account.ftl|Matches:2
+OLD|2|<#include "../_header.ftl">
+OLD|7|<#include "../_footer.ftl">
+WILL_UPDATE|C:\Development\Projects\IvyTomeeDemo2\web\WEB-INF\templates\settings\settings-integrations.ftl|Matches:2
+OLD|2|<#include "../_header.ftl">
+OLD|10|<#include "../_footer.ftl">
+WILL_UPDATE|C:\Development\Projects\IvyTomeeDemo2\web\WEB-INF\templates\settings\settings-integrations.ftl|Matches:2
+OLD|2|<#include "../_header.ftl">
+OLD|10|<#include "../_footer.ftl">
+WILL_UPDATE|C:\Development\Projects\IvyTomeeDemo2\web\WEB-INF\templates\settings\settings-language.ftl|Matches:2
+OLD|2|<#include "../_header.ftl">
+OLD|10|<#include "../_footer.ftl">
+WILL_UPDATE|C:\Development\Projects\IvyTomeeDemo2\web\WEB-INF\templates\settings\settings-language.ftl|Matches:2
+OLD|2|<#include "../_header.ftl">
+OLD|10|<#include "../_footer.ftl">
+WILL_UPDATE|C:\Development\Projects\IvyTomeeDemo2\web\WEB-INF\templates\settings\settings-notifications.ftl|Matches:2
+OLD|2|<#include "../_header.ftl">
+OLD|9|<#include "../_footer.ftl">
+WILL_UPDATE|C:\Development\Projects\IvyTomeeDemo2\web\WEB-INF\templates\settings\settings-notifications.ftl|Matches:2
+OLD|2|<#include "../_header.ftl">
+OLD|9|<#include "../_footer.ftl">
+WILL_UPDATE|C:\Development\Projects\IvyTomeeDemo2\web\WEB-INF\templates\settings\settings-preferences.ftl|Matches:2
+OLD|2|<#include "../_header.ftl">
+OLD|9|<#include "../_footer.ftl">
+WILL_UPDATE|C:\Development\Projects\IvyTomeeDemo2\web\WEB-INF\templates\settings\settings-preferences.ftl|Matches:2
+OLD|2|<#include "../_header.ftl">
+OLD|9|<#include "../_footer.ftl">
+WILL_UPDATE|C:\Development\Projects\IvyTomeeDemo2\web\WEB-INF\templates\settings\settings-privacy.ftl|Matches:2
+OLD|2|<#include "../_header.ftl">
+OLD|9|<#include "../_footer.ftl">
+WILL_UPDATE|C:\Development\Projects\IvyTomeeDemo2\web\WEB-INF\templates\settings\settings-privacy.ftl|Matches:2
+OLD|2|<#include "../_header.ftl">
+OLD|9|<#include "../_footer.ftl">
+WILL_UPDATE|C:\Development\Projects\IvyTomeeDemo2\web\WEB-INF\templates\settings\settings-profile.ftl|Matches:2
+OLD|2|<#include "../_header.ftl">
+OLD|8|<#include "../_footer.ftl">
+WILL_UPDATE|C:\Development\Projects\IvyTomeeDemo2\web\WEB-INF\templates\settings\settings-profile.ftl|Matches:2
+OLD|2|<#include "../_header.ftl">
+OLD|8|<#include "../_footer.ftl">
+WILL_UPDATE|C:\Development\Projects\IvyTomeeDemo2\web\WEB-INF\templates\settings\settings-security.ftl|Matches:2
+OLD|2|<#include "../_header.ftl">
+OLD|9|<#include "../_footer.ftl">
+WILL_UPDATE|C:\Development\Projects\IvyTomeeDemo2\web\WEB-INF\templates\settings\settings-security.ftl|Matches:2
+OLD|2|<#include "../_header.ftl">
+OLD|9|<#include "../_footer.ftl">
+WILL_UPDATE|C:\Development\Projects\IvyTomeeDemo2\web\WEB-INF\templates\settings\settings-subscription.ftl|Matches:2
+OLD|2|<#include "../_header.ftl">
+OLD|10|<#include "../_footer.ftl">
+WILL_UPDATE|C:\Development\Projects\IvyTomeeDemo2\web\WEB-INF\templates\settings\settings-subscription.ftl|Matches:2
+OLD|2|<#include "../_header.ftl">
+OLD|10|<#include "../_footer.ftl">
+WILL_UPDATE|C:\Development\Projects\IvyTomeeDemo2\web\WEB-INF\templates\settings\settings-team.ftl|Matches:2
+OLD|2|<#include "../_header.ftl">
+OLD|10|<#include "../_footer.ftl">
+WILL_UPDATE|C:\Development\Projects\IvyTomeeDemo2\web\WEB-INF\templates\settings\settings-team.ftl|Matches:2
+OLD|2|<#include "../_header.ftl">
+OLD|10|<#include "../_footer.ftl">
+WILL_UPDATE|C:\Development\Projects\IvyTomeeDemo2\web\WEB-INF\templates\settings\settings-theme.ftl|Matches:2
+OLD|2|<#include "../_header.ftl">
+OLD|8|<#include "../_footer.ftl">
+WILL_UPDATE|C:\Development\Projects\IvyTomeeDemo2\web\WEB-INF\templates\settings\settings-theme.ftl|Matches:2
+OLD|2|<#include "../_header.ftl">
+OLD|8|<#include "../_footer.ftl">
+WILL_UPDATE|C:\Development\Projects\IvyTomeeDemo2\web\WEB-INF\templates\settings\settings.ftl|Matches:2
+OLD|2|<#include "../_header.ftl">
+OLD|9|<#include "../_footer.ftl">
+WILL_UPDATE|C:\Development\Projects\IvyTomeeDemo2\web\WEB-INF\templates\settings\settings.ftl|Matches:2
+OLD|2|<#include "../_header.ftl">
+OLD|9|<#include "../_footer.ftl">
+WILL_UPDATE|C:\Development\Projects\IvyTomeeDemo2\web\WEB-INF\templates\user\change-password.ftl|Matches:2
+OLD|2|<#include "../_header.ftl">
+OLD|9|<#include "../_footer.ftl">
+WILL_UPDATE|C:\Development\Projects\IvyTomeeDemo2\web\WEB-INF\templates\user\change-password.ftl|Matches:2
+OLD|2|<#include "../_header.ftl">
+OLD|9|<#include "../_footer.ftl">
+WILL_UPDATE|C:\Development\Projects\IvyTomeeDemo2\web\WEB-INF\templates\user\edit-profile.ftl|Matches:2
+OLD|2|<#include "../_header.ftl">
+OLD|9|<#include "../_footer.ftl">
+WILL_UPDATE|C:\Development\Projects\IvyTomeeDemo2\web\WEB-INF\templates\user\edit-profile.ftl|Matches:2
+OLD|2|<#include "../_header.ftl">
+OLD|9|<#include "../_footer.ftl">
+WILL_UPDATE|C:\Development\Projects\IvyTomeeDemo2\web\WEB-INF\templates\user\forgot-password.ftl|Matches:2
+OLD|2|<#include "../_header.ftl">
+OLD|8|<#include "../_footer.ftl">
+WILL_UPDATE|C:\Development\Projects\IvyTomeeDemo2\web\WEB-INF\templates\user\forgot-password.ftl|Matches:2
+OLD|2|<#include "../_header.ftl">
+OLD|8|<#include "../_footer.ftl">
+WILL_UPDATE|C:\Development\Projects\IvyTomeeDemo2\web\WEB-INF\templates\user\profile.ftl|Matches:2
+OLD|2|<#include "../_header.ftl">
+OLD|8|<#include "../_footer.ftl">
+WILL_UPDATE|C:\Development\Projects\IvyTomeeDemo2\web\WEB-INF\templates\user\profile.ftl|Matches:2
+OLD|2|<#include "../_header.ftl">
+OLD|8|<#include "../_footer.ftl">
+WILL_UPDATE|C:\Development\Projects\IvyTomeeDemo2\web\WEB-INF\templates\user\register.ftl|Matches:2
+OLD|2|<#include "../_header.ftl">
+OLD|10|<#include "../_footer.ftl">
+WILL_UPDATE|C:\Development\Projects\IvyTomeeDemo2\web\WEB-INF\templates\user\register.ftl|Matches:2
+OLD|2|<#include "../_header.ftl">
+OLD|10|<#include "../_footer.ftl">
+WILL_UPDATE|C:\Development\Projects\IvyTomeeDemo2\web\WEB-INF\templates\user\user-activity.ftl|Matches:2
+OLD|2|<#include "../_header.ftl">
+OLD|9|<#include "../_footer.ftl">
+WILL_UPDATE|C:\Development\Projects\IvyTomeeDemo2\web\WEB-INF\templates\user\user-activity.ftl|Matches:2
+OLD|2|<#include "../_header.ftl">
+OLD|9|<#include "../_footer.ftl">
+WILL_UPDATE|C:\Development\Projects\IvyTomeeDemo2\web\WEB-INF\templates\user\user-avatar-upload.ftl|Matches:2
+OLD|2|<#include "../_header.ftl">
+OLD|8|<#include "../_footer.ftl">
+WILL_UPDATE|C:\Development\Projects\IvyTomeeDemo2\web\WEB-INF\templates\user\user-avatar-upload.ftl|Matches:2
+OLD|2|<#include "../_header.ftl">
+OLD|8|<#include "../_footer.ftl">
+WILL_UPDATE|C:\Development\Projects\IvyTomeeDemo2\web\WEB-INF\templates\user\user-dashboard-quicklinks.ftl|Matches:2
+OLD|2|<#include "../_header.ftl">
+OLD|9|<#include "../_footer.ftl">
+WILL_UPDATE|C:\Development\Projects\IvyTomeeDemo2\web\WEB-INF\templates\user\user-dashboard-quicklinks.ftl|Matches:2
+OLD|2|<#include "../_header.ftl">
+OLD|9|<#include "../_footer.ftl">
+WILL_UPDATE|C:\Development\Projects\IvyTomeeDemo2\web\WEB-INF\templates\user\user-dashboard-stats.ftl|Matches:2
+OLD|2|<#include "../_header.ftl">
+OLD|9|<#include "../_footer.ftl">
+WILL_UPDATE|C:\Development\Projects\IvyTomeeDemo2\web\WEB-INF\templates\user\user-dashboard-stats.ftl|Matches:2
+OLD|2|<#include "../_header.ftl">
+OLD|9|<#include "../_footer.ftl">
+WILL_UPDATE|C:\Development\Projects\IvyTomeeDemo2\web\WEB-INF\templates\user\user-dashboard-widgets.ftl|Matches:2
+OLD|2|<#include "../_header.ftl">
+OLD|9|<#include "../_footer.ftl">
+WILL_UPDATE|C:\Development\Projects\IvyTomeeDemo2\web\WEB-INF\templates\user\user-dashboard-widgets.ftl|Matches:2
+OLD|2|<#include "../_header.ftl">
+OLD|9|<#include "../_footer.ftl">
+WILL_UPDATE|C:\Development\Projects\IvyTomeeDemo2\web\WEB-INF\templates\user\user-dashboard.ftl|Matches:2
+OLD|2|<#include "../_header.ftl">
+OLD|9|<#include "../_footer.ftl">
+WILL_UPDATE|C:\Development\Projects\IvyTomeeDemo2\web\WEB-INF\templates\user\user-dashboard.ftl|Matches:2
+OLD|2|<#include "../_header.ftl">
+OLD|9|<#include "../_footer.ftl">
+WILL_UPDATE|C:\Development\Projects\IvyTomeeDemo2\web\WEB-INF\templates\user\user-delete-account.ftl|Matches:2
+OLD|2|<#include "../_header.ftl">
+OLD|7|<#include "../_footer.ftl">
+WILL_UPDATE|C:\Development\Projects\IvyTomeeDemo2\web\WEB-INF\templates\user\user-delete-account.ftl|Matches:2
+OLD|2|<#include "../_header.ftl">
+OLD|7|<#include "../_footer.ftl">
+WILL_UPDATE|C:\Development\Projects\IvyTomeeDemo2\web\WEB-INF\templates\user\user-notifications.ftl|Matches:2
+OLD|2|<#include "../_header.ftl">
+OLD|9|<#include "../_footer.ftl">
+WILL_UPDATE|C:\Development\Projects\IvyTomeeDemo2\web\WEB-INF\templates\user\user-notifications.ftl|Matches:2
+OLD|2|<#include "../_header.ftl">
+OLD|9|<#include "../_footer.ftl">
+WILL_UPDATE|C:\Development\Projects\IvyTomeeDemo2\web\WEB-INF\templates\user\user-preferences.ftl|Matches:2
+OLD|2|<#include "../_header.ftl">
+OLD|9|<#include "../_footer.ftl">
+WILL_UPDATE|C:\Development\Projects\IvyTomeeDemo2\web\WEB-INF\templates\user\user-preferences.ftl|Matches:2
+OLD|2|<#include "../_header.ftl">
+OLD|9|<#include "../_footer.ftl">
+
