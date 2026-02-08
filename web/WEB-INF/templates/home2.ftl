@@ -2,7 +2,7 @@
 
 <head>
     <title>Global Supply Chain Infrastructure Homepage</title>
-    <link rel="stylesheet" href="${pmHome.getRequestContextPath()}/css/global.css">
+    <link rel="stylesheet" href="${pmHello.getRequestContextPath()}/css/global.css">
 </head>
 
 <body>
