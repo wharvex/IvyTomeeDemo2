@@ -58,7 +58,7 @@ public final class HelloServlet extends HttpServlet {
     rootMap.put("pmHello", pmHello);
 
     // Display the page with the root map data.
-    ServletHelper.putPage(p_response, rootMap, "hello.ftl");
+    ServletHelper.putPage(p_response, rootMap, "home2.ftl");
   }
 
 }
