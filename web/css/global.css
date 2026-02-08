@@ -49,8 +49,9 @@ a {
 
 main {
   display: grid;
-  grid-template-columns: 25% 75%;
-  grid-template-rows: 10% 80% 10%;
+  grid-template-columns: max-content max-content;
+  grid-template-rows: max-content max-content max-content;
+  gap: 20px;
 }
 
 header {
