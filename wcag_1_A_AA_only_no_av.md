@@ -103,6 +103,3 @@ Exception: The visual presentation of the additional content is controlled by th
 Note 1: Examples of additional content controlled by the user agent include browser tooltips created through use of the HTML title attribute.
 
 Note 2: Custom tooltips, sub-menus, and other nonmodal popups that display on hover and focus are examples of additional content covered by this criterion.
-
----
-Note: All audio- and video-related items have been removed from this version for clarity.
