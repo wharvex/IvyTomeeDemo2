@@ -1,4 +1,4 @@
-Use subagents to look at the attached HTML/FTL (Freemarker Template Language) files.
+Look at the attached HTML/FTL (Freemarker Template Language) files.
 
 They could be attached as:
 
@@ -7,19 +7,25 @@ They could be attached as:
 - a directory containing the files
 - a combination of the above
 
-In these files, the subagents should:
+If there are no attached files, ask for them before proceeding.
 
-- Edit them to ensure all form controls have properly associated `<label>` elements.
+Apply edits to these files to improve their accessibility in the following ways:
+
+- Ensure all form controls have properly associated `<label>` elements.
 - Add `<fieldset>` and `<legend>` elements where appropriate to group related form controls.
 
-The subagents should NOT edit a file if it already has proper labels and fieldsets.
+If it seems like a file already has the improvements mentioned above, do not edit it.
 
-Keep a running checklist of which files the subagents looked at and which ones they edited.
+Keep a running checklist of which files you looked at, which ones needed edits, which ones did not need edits, and what edits you made to each file.
 
-Save this checklist in a markdown file named `labels-checklist.md` in the .github/checklists directory.
+Save this checklist in a markdown file in the .github/checklists directory.
 
-Use this checklist to know when you are done.
+Use this checklist to know when you are done. You are done when all files have been looked at, and all files needing edits have been edited.
 
 Do not stop working until you are done.
 
 Do not try to run any terminal commands.
+
+Do not write any python scripts or powershell scripts.
+
+Do not try to run the get_errors tool.
