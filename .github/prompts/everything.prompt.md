@@ -13,12 +13,11 @@ If there are no attached files, ask for them before proceeding.
 
 ### Edit files
 
-Apply edits to these files to improve their accessibility in the following ways:
+Apply edits to these files to improve their accessibility.
 
-- Ensure all form controls have properly associated `<label>` elements.
-- Add `<fieldset>` and `<legend>` elements where appropriate to group related form controls.
+We need full WCAG 2.1 AA compliance, so you should look for any accessibility issues in the files and fix them.
 
-If it seems like a file already has the improvements mentioned above, do not edit it.
+If it seems like a file is already fully compliant with WCAG 2.1 AA, do not edit it.
 
 ### Keep checklist
 
