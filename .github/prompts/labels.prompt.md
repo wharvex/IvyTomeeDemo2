@@ -1,6 +1,6 @@
 ### Read files
 
-Look at the attached HTML/FTL (Freemarker Template Language) files.
+Look at the attached FTL (Freemarker Template Language) and/or HTML files.
 
 They could be attached as:
 
